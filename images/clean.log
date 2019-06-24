@@ -1,0 +1,8818 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/bin/java -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:61633,suspend=y,server=n -javaagent:/Users/Ely/Library/Caches/IntelliJIdea2019.1/captureAgent/debugger-agent.jar -Dfile.encoding=UTF-8 -classpath "/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/lib/tools.jar:/Users/Ely/Projects/IdeaProjects/Ely/clean-maven-repository/target/classes:/Users/Ely/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.40/kotlin-stdlib-jdk8-1.3.40.jar:/Users/Ely/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.40/kotlin-stdlib-1.3.40.jar:/Users/Ely/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.40/kotlin-stdlib-common-1.3.40.jar:/Users/Ely/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/Ely/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.40/kotlin-stdlib-jdk7-1.3.40.jar:/Users/Ely/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/191.7479.19/IntelliJ IDEA.app/Contents/lib/idea_rt.jar" me.ely.cleanmavenrepository.CleanMavenRepository
+Connected to the target VM, address: '127.0.0.1:61633', transport: 'socket'
+M2目录为: /Users/Ely/.m2
+保留几个版本:
+3
+要执行清理操作吗? Y/N
+y
+Artifact [commons-codec] 有多个版本存在:
+	*1.9
+	1.6 (Remove)
+	1.4 (Remove)
+	1.3 (Remove)
+	1.2 (Remove)
+	1.5 (Remove)
+	*1.11
+	*1.10
+
+Artifact [git-commit-id-plugin] 有多个版本存在:
+	*2.2.5
+	*2.2.4
+	*2.2.6
+	2.2.0 (Remove)
+
+Artifact [commons-validator] 有多个版本存在:
+	*1.3.1
+	*1.4.0
+	*1.2.0
+
+Artifact [dom4j] 有多个版本存在:
+	*1.1
+	*1.6.1
+
+Artifact [asm] 有多个版本存在:
+	*3.3.1
+	*3.3
+	*3.2
+	3.1 (Remove)
+
+Artifact [asm-tree] 有多个版本存在:
+	*3.3.1
+	*3.2
+
+Artifact [asm-parent] 有多个版本存在:
+	*3.3.1
+	*3.3
+	*3.2
+	3.1 (Remove)
+
+Artifact [asm-commons] 有多个版本存在:
+	*3.3.1
+	*3.2
+
+Artifact [byte-buddy] 有多个版本存在:
+	1.8.12 (Remove)
+	*1.9.13
+	*1.9.12
+	1.7.9 (Remove)
+	1.6.14 (Remove)
+	1.9.3 (Remove)
+	1.7.5 (Remove)
+	*1.9.5
+	1.7.11 (Remove)
+	1.7.10 (Remove)
+
+Artifact [byte-buddy-agent] 有多个版本存在:
+	*1.9.13
+	*1.9.12
+	1.6.14 (Remove)
+	1.9.3 (Remove)
+	*1.9.5
+	1.7.11 (Remove)
+	1.7.10 (Remove)
+
+Artifact [byte-buddy-parent] 有多个版本存在:
+	1.8.12 (Remove)
+	*1.9.13
+	*1.9.12
+	1.7.9 (Remove)
+	1.6.14 (Remove)
+	1.9.3 (Remove)
+	1.7.5 (Remove)
+	*1.9.5
+	1.7.11 (Remove)
+	1.7.10 (Remove)
+
+Artifact [json-smart] 有多个版本存在:
+	*2.2.1
+	*2.3
+
+Artifact [accessors-smart] 有多个版本存在:
+	*1.1
+	*1.2
+
+Artifact [minidev-parent] 有多个版本存在:
+	*2.3
+	*2.2
+
+Artifact [jvnet-parent] 有多个版本存在:
+	1 (Remove)
+	*4
+	*3
+	*5
+
+Artifact [jets3t] 有多个版本存在:
+	*0.9.0
+	*0.7.1
+	*0.6.1
+
+Artifact [jna] 有多个版本存在:
+	*3.4.0
+	*4.1.0
+
+Artifact [ehcache-parent] 有多个版本存在:
+	*2.17
+	*2.5
+
+Artifact [jopt-simple] 有多个版本存在:
+	*3.2
+	*4.8
+
+Artifact [lz4] 有多个版本存在:
+	*1.3.0
+	*1.2.0
+
+Artifact [commons-fileupload] 有多个版本存在:
+	*1.3.1
+	*1.3.3
+	*1.3.2
+	1.2.1 (Remove)
+
+Artifact [bndlib] 有多个版本存在:
+	*0.0.203
+	*0.0.145
+
+Artifact [jasper-compiler] 有多个版本存在:
+	*5.5.12
+	*5.5.23
+
+Artifact [jasper-runtime] 有多个版本存在:
+	*5.5.12
+	*5.5.23
+
+Artifact [thymeleaf-layout-dialect] 有多个版本存在:
+	*2.3.0
+	*1.4.0
+
+Artifact [commons-logging] 有多个版本存在:
+	*1.1.3
+	1.0 (Remove)
+	1.1 (Remove)
+	0 (Remove)
+	*1.2
+	*1.1.1
+	1.0.4 (Remove)
+	1.0.3 (Remove)
+
+Artifact [jedis] 有多个版本存在:
+	2.5.2 (Remove)
+	*2.9.0
+	*2.7.3
+	*2.7.2
+
+Artifact [junit] 有多个版本存在:
+	*4.10
+	*4.7
+	*4.11
+	3.8.1 (Remove)
+	3.8.2 (Remove)
+	4.12 (Remove)
+	4.13-beta-1 (Remove)
+
+Artifact [commons-collections] 有多个版本存在:
+	*3.2
+	2.0 (Remove)
+	*3.2.2
+	2.1 (Remove)
+	3.1 (Remove)
+	*3.2.1
+
+Artifact [antlr] 有多个版本存在:
+	*2.7.7
+	*2.7.2
+
+Artifact [retail-helpdesk] 有多个版本存在:
+	*1.0-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [retail-tasksubmitter] 有多个版本存在:
+	*1.0-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [retail-screenshot] 有多个版本存在:
+	*1.0-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [retail-parser] 有多个版本存在:
+	*1.0-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [retail-admin] 有多个版本存在:
+	*1.0-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [retail-etl] 有多个版本存在:
+	*1.0-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [retail-common] 有多个版本存在:
+	*1.0-SNAPSHOT
+	*unknown
+	*maven-metadata-local.xml
+
+Artifact [retail-master] 有多个版本存在:
+	*1.0-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [retail-data] 有多个版本存在:
+	*1.0-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [retail-flink] 有多个版本存在:
+	*1.0-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [retail-crawler] 有多个版本存在:
+	*1.0-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [assertj-parent-pom] 有多个版本存在:
+	2.1.2 (Remove)
+	1.3.6 (Remove)
+	2.1.4 (Remove)
+	2.1.6 (Remove)
+	1.3.5 (Remove)
+	*2.1.9
+	*2.1.11
+	*2.2.1
+
+Artifact [assertj-core] 有多个版本存在:
+	*3.6.1
+	*3.2.0
+	*3.8.0
+	3.6.0 (Remove)
+	2.6.0 (Remove)
+	3.11.0 (Remove)
+	3.1.0 (Remove)
+	3.5.1 (Remove)
+	2.5.0 (Remove)
+	3.5.0 (Remove)
+	3.0.0 (Remove)
+	3.6.2 (Remove)
+	3.4.1 (Remove)
+	3.4.0 (Remove)
+	3.5.2 (Remove)
+	3.9.0 (Remove)
+	3.3.0 (Remove)
+	3.7.0 (Remove)
+	3.9.1 (Remove)
+	3.10.0 (Remove)
+	3.11.1 (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+	maven-metadata-local-nexus.xml.sha1 (Remove)
+	maven-metadata-local-nexus.xml (Remove)
+
+Artifact [jetty-util] 有多个版本存在:
+	*6.1.25
+	*6.1.26.cloudera.4
+	*6.1.26.cloudera.2
+	6.1.26 (Remove)
+	6.1.22 (Remove)
+
+Artifact [jetty] 有多个版本存在:
+	*6.1.25
+	*6.1.26.cloudera.4
+	*6.1.26.cloudera.2
+	6.1.26 (Remove)
+	6.1.22 (Remove)
+
+Artifact [project] 有多个版本存在:
+	*6.1.14
+	*6.1.25
+	*6.1.26.cloudera.4
+	6.1.26.cloudera.2 (Remove)
+	6.1.26 (Remove)
+	6.1.22 (Remove)
+
+Artifact [jetty-parent] 有多个版本存在:
+	*7
+	*10
+	*8
+
+Artifact [hamcrest-core] 有多个版本存在:
+	*1.1
+	*2.1
+	*1.3
+
+Artifact [hamcrest-parent] 有多个版本存在:
+	*1.1
+	*1.3
+
+Artifact [hamcrest-library] 有多个版本存在:
+	*2.1
+	*1.3
+
+Artifact [javassist] 有多个版本存在:
+	*3.22.0-GA
+	*3.23.1-GA
+	3.18.0-GA (Remove)
+	3.19.0-GA (Remove)
+	3.18.1-GA (Remove)
+	3.20.0-GA (Remove)
+	3.18.2-GA (Remove)
+	*3.23.2-GA
+	3.21.0-GA (Remove)
+
+Artifact [postgresql] 有多个版本存在:
+	*42.2.1
+	*9.4.1212.jre7
+	*9.4-1206-jdbc41
+	42.2.2 (Remove)
+	42.2.5 (Remove)
+
+Artifact [pgjdbc-core-parent] 有多个版本存在:
+	*1.1.3
+	*1.1.5
+	*1.1.2
+
+Artifact [pgjdbc-versions] 有多个版本存在:
+	*1.1.3
+	*1.1.5
+	*1.1.2
+
+Artifact [jdependency] 有多个版本存在:
+	1.0 (Remove)
+	*1.1
+	*2.0
+	*2.1.1
+	0.7 (Remove)
+
+Artifact [dom4j] 有多个版本存在:
+	*2.0.0
+	*2.1.1
+
+Artifact [reflections] 有多个版本存在:
+	*0.9.9
+	*0.9.11
+	*0.9.10
+
+Artifact [jooq-codegen-maven] 有多个版本存在:
+	3.10.8 (Remove)
+	3.10.6 (Remove)
+	3.10.5 (Remove)
+	*3.11.10
+	*3.11.11
+	3.9.4 (Remove)
+	*3.11.7
+
+Artifact [jooq-parent] 有多个版本存在:
+	3.10.8 (Remove)
+	3.10.6 (Remove)
+	3.9.6 (Remove)
+	3.10.5 (Remove)
+	*3.11.10
+	*3.11.11
+	3.9.4 (Remove)
+	*3.11.7
+
+Artifact [cas-client-core] 有多个版本存在:
+	*3.2.2
+	*3.5.0
+	*3.5.1
+
+Artifact [cas-client] 有多个版本存在:
+	*3.2.2
+	*3.5.0
+	*3.5.1
+
+Artifact [jasig-parent] 有多个版本存在:
+	*39
+	*22
+
+Artifact [mapstruct-parent] 有多个版本存在:
+	*1.2.0.Final
+	1.0.0.CR1 (Remove)
+	*1.1.0.Final
+	*1.0.0.Final
+
+Artifact [mapstruct] 有多个版本存在:
+	*1.2.0.Final
+	1.0.0.CR1 (Remove)
+	*1.1.0.Final
+	*1.0.0.Final
+
+Artifact [org.eclipse.sisu.inject] 有多个版本存在:
+	*0.0.0.M5
+	*0.3.0
+	*0.3.2
+
+Artifact [sisu-inject] 有多个版本存在:
+	*0.0.0.M5
+	*0.3.0
+	*0.3.2
+
+Artifact [sisu-plexus] 有多个版本存在:
+	*0.0.0.M5
+	*0.3.0
+	*0.3.2
+
+Artifact [org.eclipse.sisu.plexus] 有多个版本存在:
+	*0.0.0.M5
+	*0.3.0
+	*0.3.2
+
+Artifact [jetty-project] 有多个版本存在:
+	*9.4.12.v20180830
+	*9.4.8.v20171121
+	9.3.24.v20180605 (Remove)
+	*9.4.7.v20170914
+
+Artifact [websocket-api] 有多个版本存在:
+	*9.4.8.v20171121
+	*9.4.7.v20170914
+
+Artifact [websocket-common] 有多个版本存在:
+	*9.4.8.v20171121
+	*9.4.7.v20170914
+
+Artifact [websocket-parent] 有多个版本存在:
+	*9.4.8.v20171121
+	*9.4.7.v20170914
+
+Artifact [websocket-client] 有多个版本存在:
+	*9.4.8.v20171121
+	*9.4.7.v20170914
+
+Artifact [jetty-bom] 有多个版本存在:
+	9.4.12.v20180830 (Remove)
+	*9.4.15.v20190215
+	*9.4.18.v20190429
+	9.4.8.v20171121 (Remove)
+	9.4.9.v20180320 (Remove)
+	9.4.10.v20180503 (Remove)
+	9.4.11.v20180605 (Remove)
+	*9.4.19.v20190610
+
+Artifact [jetty-util] 有多个版本存在:
+	*9.4.12.v20180830
+	*9.4.8.v20171121
+	9.3.24.v20180605 (Remove)
+	*9.4.7.v20170914
+
+Artifact [jetty-xml] 有多个版本存在:
+	*9.4.8.v20171121
+	*9.4.7.v20170914
+
+Artifact [jetty-server] 有多个版本存在:
+	*9.4.12.v20180830
+	*9.3.24.v20180605
+
+Artifact [jetty-io] 有多个版本存在:
+	*9.4.12.v20180830
+	*9.4.8.v20171121
+	9.3.24.v20180605 (Remove)
+	*9.4.7.v20170914
+
+Artifact [jetty-parent] 有多个版本存在:
+	*18
+	9 (Remove)
+	*14
+	*25
+
+Artifact [jetty-http] 有多个版本存在:
+	*9.4.12.v20180830
+	*9.4.8.v20171121
+	9.3.24.v20180605 (Remove)
+	*9.4.7.v20170914
+
+Artifact [jetty-client] 有多个版本存在:
+	*9.4.8.v20171121
+	*9.4.7.v20170914
+
+Artifact [aether-util] 有多个版本存在:
+	*1.0.2.v20150114
+	*1.1.0
+	*0.9.0.M2
+	1.0.0.v20140518 (Remove)
+
+Artifact [aether-impl] 有多个版本存在:
+	*1.0.2.v20150114
+	*0.9.0.M2
+	*1.1.0
+
+Artifact [aether-spi] 有多个版本存在:
+	*1.0.2.v20150114
+	*0.9.0.M2
+	*1.1.0
+
+Artifact [aether] 有多个版本存在:
+	*1.0.2.v20150114
+	*1.1.0
+	*0.9.0.M2
+	1.0.0.v20140518 (Remove)
+
+Artifact [aether-api] 有多个版本存在:
+	*1.0.2.v20150114
+	*1.1.0
+	*0.9.0.M2
+	1.0.0.v20140518 (Remove)
+
+Artifact [org.eclipse.jgit-parent] 有多个版本存在:
+	3.2.0.201312181205-r (Remove)
+	3.5.3.201412180710-r (Remove)
+	*4.0.0.201506090130-r
+	*4.11.0.201803080745-r
+	*3.6.1.201501031845-r
+
+Artifact [org.eclipse.jgit] 有多个版本存在:
+	3.2.0.201312181205-r (Remove)
+	3.5.3.201412180710-r (Remove)
+	*4.0.0.201506090130-r
+	*4.11.0.201803080745-r
+	*3.6.1.201501031845-r
+
+Artifact [core] 有多个版本存在:
+	*3.1.1
+	*compiler
+
+Artifact [checker-compat-qual] 有多个版本存在:
+	*2.5.2
+	*2.0.0
+
+Artifact [bom] 有多个版本存在:
+	*2017.5.0
+	*2017.8.0
+
+Artifact [parent] 有多个版本存在:
+	*9
+	*8
+
+Artifact [mvel2] 有多个版本存在:
+	*2.4.0.Final
+	*2.3.2.Final
+	*2.3.0.Final
+
+Artifact [jbpm-bom] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [jbpm] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [jbpm-flow] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [gearman-service] 有多个版本存在:
+	*0.6.6
+	*maven-metadata-local.xml
+
+Artifact [xmlunit-core] 有多个版本存在:
+	*2.6.2
+	*2.5.1
+
+Artifact [xmlunit-parent] 有多个版本存在:
+	*2.6.2
+	*2.5.1
+
+Artifact [optaplanner-bom] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [jboss-transaction-api_1.2_spec] 有多个版本存在:
+	*1.1.1.Final
+	*1.0.1.Final
+	*1.0.0.Final
+
+Artifact [netty] 有多个版本存在:
+	*3.2.2.Final
+	*3.2.5.Final
+
+Artifact [jboss-integration-platform-parent] 有多个版本存在:
+	*8.0.0.CR3
+	*7.0.0.CR9
+
+Artifact [jboss-integration-platform-bom] 有多个版本存在:
+	*8.0.0.CR3
+	*7.0.0.CR9
+
+Artifact [errai-internal-bom] 有多个版本存在:
+	*4.1.2.Final
+	*4.0.1.Beta2
+
+Artifact [shrinkwrap-bom] 有多个版本存在:
+	*1.2.3
+	1.0.1 (Remove)
+	*1.2.2
+	*1.2.6
+
+Artifact [shrinkwrap-descriptors-bom] 有多个版本存在:
+	*2.0.0-alpha-3
+	*2.0.0-alpha-7
+	*2.0.0-alpha-9
+	2.0.0-alpha-8 (Remove)
+	2.0.0 (Remove)
+
+Artifact [shrinkwrap-resolver-bom] 有多个版本存在:
+	*2.2.0
+	*2.1.1
+	*1.0.0-beta-7
+
+Artifact [jboss-parent] 有多个版本存在:
+	*25
+	*22
+	*5
+	12 (Remove)
+	15 (Remove)
+	24 (Remove)
+	6-beta-2 (Remove)
+	21 (Remove)
+	10 (Remove)
+	7 (Remove)
+	9 (Remove)
+	20 (Remove)
+	34 (Remove)
+
+Artifact [jboss-logging] 有多个版本存在:
+	*3.4.0.Final
+	3.1.3.GA (Remove)
+	3.1.1.GA (Remove)
+	*3.3.2.Final
+	3.3.0.Final (Remove)
+	3.2.1.Final (Remove)
+	*3.3.1.Final
+
+Artifact [selenium-bom] 有多个版本存在:
+	*2.53.0
+	*2.46.0
+
+Artifact [arquillian-bom] 有多个版本存在:
+	*1.1.10.Final
+	*1.1.11.Final
+	1.0.2.Final (Remove)
+	*1.1.9.Final
+
+Artifact [jandex] 有多个版本存在:
+	1.1.0.Final (Remove)
+	*2.0.0.Final
+	*2.0.5.Final
+	*2.0.3.Final
+
+Artifact [stax-ex] 有多个版本存在:
+	*1.7.8
+	*1.8
+
+Artifact [mybatis-spring] 有多个版本存在:
+	*1.3.0
+	*1.3.1
+	1.2.2 (Remove)
+	*1.3.2
+
+Artifact [mybatis] 有多个版本存在:
+	3.3.0 (Remove)
+	3.4.0 (Remove)
+	*3.4.6
+	*3.4.4
+	3.2.7 (Remove)
+	*3.4.5
+
+Artifact [mybatis-parent] 有多个版本存在:
+	20 (Remove)
+	*27
+	*29
+	*28
+	21 (Remove)
+	24 (Remove)
+	15 (Remove)
+
+Artifact [mybatis-spring-boot-autoconfigure] 有多个版本存在:
+	*1.3.0
+	*1.3.2
+	*1.1.1
+
+Artifact [mybatis-spring-boot] 有多个版本存在:
+	*1.3.0
+	*1.3.2
+	*1.1.1
+
+Artifact [mybatis-spring-boot-starter] 有多个版本存在:
+	*unknown
+	*1.1.1
+	*1.3.0
+	1.3.2 (Remove)
+
+Artifact [clojure] 有多个版本存在:
+	*1.2.1
+	*1.2.0
+	*1.4.0
+	1.3.0-beta1 (Remove)
+	1.3.0-alpha5 (Remove)
+	1.3.0 (Remove)
+	1.5.1 (Remove)
+
+Artifact [pom.contrib] 有多个版本存在:
+	0.0.20 (Remove)
+	*0.1.2
+	*0.0.23
+	*0.0.25
+
+Artifact [slf4j-parent] 有多个版本存在:
+	1.7.6 (Remove)
+	1.7.7 (Remove)
+	*1.7.24
+	1.7.12 (Remove)
+	1.7.15 (Remove)
+	1.7.13 (Remove)
+	*1.7.25
+	1.7.22 (Remove)
+	1.6.3 (Remove)
+	1.5.6 (Remove)
+	1.7.2 (Remove)
+	1.7.5 (Remove)
+	1.6.1 (Remove)
+	1.6.6 (Remove)
+	1.7.20 (Remove)
+	1.7.10 (Remove)
+	1.7.21 (Remove)
+	*1.7.26
+
+Artifact [jul-to-slf4j] 有多个版本存在:
+	1.7.7 (Remove)
+	*1.7.24
+	1.7.13 (Remove)
+	*1.7.25
+	1.7.21 (Remove)
+	*1.7.26
+
+Artifact [jcl-over-slf4j] 有多个版本存在:
+	1.7.7 (Remove)
+	*1.7.24
+	1.7.12 (Remove)
+	1.7.13 (Remove)
+	*1.7.25
+	1.5.6 (Remove)
+	1.7.5 (Remove)
+	1.7.21 (Remove)
+	*1.7.26
+
+Artifact [slf4j-jdk14] 有多个版本存在:
+	*1.7.25
+	*1.5.6
+
+Artifact [log4j-over-slf4j] 有多个版本存在:
+	*1.7.24
+	1.7.13 (Remove)
+	*1.7.25
+	*1.7.21
+
+Artifact [slf4j-simple] 有多个版本存在:
+	*1.7.12
+	*1.7.25
+	*1.7.5
+
+Artifact [slf4j-log4j12] 有多个版本存在:
+	*1.7.7
+	0 (Remove)
+	*1.7.25
+	*1.7.21
+
+Artifact [slf4j-api] 有多个版本存在:
+	1.7.6 (Remove)
+	1.7.7 (Remove)
+	*1.7.24
+	1.7.12 (Remove)
+	1.7.15 (Remove)
+	1.7.13 (Remove)
+	*1.7.25
+	1.7.22 (Remove)
+	1.6.3 (Remove)
+	1.5.6 (Remove)
+	1.7.2 (Remove)
+	1.7.5 (Remove)
+	1.6.1 (Remove)
+	1.6.6 (Remove)
+	1.7.20 (Remove)
+	1.7.10 (Remove)
+	1.7.21 (Remove)
+	*1.7.26
+
+Artifact [junit-bom] 有多个版本存在:
+	5.3.1 (Remove)
+	*5.4.0
+	*5.3.2
+	5.2.0 (Remove)
+	*5.4.2
+
+Artifact [json4s-jackson_2.10] 有多个版本存在:
+	*3.2.10
+	*3.2.7
+
+Artifact [json4s-core_2.10] 有多个版本存在:
+	*3.2.10
+	*3.2.7
+
+Artifact [json4s-ast_2.10] 有多个版本存在:
+	*3.2.10
+	*3.2.7
+
+Artifact [antlr-master] 有多个版本存在:
+	3.3 (Remove)
+	*3.4
+	*3.5.2
+	*3.5
+
+Artifact [antlr4-runtime] 有多个版本存在:
+	*4.7
+	*4.2
+	*4.5.3
+	4.5.1-1 (Remove)
+
+Artifact [antlr4-master] 有多个版本存在:
+	*4.7
+	*4.2
+	*4.5.3
+	4.5.1-1 (Remove)
+
+Artifact [antlr-runtime] 有多个版本存在:
+	3.3 (Remove)
+	*3.4
+	*3.5.2
+	*3.5
+
+Artifact [unbescape] 有多个版本存在:
+	*1.1.5.RELEASE
+	*1.1.0.RELEASE
+
+Artifact [reactive-streams] 有多个版本存在:
+	*1.0.0
+	*1.0.2
+
+Artifact [snappy] 有多个版本存在:
+	*0.3
+	*0.4
+	*0.2
+
+Artifact [objenesis] 有多个版本存在:
+	1.0 (Remove)
+	*2.6
+	2.1 (Remove)
+	1.2 (Remove)
+	*2.5.1
+	*2.5
+
+Artifact [objenesis-parent] 有多个版本存在:
+	*2.6
+	2.1 (Remove)
+	1.2 (Remove)
+	*2.5.1
+	*2.5
+
+Artifact [jsonassert] 有多个版本存在:
+	*1.3.0
+	*1.4.0
+	*1.5.0
+
+Artifact [asm] 有多个版本存在:
+	*4.0
+	*6.2
+	*4.1
+	5.0.4 (Remove)
+	6.2.1 (Remove)
+	5.0.3 (Remove)
+	5.0.2 (Remove)
+	7.0 (Remove)
+	6.0_BETA (Remove)
+	5.2 (Remove)
+	6.0_ALPHA (Remove)
+	7.0-beta (Remove)
+	5.1 (Remove)
+	6.1.1 (Remove)
+
+Artifact [asm-util] 有多个版本存在:
+	*6.2
+	*4.1
+	*5.0.4
+	5.0.3 (Remove)
+	7.0-beta (Remove)
+
+Artifact [asm-tree] 有多个版本存在:
+	*6.2
+	*4.1
+	*5.0.4
+	6.2.1 (Remove)
+	5.0.3 (Remove)
+	5.0.2 (Remove)
+	7.0-beta (Remove)
+	5.1 (Remove)
+	7.0 (Remove)
+
+Artifact [asm-analysis] 有多个版本存在:
+	*6.2
+	*4.1
+	*5.0.4
+	6.2.1 (Remove)
+	5.0.3 (Remove)
+	7.0-beta (Remove)
+	7.0 (Remove)
+
+Artifact [asm-parent] 有多个版本存在:
+	*4.0
+	*4.1
+	*5.0.4
+	5.0.3 (Remove)
+	5.0.2 (Remove)
+	6.0_BETA (Remove)
+	5.2 (Remove)
+	5.1 (Remove)
+	6.0_ALPHA (Remove)
+
+Artifact [asm-commons] 有多个版本存在:
+	*6.2
+	*4.1
+	*5.0.4
+	6.2.1 (Remove)
+	5.0.3 (Remove)
+	5.0.2 (Remove)
+	7.0-beta (Remove)
+	5.1 (Remove)
+	7.0 (Remove)
+
+Artifact [ow2] 有多个版本存在:
+	*1.3
+	*1.5
+
+Artifact [selenium-support] 有多个版本存在:
+	*3.9.1
+	*3.11.0
+	*3.8.1
+
+Artifact [selenium-server] 有多个版本存在:
+	*3.0.1
+	*3.11.0
+
+Artifact [selenium-edge-driver] 有多个版本存在:
+	*3.9.1
+	*3.11.0
+
+Artifact [selenium-remote-driver] 有多个版本存在:
+	*3.9.1
+	*3.11.0
+	2.45.0 (Remove)
+	*3.8.1
+
+Artifact [selenium-chrome-driver] 有多个版本存在:
+	*3.9.1
+	*3.11.0
+
+Artifact [selenium-firefox-driver] 有多个版本存在:
+	*3.9.1
+	*3.11.0
+	*2.45.0
+
+Artifact [selenium-safari-driver] 有多个版本存在:
+	*3.9.1
+	*3.11.0
+
+Artifact [selenium-ie-driver] 有多个版本存在:
+	*3.9.1
+	*3.11.0
+
+Artifact [selenium-opera-driver] 有多个版本存在:
+	*3.9.1
+	*3.11.0
+
+Artifact [selenium-api] 有多个版本存在:
+	*3.9.1
+	*3.11.0
+	2.45.0 (Remove)
+	*3.8.1
+
+Artifact [selenium-java] 有多个版本存在:
+	*3.9.1
+	*3.11.0
+
+Artifact [htmlunit-driver] 有多个版本存在:
+	*2.29.2
+	*2.29.0
+
+Artifact [freemarker] 有多个版本存在:
+	*2.3.26-incubating
+	*2.3.28
+	*2.3.27-incubating
+
+Artifact [org.osgi.core] 有多个版本存在:
+	*4.3.1
+	*4.1.0
+
+Artifact [jxls] 有多个版本存在:
+	*2.4.5
+	*2.4.2
+	*2.4.3
+	2.4.4 (Remove)
+	2.4.1 (Remove)
+	2.4.6 (Remove)
+	2.4.0 (Remove)
+	2.3.0 (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-spring-milestones.xml.sha1 (Remove)
+	maven-metadata-spring-milestones.xml (Remove)
+	maven-metadata-local-nexus.xml.sha1 (Remove)
+	maven-metadata-local-nexus.xml (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+
+Artifact [drools-bom] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [drools-compiler] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [droolsjbpm-integration] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [drools] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [drools-decisiontables] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [drools-core] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [drools-templates] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [hibernate-validator] 有多个版本存在:
+	*6.0.17.Final
+	6.0.11.Final (Remove)
+	*6.0.13.Final
+	*6.0.16.Final
+	6.0.12.Final (Remove)
+	6.0.10.Final (Remove)
+	6.0.7.Final (Remove)
+	6.0.9.Final (Remove)
+
+Artifact [hibernate-validator-parent] 有多个版本存在:
+	*6.0.17.Final
+	6.0.11.Final (Remove)
+	*6.0.13.Final
+	*6.0.16.Final
+	6.0.12.Final (Remove)
+	6.0.10.Final (Remove)
+	6.0.7.Final (Remove)
+	6.0.9.Final (Remove)
+
+Artifact [hibernate-core] 有多个版本存在:
+	5.2.16.Final (Remove)
+	*5.3.9.Final
+	5.2.14.Final (Remove)
+	*5.3.10.Final
+	5.2.12.Final (Remove)
+	5.2.15.Final (Remove)
+	5.2.17.Final (Remove)
+	5.0.12.Final (Remove)
+	4.3.11.Final (Remove)
+	*5.3.7.Final
+
+Artifact [hibernate-entitymanager] 有多个版本存在:
+	*5.0.12.Final
+	*4.3.11.Final
+
+Artifact [hibernate-validator] 有多个版本存在:
+	*5.4.2.Final
+	*5.4.1.Final
+	*6.0.10.Final
+	5.2.4.Final (Remove)
+	5.3.4.Final (Remove)
+	5.1.3.Final (Remove)
+	5.2.2.Final (Remove)
+	5.3.6.Final (Remove)
+	5.0.0.Final (Remove)
+	5.3.5.Final (Remove)
+
+Artifact [hibernate-commons-annotations] 有多个版本存在:
+	*5.0.1.Final
+	*4.0.5.Final
+	*5.0.4.Final
+
+Artifact [hibernate-jpa-2.1-api] 有多个版本存在:
+	*unknown
+	*1.0.0.Final
+	*1.0.2.Final
+
+Artifact [hibernate-jpamodelgen] 有多个版本存在:
+	*5.3.9.Final
+	5.2.14.Final (Remove)
+	*5.3.10.Final
+	5.2.15.Final (Remove)
+	5.2.17.Final (Remove)
+	*5.3.7.Final
+
+Artifact [hibernate-validator-parent] 有多个版本存在:
+	*5.4.2.Final
+	*5.4.1.Final
+	5.2.4.Final (Remove)
+	5.3.4.Final (Remove)
+	5.1.3.Final (Remove)
+	5.2.2.Final (Remove)
+	*5.3.6.Final
+	5.0.0.Final (Remove)
+	5.3.5.Final (Remove)
+
+Artifact [jersey-apache-connector] 有多个版本存在:
+	*2.27
+	2.10.1 (Remove)
+	*2.19
+	*2.22.2
+
+Artifact [project] 有多个版本存在:
+	*2.27
+	2.10.1 (Remove)
+	*2.19
+	*2.22.2
+
+Artifact [jersey-client] 有多个版本存在:
+	*2.25.1
+	*2.27
+	2.10.1 (Remove)
+	2.19 (Remove)
+	*2.26
+	2.8 (Remove)
+	2.22.2 (Remove)
+
+Artifact [jersey-common] 有多个版本存在:
+	*2.25.1
+	*2.27
+	2.10.1 (Remove)
+	2.19 (Remove)
+	*2.26
+	2.8 (Remove)
+	2.22.2 (Remove)
+
+Artifact [jersey-server] 有多个版本存在:
+	*2.25.1
+	*2.27
+	2.10.1 (Remove)
+	*2.26
+	2.8 (Remove)
+
+Artifact [project] 有多个版本存在:
+	*2.25.1
+	*2.27
+	2.10.1 (Remove)
+	2.19 (Remove)
+	*2.26
+	2.8 (Remove)
+	2.22.2 (Remove)
+
+Artifact [jersey-entity-filtering] 有多个版本存在:
+	*2.27
+	*2.19
+	*2.22.2
+
+Artifact [jersey-bean-validation] 有多个版本存在:
+	*2.25.1
+	*2.27
+	2.10.1 (Remove)
+	*2.26
+	2.8 (Remove)
+
+Artifact [jersey-bom] 有多个版本存在:
+	*2.27
+	*2.10.1
+	*2.28
+
+Artifact [project] 有多个版本存在:
+	*2.25.1
+	*2.27
+	2.10.1 (Remove)
+	2.19 (Remove)
+	*2.26
+	2.8 (Remove)
+	2.22.2 (Remove)
+
+Artifact [project] 有多个版本存在:
+	*2.27
+	*2.10.1
+	*2.26
+
+Artifact [jersey-container-servlet-core] 有多个版本存在:
+	*2.27
+	*2.10.1
+	*2.26
+
+Artifact [project] 有多个版本存在:
+	*2.25.1
+	2.10.1 (Remove)
+	*2.19
+	2.8 (Remove)
+	*2.22.2
+
+Artifact [jersey-guava] 有多个版本存在:
+	*2.25.1
+	2.10.1 (Remove)
+	*2.19
+	2.8 (Remove)
+	*2.22.2
+
+Artifact [project] 有多个版本存在:
+	*2.25.1
+	2.10.1 (Remove)
+	*2.19
+	2.8 (Remove)
+	*2.22.2
+
+Artifact [jersey-media-jaxb] 有多个版本存在:
+	*2.25.1
+	*2.27
+	*2.26
+
+Artifact [project] 有多个版本存在:
+	*2.25.1
+	*2.27
+	2.19 (Remove)
+	*2.26
+	2.22.2 (Remove)
+
+Artifact [jersey-media-json-jackson] 有多个版本存在:
+	*2.27
+	*2.19
+	*2.22.2
+
+Artifact [hk2-parent] 有多个版本存在:
+	*2.2.0
+	*2.4.0-b25
+	*2.5.0-b32
+	2.4.0-b34 (Remove)
+	2.5.0-b42 (Remove)
+	2.3.0-b05 (Remove)
+
+Artifact [hk2-api] 有多个版本存在:
+	*2.2.0
+	*2.4.0-b25
+	*2.5.0-b32
+	2.4.0-b34 (Remove)
+	2.3.0-b05 (Remove)
+
+Artifact [hk2-utils] 有多个版本存在:
+	*2.2.0
+	*2.4.0-b25
+	*2.5.0-b32
+	2.4.0-b34 (Remove)
+	2.3.0-b05 (Remove)
+
+Artifact [hk2-bom] 有多个版本存在:
+	*2.2.0
+	*2.4.0-b25
+	*2.5.0-b32
+	2.4.0-b34 (Remove)
+	2.5.0-b42 (Remove)
+	2.3.0-b05 (Remove)
+
+Artifact [external] 有多个版本存在:
+	*2.2.0
+	*javax.inject
+	*2.4.0-b25
+	asm-all-repackaged (Remove)
+	2.5.0-b32 (Remove)
+	aopalliance-repackaged (Remove)
+	2.4.0-b34 (Remove)
+	2.5.0-b42 (Remove)
+	bean-validator (Remove)
+	2.3.0-b05 (Remove)
+
+Artifact [hk2-locator] 有多个版本存在:
+	*2.2.0
+	*2.4.0-b25
+	*2.5.0-b32
+	2.4.0-b34 (Remove)
+	2.3.0-b05 (Remove)
+
+Artifact [jaxb-bom] 有多个版本存在:
+	*2.2.10-b140310.1920
+	*2.2.11
+	*2.3.0
+
+Artifact [aspectjrt] 有多个版本存在:
+	*1.8.13
+	*1.8.10
+	1.6.8 (Remove)
+	*1.8.8
+
+Artifact [aspectjweaver] 有多个版本存在:
+	*1.8.13
+	1.8.10 (Remove)
+	*1.9.4
+	*1.9.2
+	1.6.8 (Remove)
+	1.8.9 (Remove)
+	1.8.7 (Remove)
+	1.8.1 (Remove)
+	1.8.8 (Remove)
+
+Artifact [hawtbuf] 有多个版本存在:
+	*1.9
+	*1.11
+
+Artifact [hawtbuf-project] 有多个版本存在:
+	*1.9
+	*1.11
+
+Artifact [fusesource-pom] 有多个版本存在:
+	*1.9
+	*1.8
+	*1.10
+
+Artifact [thymeleaf] 有多个版本存在:
+	*2.1.5.RELEASE
+	*3.0.9.RELEASE
+
+Artifact [kotlinx-serialization-runtime] 有多个版本存在:
+	*0.6.1
+	*${serialization.version}
+
+Artifact [kotlinx-coroutines-core-common] 有多个版本存在:
+	*0.26.0-eap13
+	*1.0.0
+
+Artifact [kotlinx-coroutines-core] 有多个版本存在:
+	*0.20
+	*1.2.1
+	*1.0.1
+	1.0.0 (Remove)
+	0.26.1-eap13 (Remove)
+	0.26.0-eap13 (Remove)
+	1.1.1 (Remove)
+
+Artifact [kotlin-project] 有多个版本存在:
+	*1.3.11
+	*1.2.0
+	*1.3.10
+	1.2.10 (Remove)
+	1.2.20 (Remove)
+	1.2.60 (Remove)
+	1.2.51 (Remove)
+	1.1.1 (Remove)
+	1.2.50 (Remove)
+	1.1.0 (Remove)
+	1.1.60 (Remove)
+	1.2.71 (Remove)
+	1.2.70 (Remove)
+	1.1.50 (Remove)
+	1.2.41 (Remove)
+	1.2.30 (Remove)
+	1.2.31 (Remove)
+	1.3.0 (Remove)
+	1.1.4-3 (Remove)
+	1.3.31 (Remove)
+	1.3.40 (Remove)
+
+Artifact [kotlin-annotation-processing-maven] 有多个版本存在:
+	*1.3.31
+	*1.3.0
+	1.2.70 (Remove)
+	1.2.60 (Remove)
+	*1.3.11
+
+Artifact [kotlin-scripting-jvm] 有多个版本存在:
+	*1.3.31
+	1.3.0 (Remove)
+	1.2.70 (Remove)
+	1.2.71 (Remove)
+	*1.3.40
+	1.2.50 (Remove)
+	1.2.51 (Remove)
+	1.2.60 (Remove)
+	1.3.10 (Remove)
+	*1.3.11
+
+Artifact [kotlin-maven-allopen] 有多个版本存在:
+	*1.3.11
+	*1.2.0
+	*1.3.10
+	1.2.10 (Remove)
+	1.2.20 (Remove)
+	1.2.60 (Remove)
+	1.2.51 (Remove)
+	1.1.1 (Remove)
+	1.2.50 (Remove)
+	1.1.60 (Remove)
+	1.2.71 (Remove)
+	1.2.70 (Remove)
+	1.1.50 (Remove)
+	1.2.41 (Remove)
+	1.2.30 (Remove)
+	1.3.0 (Remove)
+	1.1.4-3 (Remove)
+	1.3.31 (Remove)
+	1.3.40 (Remove)
+
+Artifact [kotlin-test] 有多个版本存在:
+	*1.3.11
+	*1.2.0
+	*1.2.10
+	${kotlin.version} (Remove)
+	1.2.20 (Remove)
+	1.2.60 (Remove)
+	1.2.51 (Remove)
+	1.1.1 (Remove)
+	1.2.50 (Remove)
+	1.2.3 (Remove)
+	1.1.60 (Remove)
+	1.2.70 (Remove)
+	1.1.50 (Remove)
+	1.2.41 (Remove)
+	1.2.30 (Remove)
+	1.2.31 (Remove)
+	1.3.0 (Remove)
+	1.1.4-3 (Remove)
+	1.3.31 (Remove)
+	1.3.40 (Remove)
+
+Artifact [kotlin-compiler] 有多个版本存在:
+	*1.3.11
+	*1.2.0
+	*1.3.10
+	1.2.10 (Remove)
+	1.2.20 (Remove)
+	1.2.60 (Remove)
+	1.2.51 (Remove)
+	1.1.1 (Remove)
+	1.2.50 (Remove)
+	1.1.0 (Remove)
+	1.1.60 (Remove)
+	1.2.71 (Remove)
+	1.2.70 (Remove)
+	1.1.50 (Remove)
+	1.2.41 (Remove)
+	1.2.30 (Remove)
+	1.2.31 (Remove)
+	1.3.0 (Remove)
+	1.1.4-3 (Remove)
+	1.3.31 (Remove)
+	1.3.40 (Remove)
+
+Artifact [kotlin-script-runtime] 有多个版本存在:
+	*1.3.31
+	1.3.0 (Remove)
+	1.2.31 (Remove)
+	1.2.30 (Remove)
+	1.2.41 (Remove)
+	1.2.70 (Remove)
+	1.2.71 (Remove)
+	1.1.60 (Remove)
+	*1.3.40
+	1.2.50 (Remove)
+	1.2.51 (Remove)
+	1.2.60 (Remove)
+	1.2.20 (Remove)
+	1.2.10 (Remove)
+	1.3.10 (Remove)
+	1.2.0 (Remove)
+	*1.3.11
+
+Artifact [kotlin-scripting-compiler] 有多个版本存在:
+	*1.3.31
+	1.3.0 (Remove)
+	1.2.70 (Remove)
+	1.2.71 (Remove)
+	*1.3.40
+	1.2.50 (Remove)
+	1.2.51 (Remove)
+	1.2.60 (Remove)
+	1.3.10 (Remove)
+	*1.3.11
+
+Artifact [kotlin-stdlib-common] 有多个版本存在:
+	*1.3.11
+	*1.3.10
+	*1.2.60
+	1.2.51 (Remove)
+	1.2.50 (Remove)
+	1.2.61 (Remove)
+	1.3-M2 (Remove)
+	1.2.71 (Remove)
+	1.2.70 (Remove)
+	1.2.41 (Remove)
+	1.3.0 (Remove)
+	1.3.31 (Remove)
+	1.3.30 (Remove)
+	1.3.40 (Remove)
+
+Artifact [kotlin-stdlib-jre7] 有多个版本存在:
+	*1.2.0
+	*1.2.10
+	*1.2.20
+	1.1.1 (Remove)
+	1.1.60 (Remove)
+	1.1.50 (Remove)
+	1.2.30 (Remove)
+	1.2.31 (Remove)
+	1.1.4-3 (Remove)
+	1.2.41 (Remove)
+
+Artifact [kotlin-scripting-common] 有多个版本存在:
+	*1.3.31
+	1.3.0 (Remove)
+	1.2.70 (Remove)
+	1.2.71 (Remove)
+	*1.3.40
+	1.2.50 (Remove)
+	1.2.51 (Remove)
+	1.2.60 (Remove)
+	1.3.10 (Remove)
+	*1.3.11
+
+Artifact [kotlin-stdlib-jre8] 有多个版本存在:
+	*1.2.0
+	*1.2.10
+	*1.2.20
+	1.1.1 (Remove)
+	1.2.3 (Remove)
+	1.1.60 (Remove)
+	1.1.50 (Remove)
+	1.2.30 (Remove)
+	1.2.31 (Remove)
+	1.1.4-3 (Remove)
+	1.2.41 (Remove)
+
+Artifact [kotlin-test-junit] 有多个版本存在:
+	*1.3.31
+	1.3.0 (Remove)
+	1.2.31 (Remove)
+	1.2.30 (Remove)
+	*1.8
+	*1.3.40
+	1.2.50 (Remove)
+	1.2.51 (Remove)
+	1.2.60 (Remove)
+	1.2.20 (Remove)
+	1.2.10 (Remove)
+
+Artifact [kotlin-test-annotations-common] 有多个版本存在:
+	*1.3.31
+	*1.3.0
+	*1.3.40
+	1.2.50 (Remove)
+	1.2.51 (Remove)
+	1.2.60 (Remove)
+
+Artifact [kotlin-stdlib-jdk7] 有多个版本存在:
+	*1.3.31
+	1.3.0 (Remove)
+	1.2.31 (Remove)
+	1.2.30 (Remove)
+	1.2.41 (Remove)
+	1.2.70 (Remove)
+	1.2.71 (Remove)
+	*1.3.40
+	1.2.51 (Remove)
+	1.2.60 (Remove)
+	1.2.20 (Remove)
+	1.3.10 (Remove)
+	*1.3.11
+
+Artifact [kotlin-reflect] 有多个版本存在:
+	*1.3.11
+	*1.2.0
+	*1.3.10
+	1.2.10 (Remove)
+	${kotlin.version} (Remove)
+	unknown (Remove)
+	1.2.20 (Remove)
+	1.2.60 (Remove)
+	1.2.51 (Remove)
+	1.1.1 (Remove)
+	1.2.50 (Remove)
+	1.3.70 (Remove)
+	1.3-M2 (Remove)
+	1.2.3 (Remove)
+	1.1.60 (Remove)
+	1.2.71 (Remove)
+	1.2.70 (Remove)
+	1.1.50 (Remove)
+	1.2.41 (Remove)
+	1.8 (Remove)
+	1.2.30 (Remove)
+	1.2.31 (Remove)
+	1.3.0 (Remove)
+	1.1.3 (Remove)
+	1.1.4-3 (Remove)
+	1.3.31 (Remove)
+	1.3.40 (Remove)
+
+Artifact [kotlin-stdlib] 有多个版本存在:
+	*1.3.11
+	*1.2.0
+	*1.3.10
+	1.2.10 (Remove)
+	1.2.20 (Remove)
+	1.2.60 (Remove)
+	1.2.51 (Remove)
+	1.1.1 (Remove)
+	1.2.50 (Remove)
+	1.1.0 (Remove)
+	1.3-M2 (Remove)
+	1.1.60 (Remove)
+	1.2.71 (Remove)
+	1.2.70 (Remove)
+	1.1.50 (Remove)
+	1.2.41 (Remove)
+	1.8 (Remove)
+	1.2.30 (Remove)
+	1.2.31 (Remove)
+	1.3.0 (Remove)
+	1.1.3 (Remove)
+	1.1.4-3 (Remove)
+	1.3.31 (Remove)
+	1.3.30 (Remove)
+	1.3.40 (Remove)
+
+Artifact [kotlin-maven-plugin] 有多个版本存在:
+	*1.3.11
+	*1.2.0
+	*1.3.10
+	1.2.10 (Remove)
+	${kotlin.version} (Remove)
+	1.2.20 (Remove)
+	1.2.60 (Remove)
+	1.2.51 (Remove)
+	1.1.1 (Remove)
+	1.2.50 (Remove)
+	1.1.0 (Remove)
+	1.3.70 (Remove)
+	1.3-M2 (Remove)
+	1.3.40 (Remove)
+	1.2.3 (Remove)
+	1.1.60 (Remove)
+	1.2.71 (Remove)
+	1.2.70 (Remove)
+	1.1.50 (Remove)
+	1.2.41 (Remove)
+	1.8 (Remove)
+	1.2.30 (Remove)
+	1.2.31 (Remove)
+	1.3.0 (Remove)
+	1.1.4-3 (Remove)
+	1.3.31 (Remove)
+	kotlin-maven-plugin-.jar.lastUpdated (Remove)
+	kotlin-maven-plugin-.pom.lastUpdated (Remove)
+
+Artifact [kotlin-maven-noarg] 有多个版本存在:
+	*1.3.11
+	*1.3.10
+	*1.2.60
+	1.2.51 (Remove)
+	1.2.71 (Remove)
+	1.2.70 (Remove)
+	1.1.50 (Remove)
+	1.3.0 (Remove)
+	1.1.4-3 (Remove)
+	1.3.31 (Remove)
+	1.3.40 (Remove)
+
+Artifact [kotlin-test-common] 有多个版本存在:
+	*1.3.31
+	1.3.0 (Remove)
+	1.2.41 (Remove)
+	1.2.70 (Remove)
+	*1.3.40
+	1.2.50 (Remove)
+	1.2.51 (Remove)
+	1.2.60 (Remove)
+	*1.3.11
+
+Artifact [kotlin-stdlib-jdk8] 有多个版本存在:
+	*1.3.11
+	*1.3.10
+	*1.2.10
+	${kotlin.version} (Remove)
+	unknown (Remove)
+	1.2.20 (Remove)
+	1.2.60 (Remove)
+	1.2.51 (Remove)
+	1.3.70 (Remove)
+	1.3-M2 (Remove)
+	1.3.40 (Remove)
+	1.2.3 (Remove)
+	1.2.70 (Remove)
+	1.2.41 (Remove)
+	1.8 (Remove)
+	1.2.30 (Remove)
+	1.2.31 (Remove)
+	1.3.0 (Remove)
+	1.3.31 (Remove)
+	1.2.71 (Remove)
+	kotlin-stdlib-jdk8-.jar.lastUpdated (Remove)
+	kotlin-stdlib-jdk8-.pom.lastUpdated (Remove)
+
+Artifact [kotlin-scripting-misc] 有多个版本存在:
+	*1.2.70
+	*1.2.71
+	1.2.50 (Remove)
+	1.2.51 (Remove)
+	*1.2.60
+
+Artifact [bson] 有多个版本存在:
+	*3.6.4
+	*3.6.3
+	3.2.2 (Remove)
+	*3.8.2
+	3.6.0 (Remove)
+	3.4.2 (Remove)
+	3.6.1 (Remove)
+
+Artifact [mongodb-driver-core] 有多个版本存在:
+	*3.6.4
+	*3.6.3
+	3.2.2 (Remove)
+	*3.8.2
+	3.6.0 (Remove)
+	3.4.2 (Remove)
+	3.6.1 (Remove)
+
+Artifact [mongo-java-driver] 有多个版本存在:
+	*3.6.4
+	*3.6.3
+	*3.8.2
+	2.13.0 (Remove)
+	3.0.2 (Remove)
+
+Artifact [mongodb-driver] 有多个版本存在:
+	*3.6.4
+	*3.6.3
+	3.2.2 (Remove)
+	*3.8.2
+	3.6.0 (Remove)
+	3.4.2 (Remove)
+	3.6.1 (Remove)
+
+Artifact [uberfire-parent] 有多个版本存在:
+	*1.1.0.Final
+	*2.2.0.Final
+
+Artifact [uberfire-bom] 有多个版本存在:
+	*1.1.0.Final
+	*2.2.0.Final
+
+Artifact [snappy-java] 有多个版本存在:
+	*1.0.5
+	*1.1.1.3
+	*1.0.4.1
+	1.1.1.6 (Remove)
+	1.1.1.7 (Remove)
+	1.1.2.1 (Remove)
+	1.1.2 (Remove)
+	1.1.4 (Remove)
+
+Artifact [jsoup] 有多个版本存在:
+	*1.10.2
+	*1.10.3
+	1.8.3 (Remove)
+	*1.11.2
+	1.7.2 (Remove)
+	1.9.2 (Remove)
+
+Artifact [spring-webflux] 有多个版本存在:
+	5.0.0.RC3 (Remove)
+	5.0.4.RELEASE (Remove)
+	*5.0.5.RELEASE
+	*5.0.7.RELEASE
+	*5.0.6.RELEASE
+
+Artifact [spring-aspects] 有多个版本存在:
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+
+Artifact [spring-oxm] 有多个版本存在:
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	*5.1.6.RELEASE
+	5.0.5.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+
+Artifact [spring-orm] 有多个版本存在:
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+
+Artifact [spring-boot-test] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	*2.1.4.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	*2.1.6.RELEASE
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.4.5.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	1.5.16.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+
+Artifact [spring-boot-starter-freemarker] 有多个版本存在:
+	1.5.12.RELEASE (Remove)
+	*2.0.5.RELEASE
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	*2.0.2.RELEASE
+	1.5.4.RELEASE (Remove)
+	*2.0.3.RELEASE
+
+Artifact [spring-boot-starter-web] 有多个版本存在:
+	*1.3.5.RELEASE
+	*2.1.0.RELEASE
+	*2.1.4.R
+	2.0.3.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.4.5.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	2.1.6.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.9.RELEASE (Remove)
+	2.1.4.RELEASE (Remove)
+	${sb.version} (Remove)
+	2.0.6.RELEASE (Remove)
+	1.5.12.RELEASE (Remove)
+	2.1.5.RELEASE (Remove)
+	unknown (Remove)
+
+Artifact [spring-boot-starter-batch] 有多个版本存在:
+	*1.3.1.RELEASE
+	*2.0.0.RELEASE
+	*1.5.4.RELEASE
+
+Artifact [spring-boot-starter-webflux] 有多个版本存在:
+	*2.0.1.RELEASE
+	2.0.0.M3 (Remove)
+	2.0.0.RELEASE (Remove)
+	*2.0.2.RELEASE
+	*2.0.3.RELEASE
+
+Artifact [spring-boot-starter-data-redis] 有多个版本存在:
+	*1.5.4.RELEASE
+	*2.0.2.RELEASE
+	*unknown
+	2.1.1.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	1.5.12.RELEASE (Remove)
+	2.1.4.RELEASE (Remove)
+
+Artifact [spring-boot-starter-aop] 有多个版本存在:
+	*1.3.5.RELEASE
+	*2.1.0.RELEASE
+	*2.0.3.RELEASE
+	1.5.4.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	1.4.5.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	2.1.4.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	${sb.version} (Remove)
+	2.0.6.RELEASE (Remove)
+	1.5.12.RELEASE (Remove)
+	2.1.5.RELEASE (Remove)
+	2.1.6.RELEASE (Remove)
+
+Artifact [spring-boot-starters] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	*2.1.4.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.4.1.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.4.5.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	1.5.16.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-boot-starter-test] 有多个版本存在:
+	*2.1.0.RELEASE
+	*2.1.4.R
+	*2.0.3.RELEASE
+	1.5.4.RELEASE (Remove)
+	1.5.16.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	1.4.5.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	2.1.6.RELEASE (Remove)
+	${spring-web} (Remove)
+	1.5.2.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.9.RELEASE (Remove)
+	2.1.4.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	1.5.12.RELEASE (Remove)
+	2.1.5.RELEASE (Remove)
+	unknown (Remove)
+
+Artifact [spring-boot-starter-logging] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	*2.1.4.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.3.2.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.4.5.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-boot-starter-actuator] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	*2.0.6.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	1.4.5.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	*2.1.1.RELEASE
+	2.0.2.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+
+Artifact [spring-boot-starter-tomcat] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	*2.1.4.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.3.2.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.4.5.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-boot-autoconfigure] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	*2.1.4.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.3.2.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.4.5.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	1.5.16.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-boot-configuration-processor] 有多个版本存在:
+	*2.0.3.RELEASE
+	*1.5.4.RELEASE
+	*2.1.1.RELEASE
+	2.0.0.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.1.6.RELEASE (Remove)
+	2.1.4.RELEASE (Remove)
+	1.5.12.RELEASE (Remove)
+	unknown (Remove)
+
+Artifact [spring-boot-starter-log4j2] 有多个版本存在:
+	*2.0.5.RELEASE
+	*1.4.5.RELEASE
+
+Artifact [spring-boot-starter] 有多个版本存在:
+	*1.3.5.RELEASE
+	*2.1.0.RELEASE
+	*2.0.3.RELEASE
+	1.5.4.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.4.5.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	2.1.6.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.9.RELEASE (Remove)
+	2.1.4.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	1.5.12.RELEASE (Remove)
+	2.1.5.RELEASE (Remove)
+	unknown (Remove)
+
+Artifact [spring-boot-starter-mail] 有多个版本存在:
+	*1.5.6.RELEASE
+	*2.0.2.RELEASE
+	*1.3.5.RELEASE
+
+Artifact [spring-boot-properties-migrator] 有多个版本存在:
+	*2.0.1.RELEASE
+	*2.0.0.RELEASE
+
+Artifact [spring-boot-tools] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	*2.1.4.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.3.2.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.4.5.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-boot-starter-amqp] 有多个版本存在:
+	*1.5.12.RELEASE
+	1.3.2.RELEASE (Remove)
+	*1.5.6.RELEASE
+	1.3.6.RELEASE (Remove)
+	*2.0.2.RELEASE
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-boot-starter-websocket] 有多个版本存在:
+	*2.1.5.RELEASE
+	*2.1.6.RELEASE
+	2.0.4.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	*2.1.1.RELEASE
+	1.5.4.RELEASE (Remove)
+
+Artifact [spring-boot-starter-json] 有多个版本存在:
+	*2.1.5.RELEASE
+	2.0.6.RELEASE (Remove)
+	*2.1.4.RELEASE
+	2.0.5.RELEASE (Remove)
+	*2.1.6.RELEASE
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+
+Artifact [spring-boot-configuration-metadata] 有多个版本存在:
+	*2.0.1.RELEASE
+	*2.0.0.RELEASE
+
+Artifact [spring-boot-starter-jdbc] 有多个版本存在:
+	*1.3.5.RELEASE
+	*2.1.0.RELEASE
+	*2.0.3.RELEASE
+	1.5.4.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	1.4.5.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.9.RELEASE (Remove)
+	2.1.4.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	${sb.version} (Remove)
+	2.0.6.RELEASE (Remove)
+	1.5.12.RELEASE (Remove)
+	2.1.5.RELEASE (Remove)
+	2.1.6.RELEASE (Remove)
+
+Artifact [spring-boot-starter-cache] 有多个版本存在:
+	*1.5.12.RELEASE
+	1.3.2.RELEASE (Remove)
+	*2.0.1.RELEASE
+	1.5.4.RELEASE (Remove)
+	*2.0.3.RELEASE
+
+Artifact [spring-boot-dependencies] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.8.RELEASE (Remove)
+	1.5.12.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	1.3.8.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	*2.1.4.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	1.3.3.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.4.1.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	1.5.3.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.5.15.RELEASE (Remove)
+	1.4.5.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	1.5.16.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	1.2.6.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-boot-test-autoconfigure] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	*2.1.4.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	*2.1.6.RELEASE
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.4.5.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	1.5.16.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+
+Artifact [spring-boot-maven-plugin] 有多个版本存在:
+	*1.3.5.RELEASE
+	*2.1.0.RELEASE
+	*2.0.3.RELEASE
+	1.5.4.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.4.5.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.9.RELEASE (Remove)
+	2.1.4.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	1.5.12.RELEASE (Remove)
+	2.1.5.RELEASE (Remove)
+	2.1.6.RELEASE (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+
+Artifact [spring-boot-starter-parent] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	1.3.8.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	*2.1.4.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.3.2.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	1.5.3.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.5.15.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-boot-starter-validation] 有多个版本存在:
+	1.3.2.RELEASE (Remove)
+	*1.5.6.RELEASE
+	*1.3.7.RELEASE
+	1.3.6.RELEASE (Remove)
+	*2.0.2.RELEASE
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-boot-starter-security] 有多个版本存在:
+	*2.1.0.RELEASE
+	*1.5.4.RELEASE
+	*2.0.2.RELEASE
+	unknown (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.9.RELEASE (Remove)
+	1.5.12.RELEASE (Remove)
+	2.1.6.RELEASE (Remove)
+
+Artifact [spring-boot-actuator-autoconfigure] 有多个版本存在:
+	*2.1.5.RELEASE
+	*2.0.6.RELEASE
+	2.0.5.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	*2.1.1.RELEASE
+	2.0.2.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+
+Artifact [spring-boot-starter-data-mongodb] 有多个版本存在:
+	*2.0.0.RELEASE
+	*1.4.5.RELEASE
+	*1.5.6.RELEASE
+	2.0.1.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.1.6.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	2.1.4.RELEASE (Remove)
+	unknown (Remove)
+
+Artifact [spring-boot-loader-tools] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	*2.1.4.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.3.2.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.4.5.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-boot-actuator] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	*2.0.6.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	1.4.5.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	*2.1.1.RELEASE
+	2.0.2.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+
+Artifact [spring-boot-starter-reactor-netty] 有多个版本存在:
+	*2.0.1.RELEASE
+	2.0.0.M3 (Remove)
+	2.0.0.RELEASE (Remove)
+	*2.0.2.RELEASE
+	*2.0.3.RELEASE
+
+Artifact [spring-boot-starter-data-jpa] 有多个版本存在:
+	*1.3.5.RELEASE
+	*2.1.0.RELEASE
+	*2.1.4.R
+	1.5.4.RELEASE (Remove)
+	unknown (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	1.4.5.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	2.1.4.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	2.1.6.RELEASE (Remove)
+
+Artifact [spring-boot-starter-thymeleaf] 有多个版本存在:
+	*2.0.4.RELEASE
+	1.5.6.RELEASE (Remove)
+	*2.0.0.RELEASE
+	*2.0.2.RELEASE
+	1.5.4.RELEASE (Remove)
+
+Artifact [spring-boot-parent] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	*2.1.4.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.4.1.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.4.5.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	1.5.16.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-boot-devtools] 有多个版本存在:
+	1.5.9.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	*2.0.4.RELEASE
+	*2.0.1.RELEASE
+	1.5.6.RELEASE (Remove)
+	*2.0.0.RELEASE
+
+Artifact [spring-boot] 有多个版本存在:
+	*2.1.5.RELEASE
+	1.5.12.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	*2.1.4.RELEASE
+	1.5.9.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.5.2.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.3.2.RELEASE (Remove)
+	1.5.10.RELEASE (Remove)
+	2.0.4.RELEASE (Remove)
+	2.0.1.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	2.0.0.M3 (Remove)
+	1.4.5.RELEASE (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	2.1.1.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+	1.5.16.RELEASE (Remove)
+	1.5.4.RELEASE (Remove)
+	2.0.3.RELEASE (Remove)
+	2.1.0.RELEASE (Remove)
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-retry] 有多个版本存在:
+	*1.2.2.RELEASE
+	*1.2.0.RELEASE
+	*1.2.1.RELEASE
+	1.1.0.RELEASE (Remove)
+	1.1.3.RELEASE (Remove)
+	1.1.2.RELEASE (Remove)
+
+Artifact [spring-jms] 有多个版本存在:
+	*5.1.8.RELEASE
+	*5.1.3.RELEASE
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	*5.1.6.RELEASE
+
+Artifact [spring-context-support] 有多个版本存在:
+	4.3.1.RELEASE (Remove)
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	*5.1.3.RELEASE
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+
+Artifact [spring-security-cas] 有多个版本存在:
+	*5.0.3.RELEASE
+	*5.0.7.RELEASE
+	*5.1.5.RELEASE
+
+Artifact [spring-security-jwt] 有多个版本存在:
+	*1.0.9.RELEASE
+	*1.0.8.RELEASE
+
+Artifact [spring-security-bom] 有多个版本存在:
+	4.2.2.RELEASE (Remove)
+	5.0.3.RELEASE (Remove)
+	4.2.3.RELEASE (Remove)
+	4.0.4.RELEASE (Remove)
+	5.1.1.RELEASE (Remove)
+	5.0.0.M3 (Remove)
+	*5.2.0.BUILD-SNAPSHOT
+	5.0.9.RELEASE (Remove)
+	4.2.8.RELEASE (Remove)
+	*5.1.2.RELEASE
+	5.0.8.RELEASE (Remove)
+	4.1.4.RELEASE (Remove)
+	4.2.5.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	3.2.8.RELEASE (Remove)
+	4.0.3.RELEASE (Remove)
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.1.3.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+	*5.1.5.RELEASE
+
+Artifact [spring-security-rsa] 有多个版本存在:
+	*1.0.5.RELEASE
+	*1.0.7.RELEASE
+	*1.0.3.RELEASE
+	1.0.1.RELEASE (Remove)
+
+Artifact [spring-security-crypto] 有多个版本存在:
+	4.2.3.RELEASE (Remove)
+	4.0.4.RELEASE (Remove)
+	*5.0.9.RELEASE
+	*5.1.2.RELEASE
+	5.0.8.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	*5.1.5.RELEASE
+
+Artifact [spring-security-web] 有多个版本存在:
+	5.0.3.RELEASE (Remove)
+	4.2.3.RELEASE (Remove)
+	*5.1.1.RELEASE
+	*5.1.2.RELEASE
+	5.0.8.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	*5.1.5.RELEASE
+
+Artifact [spring-security-config] 有多个版本存在:
+	5.0.3.RELEASE (Remove)
+	4.2.3.RELEASE (Remove)
+	*5.1.1.RELEASE
+	*5.1.2.RELEASE
+	5.0.8.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	*5.1.5.RELEASE
+
+Artifact [spring-security-test] 有多个版本存在:
+	*unknown
+	*5.0.5.RELEASE
+	*5.1.2.RELEASE
+	5.0.7.RELEASE (Remove)
+
+Artifact [spring-security-core] 有多个版本存在:
+	5.0.3.RELEASE (Remove)
+	4.2.3.RELEASE (Remove)
+	*5.1.1.RELEASE
+	*5.1.2.RELEASE
+	5.0.8.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	*5.1.5.RELEASE
+
+Artifact [spring-security-taglibs] 有多个版本存在:
+	*5.0.3.RELEASE
+	*5.0.7.RELEASE
+
+Artifact [spring-security-acl] 有多个版本存在:
+	*5.0.3.RELEASE
+	*5.0.7.RELEASE
+
+Artifact [spring-messaging] 有多个版本存在:
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	*5.1.7.RELEASE
+	*5.1.6.RELEASE
+	4.2.4.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+
+Artifact [spring-integration-bom] 有多个版本存在:
+	5.1.0.RELEASE (Remove)
+	4.3.8.RELEASE (Remove)
+	4.1.6.RELEASE (Remove)
+	5.0.3.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	4.3.12.RELEASE (Remove)
+	5.1.1.RELEASE (Remove)
+	4.3.10.RELEASE (Remove)
+	4.3.2.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.2.8.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	4.2.9.RELEASE (Remove)
+	4.3.11.RELEASE (Remove)
+	4.3.14.RELEASE (Remove)
+	4.2.5.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	*5.2.0.M2
+	*5.1.6.RELEASE
+	4.3.15.RELEASE (Remove)
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	5.1.4.RELEASE (Remove)
+	4.3.17.RELEASE (Remove)
+	5.0.0.M6 (Remove)
+	5.0.7.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	*5.1.5.RELEASE
+
+Artifact [spring-integration-core] 有多个版本存在:
+	*4.2.8.RELEASE
+	4.2.4.RELEASE (Remove)
+	*5.0.5.RELEASE
+	*5.0.6.RELEASE
+
+Artifact [spring-integration-mail] 有多个版本存在:
+	*4.2.4.RELEASE
+	*5.0.6.RELEASE
+
+Artifact [spring-jdbc] 有多个版本存在:
+	4.0.5.RELEASE (Remove)
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	4.3.14.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+
+Artifact [spring-rabbit] 有多个版本存在:
+	*1.7.7.RELEASE
+	1.5.3.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	*2.0.3.RELEASE
+	*1.7.3.RELEASE
+
+Artifact [spring-amqp] 有多个版本存在:
+	*1.7.7.RELEASE
+	1.5.3.RELEASE (Remove)
+	1.5.6.RELEASE (Remove)
+	*2.0.3.RELEASE
+	*1.7.3.RELEASE
+
+Artifact [spring-expression] 有多个版本存在:
+	4.0.5.RELEASE (Remove)
+	5.0.0.RC3 (Remove)
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	4.3.19.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	4.3.14.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.0.3.RELEASE (Remove)
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	3.2.3.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+	4.0.9.RELEASE (Remove)
+	4.3.4.RELEASE (Remove)
+
+Artifact [spring-tx] 有多个版本存在:
+	4.0.5.RELEASE (Remove)
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	4.3.14.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+	4.0.9.RELEASE (Remove)
+
+Artifact [spring-aop] 有多个版本存在:
+	4.0.5.RELEASE (Remove)
+	5.0.0.RC3 (Remove)
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	4.3.19.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	4.3.14.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.0.3.RELEASE (Remove)
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	3.2.3.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+	4.0.9.RELEASE (Remove)
+	4.3.4.RELEASE (Remove)
+
+Artifact [spring-batch-infrastructure] 有多个版本存在:
+	*3.0.7.RELEASE
+	3.0.6.RELEASE (Remove)
+	*4.0.1.RELEASE
+	*4.0.0.RELEASE
+
+Artifact [spring-batch-core] 有多个版本存在:
+	*3.0.7.RELEASE
+	*3.0.6.RELEASE
+	*4.0.0.RELEASE
+
+Artifact [spring-web] 有多个版本存在:
+	5.0.0.RC3 (Remove)
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	4.3.14.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	3.2.3.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+	4.3.4.RELEASE (Remove)
+
+Artifact [spring-cloud-cloudfoundry-dependencies] 有多个版本存在:
+	2.0.0.RC1 (Remove)
+	*2.0.1.RELEASE
+	*2.0.0.M3
+	1.1.0.RELEASE (Remove)
+	*2.0.0.RELEASE
+	1.1.1.RELEASE (Remove)
+	1.0.0.RELEASE (Remove)
+	1.1.2.RELEASE (Remove)
+
+Artifact [spring-cloud-commons-dependencies] 有多个版本存在:
+	1.3.0.RELEASE (Remove)
+	2.0.0.M9 (Remove)
+	1.1.6.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	1.3.3.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	*2.0.1.RELEASE
+	1.1.0.RELEASE (Remove)
+	2.0.0.RC2 (Remove)
+	*2.0.0.RELEASE
+	1.1.1.RELEASE (Remove)
+	1.3.4.RELEASE (Remove)
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-starter-netflix-eureka-client] 有多个版本存在:
+	2.0.0.M8 (Remove)
+	*2.0.1.RELEASE
+	*2.0.0.RC2
+	1.4.4.RELEASE (Remove)
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-sleuth-core] 有多个版本存在:
+	1.3.3.RELEASE (Remove)
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-netflix-core] 有多个版本存在:
+	2.0.0.M8 (Remove)
+	1.4.3.RELEASE (Remove)
+	1.4.0.RELEASE (Remove)
+	1.1.5.RELEASE (Remove)
+	*2.0.1.RELEASE
+	*2.0.0.RC2
+	1.4.4.RELEASE (Remove)
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-sleuth-zipkin] 有多个版本存在:
+	*1.3.3.RELEASE
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-starter-netflix-ribbon] 有多个版本存在:
+	2.0.0.M8 (Remove)
+	1.4.3.RELEASE (Remove)
+	*2.0.1.RELEASE
+	*2.0.0.RC2
+	1.4.4.RELEASE (Remove)
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-netflix-ribbon] 有多个版本存在:
+	2.0.0.M8 (Remove)
+	*2.0.1.RELEASE
+	2.0.0.RC2 (Remove)
+	*2.0.0.RELEASE
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-commons] 有多个版本存在:
+	1.3.0.RELEASE (Remove)
+	2.0.0.M9 (Remove)
+	1.3.1.RELEASE (Remove)
+	1.3.3.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	*2.0.1.RELEASE
+	2.0.0.RC2 (Remove)
+	*2.0.0.RELEASE
+	1.1.1.RELEASE (Remove)
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-starter-netflix] 有多个版本存在:
+	2.0.0.M8 (Remove)
+	1.4.3.RELEASE (Remove)
+	*2.0.1.RELEASE
+	*2.0.0.RC2
+	1.4.4.RELEASE (Remove)
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-gateway-core] 有多个版本存在:
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-starter-netflix-archaius] 有多个版本存在:
+	2.0.0.M8 (Remove)
+	1.4.3.RELEASE (Remove)
+	*2.0.1.RELEASE
+	*2.0.0.RC2
+	1.4.4.RELEASE (Remove)
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-task-dependencies] 有多个版本存在:
+	*1.2.3.RELEASE
+	1.2.2.RELEASE (Remove)
+	*2.0.0.M3
+	1.0.2.RELEASE (Remove)
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-bus-dependencies] 有多个版本存在:
+	*2.0.0.M7
+	1.3.3.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	1.1.0.RELEASE (Remove)
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+	1.1.1.RELEASE (Remove)
+	1.3.4.RELEASE (Remove)
+
+Artifact [spring-cloud-function-dependencies] 有多个版本存在:
+	*1.0.0.RELEASE
+	*1.0.0.RC2
+
+Artifact [spring-cloud-starter-openfeign] 有多个版本存在:
+	*unknown
+	*2.0.0.RELEASE
+	*1.4.4.RELEASE
+	2.0.0.RC2 (Remove)
+	1.4.3.RELEASE (Remove)
+	2.0.2.RELEASE (Remove)
+
+Artifact [spring-cloud-config-client] 有多个版本存在:
+	*1.4.3.RELEASE
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+	1.1.2.RELEASE (Remove)
+
+Artifact [spring-cloud-starter-feign] 有多个版本存在:
+	*1.4.3.RELEASE
+	*1.4.4.RELEASE
+
+Artifact [spring-cloud-dependencies] 有多个版本存在:
+	*Finchley.RC2
+	*Edgware.SR4
+	*Edgware.SR3
+	Finchley.SR1 (Remove)
+	Brixton.SR5 (Remove)
+	Finchley.RELEASE (Remove)
+	Edgware.RELEASE (Remove)
+	Edgware.SR1 (Remove)
+	Finchley.M9 (Remove)
+	Finchley.SR2 (Remove)
+	${spring-cloud.version} (Remove)
+	Edgware.SR2 (Remove)
+
+Artifact [spring-cloud-starter-netflix-hystrix-dashboard] 有多个版本存在:
+	*unknown
+	*2.0.0.RC2
+	*2.0.0.M8
+	2.0.0.RELEASE (Remove)
+
+Artifact [spring-cloud-starter-gateway] 有多个版本存在:
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-starter-sleuth] 有多个版本存在:
+	1.3.3.RELEASE (Remove)
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-consul-dependencies] 有多个版本存在:
+	1.3.0.RELEASE (Remove)
+	2.0.0.M7 (Remove)
+	1.3.1.RELEASE (Remove)
+	1.3.3.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	*2.0.1.RELEASE
+	*2.0.0.RC2
+	1.0.2.RELEASE (Remove)
+	*2.0.0.RELEASE
+	1.3.4.RELEASE (Remove)
+
+Artifact [spring-cloud-netflix-eureka-server] 有多个版本存在:
+	2.0.0.M8 (Remove)
+	*2.0.1.RELEASE
+	*2.0.0.RC2
+	1.4.4.RELEASE (Remove)
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-build] 有多个版本存在:
+	1.3.8.RELEASE (Remove)
+	1.2.1.RELEASE (Remove)
+	*2.0.4.RELEASE
+	2.0.1.RELEASE (Remove)
+	2.0.0.RC2 (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	1.1.1.RELEASE (Remove)
+	*2.0.2.RELEASE
+	*2.0.3.RELEASE
+
+Artifact [spring-cloud-zookeeper-dependencies] 有多个版本存在:
+	*2.0.0.RC1
+	*2.0.0.M7
+	1.2.2.RELEASE (Remove)
+	1.2.0.RELEASE (Remove)
+	1.2.1.RELEASE (Remove)
+	1.0.2.RELEASE (Remove)
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-security-dependencies] 有多个版本存在:
+	2.0.0.RC1 (Remove)
+	1.2.3.RELEASE (Remove)
+	1.2.2.RELEASE (Remove)
+	1.2.1.RELEASE (Remove)
+	*2.0.1.RELEASE
+	*2.0.0.M3
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-netflix-hystrix-dashboard] 有多个版本存在:
+	*2.0.0.M8
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-starter-zipkin] 有多个版本存在:
+	*1.3.3.RELEASE
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-starter-netflix-zuul] 有多个版本存在:
+	*2.0.0.RC2
+	*1.4.4.RELEASE
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-netflix-turbine] 有多个版本存在:
+	*1.4.4.RELEASE
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-context] 有多个版本存在:
+	1.3.0.RELEASE (Remove)
+	2.0.0.M9 (Remove)
+	1.3.1.RELEASE (Remove)
+	1.3.3.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	*2.0.1.RELEASE
+	2.0.0.RC2 (Remove)
+	*2.0.0.RELEASE
+	1.1.1.RELEASE (Remove)
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-config] 有多个版本存在:
+	*1.4.3.RELEASE
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+	1.1.2.RELEASE (Remove)
+
+Artifact [spring-cloud-openfeign] 有多个版本存在:
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-starter-netflix-eureka-server] 有多个版本存在:
+	2.0.0.M8 (Remove)
+	*2.0.1.RELEASE
+	*2.0.0.RC2
+	1.4.4.RELEASE (Remove)
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-commons-parent] 有多个版本存在:
+	1.3.0.RELEASE (Remove)
+	2.0.0.M9 (Remove)
+	1.3.1.RELEASE (Remove)
+	1.3.3.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	*2.0.1.RELEASE
+	2.0.0.RC2 (Remove)
+	*2.0.0.RELEASE
+	1.1.1.RELEASE (Remove)
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-netflix-dependencies] 有多个版本存在:
+	1.4.2.RELEASE (Remove)
+	1.2.3.RELEASE (Remove)
+	2.0.0.M8 (Remove)
+	1.4.3.RELEASE (Remove)
+	1.4.0.RELEASE (Remove)
+	1.1.5.RELEASE (Remove)
+	*2.0.1.RELEASE
+	1.1.0.RELEASE (Remove)
+	2.0.0.RC2 (Remove)
+	1.4.5.RELEASE (Remove)
+	1.4.4.RELEASE (Remove)
+	*2.0.0.RELEASE
+	*2.0.2.RELEASE
+	1.1.3.RELEASE (Remove)
+
+Artifact [spring-cloud-dependencies-parent] 有多个版本存在:
+	2.0.0.RC1 (Remove)
+	2.0.0.M7 (Remove)
+	1.3.9.RELEASE (Remove)
+	1.3.8.RELEASE (Remove)
+	1.3.1.RELEASE (Remove)
+	1.3.3.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	1.2.1.RELEASE (Remove)
+	*2.0.4.RELEASE
+	2.0.1.RELEASE (Remove)
+	1.1.0.RELEASE (Remove)
+	2.0.0.RC2 (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.10.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	1.1.1.RELEASE (Remove)
+	*2.0.2.RELEASE
+	*2.0.3.RELEASE
+	1.1.2.RELEASE (Remove)
+	1.3.5.RELEASE (Remove)
+
+Artifact [spring-cloud-config-dependencies] 有多个版本存在:
+	1.4.2.RELEASE (Remove)
+	2.0.0.M9 (Remove)
+	1.2.2.RELEASE (Remove)
+	1.4.3.RELEASE (Remove)
+	1.4.1.RELEASE (Remove)
+	1.4.0.RELEASE (Remove)
+	*2.0.1.RELEASE
+	1.1.0.RELEASE (Remove)
+	2.0.0.RC2 (Remove)
+	1.4.4.RELEASE (Remove)
+	*2.0.0.RELEASE
+	*2.0.2.RELEASE
+	1.1.3.RELEASE (Remove)
+	1.1.2.RELEASE (Remove)
+
+Artifact [spring-cloud-starter-netflix-turbine] 有多个版本存在:
+	*1.4.4.RELEASE
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-build-dependencies] 有多个版本存在:
+	1.3.8.RELEASE (Remove)
+	*2.0.4.RELEASE
+	2.0.1.RELEASE (Remove)
+	2.0.0.RC2 (Remove)
+	1.3.7.RELEASE (Remove)
+	1.3.6.RELEASE (Remove)
+	2.0.0.RELEASE (Remove)
+	*2.0.2.RELEASE
+	*2.0.3.RELEASE
+
+Artifact [spring-cloud-gateway] 有多个版本存在:
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-sleuth-dependencies] 有多个版本存在:
+	1.3.0.RELEASE (Remove)
+	2.0.0.M9 (Remove)
+	1.3.1.RELEASE (Remove)
+	1.3.3.RELEASE (Remove)
+	1.0.6.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	*2.0.1.RELEASE
+	2.0.0.RC2 (Remove)
+	*2.0.0.RELEASE
+	1.3.4.RELEASE (Remove)
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-openfeign-dependencies] 有多个版本存在:
+	*2.0.1.RELEASE
+	2.0.0.RC2 (Remove)
+	2.0.0.M2 (Remove)
+	*2.0.0.RELEASE
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-starter-netflix-hystrix] 有多个版本存在:
+	*unknown
+	*1.4.4.RELEASE
+	*2.0.0.RC2
+	2.0.0.M8 (Remove)
+	2.0.0.RELEASE (Remove)
+
+Artifact [spring-cloud-config-server] 有多个版本存在:
+	*1.4.3.RELEASE
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+	1.1.2.RELEASE (Remove)
+
+Artifact [spring-cloud-aws-dependencies] 有多个版本存在:
+	1.2.3.RELEASE (Remove)
+	1.2.2.RELEASE (Remove)
+	*2.0.1.RELEASE
+	2.0.0.M4 (Remove)
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+	1.1.1.RELEASE (Remove)
+
+Artifact [spring-cloud-vault-dependencies] 有多个版本存在:
+	2.0.0.M6 (Remove)
+	*2.0.1.RELEASE
+	1.1.0.RELEASE (Remove)
+	2.0.0.RC2 (Remove)
+	*2.0.0.RELEASE
+	1.1.1.RELEASE (Remove)
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-stream-dependencies] 有多个版本存在:
+	*Elmhurst.SR1
+	*1.0.0.RELEASE
+	*1.0.2.RELEASE
+	Elmhurst.RC3 (Remove)
+	Ditmars.SR4 (Remove)
+	Elmhurst.RELEASE (Remove)
+	Ditmars.RELEASE (Remove)
+	Brooklyn.SR1 (Remove)
+	Ditmars.SR3 (Remove)
+
+Artifact [spring-cloud-starter] 有多个版本存在:
+	2.0.0.M9 (Remove)
+	1.3.1.RELEASE (Remove)
+	1.3.3.RELEASE (Remove)
+	1.3.2.RELEASE (Remove)
+	*2.0.1.RELEASE
+	2.0.0.RC2 (Remove)
+	*2.0.0.RELEASE
+	1.1.1.RELEASE (Remove)
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-contract-dependencies] 有多个版本存在:
+	1.2.3.RELEASE (Remove)
+	2.0.0.M8 (Remove)
+	1.2.2.RELEASE (Remove)
+	1.2.0.RELEASE (Remove)
+	*2.0.1.RELEASE
+	2.0.0.RC2 (Remove)
+	1.2.4.RELEASE (Remove)
+	*2.0.0.RELEASE
+	1.2.5.RELEASE (Remove)
+	*2.0.2.RELEASE
+	1.1.2.RELEASE (Remove)
+
+Artifact [spring-cloud-starter-config] 有多个版本存在:
+	*1.4.3.RELEASE
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-netflix-eureka-client] 有多个版本存在:
+	2.0.0.M8 (Remove)
+	1.1.5.RELEASE (Remove)
+	*2.0.1.RELEASE
+	*2.0.0.RC2
+	1.4.4.RELEASE (Remove)
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-gateway-dependencies] 有多个版本存在:
+	2.0.0.M9 (Remove)
+	*2.0.1.RELEASE
+	2.0.0.RC2 (Remove)
+	1.0.2.RELEASE (Remove)
+	*2.0.0.RELEASE
+	1.0.0.RELEASE (Remove)
+	*2.0.2.RELEASE
+	1.0.1.RELEASE (Remove)
+
+Artifact [spring-cloud-openfeign-core] 有多个版本存在:
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-netflix] 有多个版本存在:
+	1.2.3.RELEASE (Remove)
+	2.0.0.M8 (Remove)
+	1.4.3.RELEASE (Remove)
+	1.4.0.RELEASE (Remove)
+	1.1.5.RELEASE (Remove)
+	*2.0.1.RELEASE
+	2.0.0.RC2 (Remove)
+	1.4.4.RELEASE (Remove)
+	*2.0.0.RELEASE
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-starter-eureka] 有多个版本存在:
+	*1.4.4.RELEASE
+	*1.1.5.RELEASE
+	*unknown
+
+Artifact [spring-cloud-netflix-archaius] 有多个版本存在:
+	2.0.0.M8 (Remove)
+	*2.0.1.RELEASE
+	2.0.0.RC2 (Remove)
+	*2.0.0.RELEASE
+	*2.0.2.RELEASE
+
+Artifact [spring-cloud-netflix-zuul] 有多个版本存在:
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+
+Artifact [spring-cloud-sleuth] 有多个版本存在:
+	1.3.3.RELEASE (Remove)
+	*2.0.0.RC2
+	*2.0.0.RELEASE
+	*2.0.2.RELEASE
+
+Artifact [spring-websocket] 有多个版本存在:
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	*5.1.3.RELEASE
+	5.0.8.RELEASE (Remove)
+	*5.1.7.RELEASE
+
+Artifact [spring-jcl] 有多个版本存在:
+	5.0.0.RC3 (Remove)
+	*5.1.8.RELEASE
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	*5.1.6.RELEASE
+	5.0.5.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+
+Artifact [spring-data-jpa] 有多个版本存在:
+	1.11.6.RELEASE (Remove)
+	1.9.2.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.11.4.RELEASE (Remove)
+	2.0.10.RELEASE (Remove)
+	2.1.2.RELEASE (Remove)
+	1.11.1.RELEASE (Remove)
+	2.1.3.RELEASE (Remove)
+	2.0.9.RELEASE (Remove)
+	1.9.4.RELEASE (Remove)
+	2.0.11.RELEASE (Remove)
+	1.10.8.RELEASE (Remove)
+	*2.1.8.RELEASE
+	*2.1.9.RELEASE
+
+Artifact [spring-data-mongodb] 有多个版本存在:
+	2.0.6.RELEASE (Remove)
+	1.10.6.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.9.8.RELEASE (Remove)
+	2.0.10.RELEASE (Remove)
+	*2.1.3.RELEASE
+	2.0.9.RELEASE (Remove)
+	2.0.11.RELEASE (Remove)
+	1.7.2.RELEASE (Remove)
+	1.10.1.RELEASE (Remove)
+	*2.1.9.RELEASE
+
+Artifact [spring-data-releasetrain] 有多个版本存在:
+	*Hopper-SR3
+	*Gosling-SR2A
+	*Kay-SR5
+	Ingalls-SR15 (Remove)
+	Ingalls-SR14 (Remove)
+	Lovelace-SR8 (Remove)
+	Lovelace-SR6 (Remove)
+	Ingalls-SR4 (Remove)
+	Ingalls-SR3 (Remove)
+	Evans-SR3 (Remove)
+	Hopper-SR8 (Remove)
+	Kay-SR6 (Remove)
+	Kay-SR8 (Remove)
+	Ingalls-SR11 (Remove)
+	Gosling-SR5 (Remove)
+	Moore-BUILD-SNAPSHOT (Remove)
+	Kay-SR11 (Remove)
+	Ingalls-SR10 (Remove)
+	Gosling-SR4 (Remove)
+	Kay-SR9 (Remove)
+	Kay-SR7 (Remove)
+	Kay-SR10 (Remove)
+	Lovelace-SR3 (Remove)
+	Kay-RC2 (Remove)
+	Lovelace-SR2 (Remove)
+	Ingalls-SR6 (Remove)
+	Ingalls-SR1 (Remove)
+	Ingalls-SR8 (Remove)
+	Ingalls-SR9 (Remove)
+	Lovelace-SR9 (Remove)
+
+Artifact [spring-data-mongodb-parent] 有多个版本存在:
+	2.0.6.RELEASE (Remove)
+	1.10.6.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.9.8.RELEASE (Remove)
+	2.0.10.RELEASE (Remove)
+	*2.1.3.RELEASE
+	2.0.9.RELEASE (Remove)
+	2.0.11.RELEASE (Remove)
+	1.7.2.RELEASE (Remove)
+	1.10.1.RELEASE (Remove)
+	*2.1.9.RELEASE
+
+Artifact [spring-data-commons] 有多个版本存在:
+	1.13.1.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	2.0.7.RELEASE (Remove)
+	1.13.9.RELEASE (Remove)
+	1.12.8.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.11.4.RELEASE (Remove)
+	2.0.10.RELEASE (Remove)
+	1.13.6.RELEASE (Remove)
+	1.10.2.RELEASE (Remove)
+	2.1.2.RELEASE (Remove)
+	2.1.3.RELEASE (Remove)
+	2.0.9.RELEASE (Remove)
+	2.0.11.RELEASE (Remove)
+	1.11.2.RELEASE (Remove)
+	*2.1.8.RELEASE
+	*2.1.9.RELEASE
+	1.13.4.RELEASE (Remove)
+
+Artifact [spring-data-keyvalue] 有多个版本存在:
+	2.0.6.RELEASE (Remove)
+	2.0.7.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.2.9.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.2.4.RELEASE (Remove)
+	*2.1.3.RELEASE
+	2.0.9.RELEASE (Remove)
+	2.0.11.RELEASE (Remove)
+	*2.1.9.RELEASE
+	1.2.6.RELEASE (Remove)
+
+Artifact [spring-data-parent] 有多个版本存在:
+	2.0.6.RELEASE (Remove)
+	1.8.8.RELEASE (Remove)
+	2.0.7.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.9.1.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.9.9.RELEASE (Remove)
+	1.7.4.RELEASE (Remove)
+	1.6.2.RELEASE (Remove)
+	2.0.10.RELEASE (Remove)
+	2.1.2.RELEASE (Remove)
+	2.1.3.RELEASE (Remove)
+	2.0.9.RELEASE (Remove)
+	1.9.4.RELEASE (Remove)
+	2.0.11.RELEASE (Remove)
+	1.7.2.RELEASE (Remove)
+	*2.1.8.RELEASE
+	1.9.6.RELEASE (Remove)
+	*2.1.9.RELEASE
+
+Artifact [spring-data-build] 有多个版本存在:
+	1.9.14.RELEASE (Remove)
+	2.0.6.RELEASE (Remove)
+	1.8.8.RELEASE (Remove)
+	1.9.3.RELEASE (Remove)
+	2.0.7.RELEASE (Remove)
+	1.9.15.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	1.9.1.RELEASE (Remove)
+	1.7.5.RELEASE (Remove)
+	2.1.6.RELEASE (Remove)
+	1.9.8.RELEASE (Remove)
+	1.9.9.RELEASE (Remove)
+	1.7.4.RELEASE (Remove)
+	1.8.3.RELEASE (Remove)
+	1.5.3.RELEASE (Remove)
+	1.6.2.RELEASE (Remove)
+	2.0.10.RELEASE (Remove)
+	2.0.0.RC2 (Remove)
+	2.1.2.RELEASE (Remove)
+	2.0.8.RELEASE (Remove)
+	2.1.3.RELEASE (Remove)
+	2.0.9.RELEASE (Remove)
+	1.9.4.RELEASE (Remove)
+	2.0.11.RELEASE (Remove)
+	1.9.10.RELEASE (Remove)
+	1.7.2.RELEASE (Remove)
+	*2.1.8.RELEASE
+	1.9.6.RELEASE (Remove)
+	*2.2.0.BUILD-SNAPSHOT
+	*2.1.9.RELEASE
+	1.9.11.RELEASE (Remove)
+	1.7.3.RELEASE (Remove)
+
+Artifact [spring-data-redis] 有多个版本存在:
+	2.0.6.RELEASE (Remove)
+	1.8.9.RELEASE (Remove)
+	2.0.7.RELEASE (Remove)
+	2.0.5.RELEASE (Remove)
+	*2.1.6.RELEASE
+	1.8.6.RELEASE (Remove)
+	*2.1.3.RELEASE
+	2.0.9.RELEASE (Remove)
+	2.0.11.RELEASE (Remove)
+	*2.1.9.RELEASE
+	1.6.0.RELEASE (Remove)
+	1.8.4.RELEASE (Remove)
+
+Artifact [spring-hateoas] 有多个版本存在:
+	*0.19.0.RELEASE
+	*0.23.0.RELEASE
+
+Artifact [spring-test] 有多个版本存在:
+	4.0.5.RELEASE (Remove)
+	5.0.0.RC3 (Remove)
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	4.3.19.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+
+Artifact [spring-context] 有多个版本存在:
+	4.0.5.RELEASE (Remove)
+	5.0.0.RC3 (Remove)
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	4.3.19.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	4.3.14.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.0.3.RELEASE (Remove)
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	3.2.3.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+	4.0.9.RELEASE (Remove)
+	4.3.4.RELEASE (Remove)
+
+Artifact [spring-webmvc] 有多个版本存在:
+	5.0.0.RC3 (Remove)
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	4.3.14.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+	4.3.4.RELEASE (Remove)
+
+Artifact [spring-beans] 有多个版本存在:
+	4.0.5.RELEASE (Remove)
+	5.0.0.RC3 (Remove)
+	4.1.6.RELEASE (Remove)
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	4.3.19.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	4.3.14.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.0.3.RELEASE (Remove)
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	3.2.3.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+	4.0.9.RELEASE (Remove)
+	4.3.4.RELEASE (Remove)
+
+Artifact [spring-framework-bom] 有多个版本存在:
+	5.0.0.RC3 (Remove)
+	4.3.8.RELEASE (Remove)
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.1.7.RELEASE (Remove)
+	4.3.12.RELEASE (Remove)
+	4.0.4.RELEASE (Remove)
+	*5.2.0.BUILD-SNAPSHOT
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.2.8.RELEASE (Remove)
+	4.3.19.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	4.3.3.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	4.2.9.RELEASE (Remove)
+	4.3.18.RELEASE (Remove)
+	4.3.14.RELEASE (Remove)
+	4.2.5.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.1.8.RELEASE (Remove)
+	4.3.7.RELEASE (Remove)
+	5.1.6.RELEASE (Remove)
+	4.1.9.RELEASE (Remove)
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	4.1.0.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	4.3.16.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+	4.0.9.RELEASE (Remove)
+	4.3.20.RELEASE (Remove)
+
+Artifact [spring-core] 有多个版本存在:
+	4.0.5.RELEASE (Remove)
+	5.0.0.RC3 (Remove)
+	4.1.6.RELEASE (Remove)
+	4.3.13.RELEASE (Remove)
+	4.3.9.RELEASE (Remove)
+	*5.1.8.RELEASE
+	4.3.10.RELEASE (Remove)
+	5.1.3.RELEASE (Remove)
+	5.0.9.RELEASE (Remove)
+	4.0.6.RELEASE (Remove)
+	4.3.19.RELEASE (Remove)
+	5.1.2.RELEASE (Remove)
+	5.0.8.RELEASE (Remove)
+	4.3.14.RELEASE (Remove)
+	5.0.4.RELEASE (Remove)
+	5.0.10.RELEASE (Remove)
+	*5.1.7.RELEASE
+	4.3.7.RELEASE (Remove)
+	*5.1.6.RELEASE
+	4.0.3.RELEASE (Remove)
+	4.2.4.RELEASE (Remove)
+	5.0.5.RELEASE (Remove)
+	3.2.3.RELEASE (Remove)
+	5.0.7.RELEASE (Remove)
+	4.2.6.RELEASE (Remove)
+	4.3.16.RELEASE (Remove)
+	5.0.6.RELEASE (Remove)
+	4.2.7.RELEASE (Remove)
+	4.0.9.RELEASE (Remove)
+	4.3.4.RELEASE (Remove)
+
+Artifact [spring-restdocs-mockmvc] 有多个版本存在:
+	*1.1.2.RELEASE
+	*1.0.1.RELEASE
+
+Artifact [spring-restdocs-core] 有多个版本存在:
+	*1.1.2.RELEASE
+	*1.0.1.RELEASE
+
+Artifact [spring-session-data-redis] 有多个版本存在:
+	1.3.1.RELEASE (Remove)
+	*2.0.5.RELEASE
+	*2.1.7.RELEASE
+	*2.0.2.RELEASE
+
+Artifact [spring-session-bom] 有多个版本存在:
+	*Apple-SR2
+	*Apple-SR5
+	*Apple-SR4
+	Apple-SR3 (Remove)
+	Bean-RELEASE (Remove)
+	Bean-SR1 (Remove)
+	Apple-SR6 (Remove)
+	Apple-SR1 (Remove)
+	Corn-BUILD-SNAPSHOT (Remove)
+	Bean-SR5 (Remove)
+	Bean-SR4 (Remove)
+	Bean-SR6 (Remove)
+
+Artifact [spring-session-core] 有多个版本存在:
+	*2.0.5.RELEASE
+	*2.1.7.RELEASE
+	*2.0.2.RELEASE
+
+Artifact [json] 有多个版本存在:
+	*20140107
+	*20170516
+	*20160810
+
+Artifact [IKAnalyzer] 有多个版本存在:
+	*maven-metadata-local.xml
+	*2012_u6
+
+Artifact [scala-compiler] 有多个版本存在:
+	*2.10.0
+	*2.10.3
+	*2.11.11
+
+Artifact [scala-reflect] 有多个版本存在:
+	2.10.0 (Remove)
+	*2.10.4
+	2.10.3 (Remove)
+	*2.10.5
+	*2.11.11
+
+Artifact [scala-xml_2.11] 有多个版本存在:
+	*1.0.1
+	*1.0.2
+	*1.0.5
+
+Artifact [scala-parser-combinators_2.11] 有多个版本存在:
+	*1.0.1
+	*1.0.4
+	*1.0.2
+
+Artifact [scala-library] 有多个版本存在:
+	2.10.0 (Remove)
+	2.11.5 (Remove)
+	2.10.4 (Remove)
+	2.10.3 (Remove)
+	2.10.5 (Remove)
+	*2.12.1
+	*2.11.7
+	2.11.0 (Remove)
+	*2.11.11
+	2.11.1 (Remove)
+	2.11.6 (Remove)
+
+Artifact [bcprov-jdk15on] 有多个版本存在:
+	1.54 (Remove)
+	1.55 (Remove)
+	1.52 (Remove)
+	1.47 (Remove)
+	*1.59
+	*1.60
+	1.51 (Remove)
+	*1.56
+
+Artifact [bcprov-jdk16] 有多个版本存在:
+	*unknown
+	*1.46
+	*bcprov-jdk16-.jar.lastUpdated
+	bcprov-jdk16-.pom.lastUpdated (Remove)
+
+Artifact [bcpkix-jdk15on] 有多个版本存在:
+	1.54 (Remove)
+	1.55 (Remove)
+	1.52 (Remove)
+	1.47 (Remove)
+	*1.59
+	*1.60
+	*1.56
+
+Artifact [jruby-parent] 有多个版本存在:
+	*1.7.17
+	*1.7.16.1
+
+Artifact [jruby-artifacts] 有多个版本存在:
+	*1.7.17
+	*1.7.16.1
+
+Artifact [jruby-complete] 有多个版本存在:
+	*1.7.16.1
+	*1.7.17
+
+Artifact [snakeyaml] 有多个版本存在:
+	1.12 (Remove)
+	1.15 (Remove)
+	*1.23
+	1.16 (Remove)
+	1.11 (Remove)
+	*1.18
+	*1.19
+	1.17 (Remove)
+
+Artifact [lombok] 有多个版本存在:
+	1.16.10 (Remove)
+	*1.18.6
+	*1.18.8
+	1.16.6 (Remove)
+	1.16.18 (Remove)
+	1.16.20 (Remove)
+	1.18.0 (Remove)
+	1.18.2 (Remove)
+	1.16.22 (Remove)
+	*1.18.4
+	1.16.12 (Remove)
+
+Artifact [flyway-parent] 有多个版本存在:
+	*5.0.7
+	*5.2.4
+	*5.2.3
+
+Artifact [flyway-maven-plugin] 有多个版本存在:
+	*5.0.7
+	*5.2.4
+	*5.2.3
+
+Artifact [mockito-all] 有多个版本存在:
+	*1.10.19
+	*1.9.5
+
+Artifact [mockito-core] 有多个版本存在:
+	*2.23.4
+	1.10.19 (Remove)
+	*2.23.0
+	1.9.5 (Remove)
+	2.8.47 (Remove)
+	*2.15.0
+
+Artifact [guice-bean] 有多个版本存在:
+	*2.3.0
+	*2.1.1
+	*1.4.2
+
+Artifact [guice-plexus] 有多个版本存在:
+	*2.3.0
+	*2.1.1
+	*1.4.2
+
+Artifact [guice-parent] 有多个版本存在:
+	*3.2.5
+	*2.9.4
+	*3.1.0
+
+Artifact [sisu-inject] 有多个版本存在:
+	*2.3.0
+	*2.1.1
+	*1.4.2
+
+Artifact [sisu-inject-plexus] 有多个版本存在:
+	*2.3.0
+	*2.1.1
+	*1.4.2
+
+Artifact [sisu-inject-bean] 有多个版本存在:
+	*2.3.0
+	*2.1.1
+	*1.4.2
+
+Artifact [sisu-guice] 有多个版本存在:
+	*3.2.5
+	*2.9.4
+	2.1.7 (Remove)
+	*3.1.0
+
+Artifact [sisu-parent] 有多个版本存在:
+	*2.3.0
+	*2.1.1
+	*1.4.2
+
+Artifact [spice-parent] 有多个版本存在:
+	*20
+	*18
+	16 (Remove)
+	*17
+	10 (Remove)
+	15 (Remove)
+	12 (Remove)
+
+Artifact [aether-util] 有多个版本存在:
+	*1.7
+	*1.13.1
+	*1.11
+
+Artifact [aether-impl] 有多个版本存在:
+	*1.7
+	*1.13.1
+	*1.11
+
+Artifact [aether-spi] 有多个版本存在:
+	*1.7
+	*1.13.1
+	*1.11
+
+Artifact [aether-api] 有多个版本存在:
+	*1.7
+	*1.13.1
+	*1.11
+
+Artifact [aether-parent] 有多个版本存在:
+	*1.7
+	*1.11
+
+Artifact [buildsupport] 有多个版本存在:
+	*3
+	*5
+
+Artifact [public-parent] 有多个版本存在:
+	*3
+	*5
+
+Artifact [forge-parent] 有多个版本存在:
+	*11
+	7 (Remove)
+	6 (Remove)
+	10 (Remove)
+	*38
+	4 (Remove)
+	3 (Remove)
+	*12
+	5 (Remove)
+
+Artifact [oss-parent] 有多个版本存在:
+	*9
+	*7
+	*6
+	3 (Remove)
+	5 (Remove)
+
+Artifact [plexus-cipher] 有多个版本存在:
+	*1.7
+	*1.4
+
+Artifact [plexus-sec-dispatcher] 有多个版本存在:
+	*1.4
+	*1.3
+
+Artifact [plexus-build-api] 有多个版本存在:
+	*0.0.7
+	*0.0.4
+
+Artifact [infinispan-protocol-parser-generator-maven-plugin] 有多个版本存在:
+	*9.4.3.Final
+	*9.4.11.Final
+
+Artifact [infinispan-build-configuration-parent] 有多个版本存在:
+	*9.4.3.Final
+	*9.4.11.Final
+
+Artifact [infinispan-bom] 有多个版本存在:
+	*9.4.3.Final
+	*9.4.11.Final
+
+Artifact [infinispan-parent] 有多个版本存在:
+	*9.4.3.Final
+	*9.4.11.Final
+
+Artifact [HdrHistogram] 有多个版本存在:
+	2.1.6 (Remove)
+	*2.1.7
+	*2.1.9
+	*2.1.10
+
+Artifact [nagrand4RetailMaster] 有多个版本存在:
+	*1.0
+	*maven-metadata-local.xml
+	*1.1
+
+Artifact [kie-parent] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [kie-dmn-api] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [kie-bom] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [kie-user-bom-parent] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [kie-api-parent] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [kie-spring] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [kie-dmn] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [kie-dmn-bom] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [kie-internal] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [kie-api] 有多个版本存在:
+	*7.1.0.Final
+	*7.5.0.Final
+
+Artifact [ehcache] 有多个版本存在:
+	*3.3.1
+	*3.5.2
+
+Artifact [codehaus-parent] 有多个版本存在:
+	*1
+	*4
+	*3
+
+Artifact [wstx-asl] 有多个版本存在:
+	*3.2.6
+	*3.2.7
+
+Artifact [stax2-api] 有多个版本存在:
+	*3.1.4
+	*3.1.1
+	*3.0.2
+
+Artifact [woodstox-core-asl] 有多个版本存在:
+	*4.0.8
+	*4.4.1
+	*4.2.0
+
+Artifact [jettison] 有多个版本存在:
+	*1.3.7
+	*1.1
+	*1.2
+
+Artifact [mojo-parent] 有多个版本存在:
+	35 (Remove)
+	34 (Remove)
+	33 (Remove)
+	28 (Remove)
+	21 (Remove)
+	*38
+	*39
+	*40
+
+Artifact [animal-sniffer-annotations] 有多个版本存在:
+	*1.14
+	*1.17
+
+Artifact [xml-maven-plugin] 有多个版本存在:
+	*1.0
+	*1.0.2
+
+Artifact [exec-maven-plugin] 有多个版本存在:
+	1.1 (Remove)
+	*1.5.0
+	*1.6.0
+	*1.2.1
+
+Artifact [animal-sniffer-parent] 有多个版本存在:
+	*1.14
+	*1.17
+
+Artifact [versions-maven-plugin] 有多个版本存在:
+	*2.7
+	*2.3
+	*2.2
+
+Artifact [build-helper-maven-plugin] 有多个版本存在:
+	1.7 (Remove)
+	*1.9.1
+	*3.0.0
+	*1.10
+
+Artifact [groovy] 有多个版本存在:
+	*2.4.13
+	1.8.3 (Remove)
+	2.4.12 (Remove)
+	*2.4.15
+	2.4.5 (Remove)
+	*2.4.16
+	2.4.11 (Remove)
+
+Artifact [groovy-all] 有多个版本存在:
+	*2.4.3
+	*2.4.9
+	*2.4.7
+	1.7.6 (Remove)
+	${groovy.version} (Remove)
+
+Artifact [plexus-component-api] 有多个版本存在:
+	*1.0-alpha-15
+	*1.0-alpha-16
+
+Artifact [plexus-languages] 有多个版本存在:
+	*0.9.10
+	*0.9.3
+	*0.9.2
+
+Artifact [plexus-container-default] 有多个版本存在:
+	*1.0-alpha-22
+	*1.0-alpha-15
+	*1.0-alpha-7
+	1.0-alpha-9 (Remove)
+	1.0-alpha-8 (Remove)
+	1.0-alpha-30 (Remove)
+	1.0-alpha-20 (Remove)
+	1.0-beta-3.0.5 (Remove)
+	1.6 (Remove)
+	1.7 (Remove)
+	1.0-alpha-9-stable-1 (Remove)
+	1.7.1 (Remove)
+	1.5.5 (Remove)
+
+Artifact [plexus-utils] 有多个版本存在:
+	1.5.5 (Remove)
+	1.5.10 (Remove)
+	1.1 (Remove)
+	3.0.22 (Remove)
+	3.0.15 (Remove)
+	3.0.24 (Remove)
+	2.0.6 (Remove)
+	2.0.1 (Remove)
+	3.0.8 (Remove)
+	1.4.6 (Remove)
+	1.4.1 (Remove)
+	2.1 (Remove)
+	3.0.7 (Remove)
+	3.0.9 (Remove)
+	1.4.9 (Remove)
+	3.0 (Remove)
+	1.4 (Remove)
+	1.3 (Remove)
+	1.5.1 (Remove)
+	1.5.6 (Remove)
+	*3.1.1
+	1.5.8 (Remove)
+	1.2 (Remove)
+	1.5.12 (Remove)
+	1.5.15 (Remove)
+	1.5.7 (Remove)
+	*3.1.0
+	3.0.21 (Remove)
+	3.0.10 (Remove)
+	3.0.17 (Remove)
+	3.0.11 (Remove)
+	3.0.18 (Remove)
+	3.0.20 (Remove)
+	3.0.5 (Remove)
+	1.4.2 (Remove)
+	3.0.2 (Remove)
+	1.4.5 (Remove)
+	2.0.5 (Remove)
+	1.0.4 (Remove)
+	*3.2.0
+	1.0.5 (Remove)
+	2.0.4 (Remove)
+
+Artifact [plexus-compiler] 有多个版本存在:
+	1.9 (Remove)
+	1.5.3 (Remove)
+	*2.8.2
+	2.7 (Remove)
+	*2.8.4
+	*2.8.1
+	2.2 (Remove)
+	1.8.1 (Remove)
+	2.5 (Remove)
+
+Artifact [plexus-compiler-api] 有多个版本存在:
+	1.9 (Remove)
+	1.5.3 (Remove)
+	*2.8.2
+	2.7 (Remove)
+	*2.8.4
+	*2.8.1
+	2.2 (Remove)
+	1.8.1 (Remove)
+	2.5 (Remove)
+
+Artifact [plexus-java] 有多个版本存在:
+	*0.9.10
+	*0.9.3
+	*0.9.2
+
+Artifact [plexus-compiler-javac] 有多个版本存在:
+	1.9 (Remove)
+	1.5.3 (Remove)
+	*2.8.2
+	2.7 (Remove)
+	*2.8.4
+	*2.8.1
+	2.2 (Remove)
+	1.8.1 (Remove)
+	2.5 (Remove)
+
+Artifact [plexus-interpolation] 有多个版本存在:
+	1.7 (Remove)
+	1.6 (Remove)
+	1.1 (Remove)
+	1.12 (Remove)
+	1.15 (Remove)
+	*1.24
+	*1.25
+	*1.22
+	1.14 (Remove)
+	1.13 (Remove)
+	1.11 (Remove)
+	1.21 (Remove)
+	1.19 (Remove)
+
+Artifact [plexus-compilers] 有多个版本存在:
+	1.9 (Remove)
+	1.5.3 (Remove)
+	*2.8.2
+	2.7 (Remove)
+	*2.8.4
+	*2.8.1
+	2.2 (Remove)
+	1.8.1 (Remove)
+	2.5 (Remove)
+
+Artifact [plexus-compiler-manager] 有多个版本存在:
+	1.9 (Remove)
+	1.5.3 (Remove)
+	*2.8.2
+	2.7 (Remove)
+	*2.8.4
+	*2.8.1
+	2.2 (Remove)
+	1.8.1 (Remove)
+	2.5 (Remove)
+
+Artifact [plexus-io] 有多个版本存在:
+	*2.0.3
+	*2.0.4
+	*2.0.10
+	2.4 (Remove)
+	2.0.2 (Remove)
+	1.0-alpha-1 (Remove)
+	3.1.0 (Remove)
+	3.1.1 (Remove)
+	2.3.2 (Remove)
+	2.4.1 (Remove)
+	3.0.0 (Remove)
+	2.0.9 (Remove)
+	2.6 (Remove)
+	3.0.1 (Remove)
+	2.0.8 (Remove)
+	2.0.1 (Remove)
+	2.0.6 (Remove)
+	1.0-alpha-4 (Remove)
+	1.0-alpha-3 (Remove)
+	1.0-alpha-5 (Remove)
+	2.7.1 (Remove)
+	1.0 (Remove)
+
+Artifact [plexus-containers] 有多个版本存在:
+	*1.0-alpha-22
+	*1.0.3
+	*1.0-alpha-15
+	1.0-alpha-30 (Remove)
+	1.0-alpha-20 (Remove)
+	1.0-beta-3.0.5 (Remove)
+	1.0-alpha-16 (Remove)
+	1.6 (Remove)
+	1.5.4 (Remove)
+	1.7 (Remove)
+	1.7.1 (Remove)
+	1.5.5 (Remove)
+
+Artifact [plexus-component-annotations] 有多个版本存在:
+	*1.0-beta-3.0.5
+	*1.6
+	*1.5.4
+	1.7.1 (Remove)
+	1.5.5 (Remove)
+
+Artifact [plexus-interactivity-api] 有多个版本存在:
+	*1.0-alpha-6
+	*1.0-alpha-4
+	*1.0-alpha-5
+
+Artifact [plexus-archiver] 有多个版本存在:
+	*2.2
+	*2.3
+	*2.8.1
+	3.6.0 (Remove)
+	2.4.3 (Remove)
+	2.4.4 (Remove)
+	1.0-alpha-12 (Remove)
+	1.0-alpha-7 (Remove)
+	1.0-alpha-9 (Remove)
+	2.10.2 (Remove)
+	2.1.1 (Remove)
+	4.1.0 (Remove)
+	2.1 (Remove)
+	3.4.1 (Remove)
+	3.0.1 (Remove)
+	1.0-alpha-11 (Remove)
+	2.9 (Remove)
+	2.0.1 (Remove)
+	3.5 (Remove)
+	2.10 (Remove)
+	2.1.2 (Remove)
+	3.7.0 (Remove)
+	2.9.1 (Remove)
+	1.0 (Remove)
+	3.4 (Remove)
+	3.3 (Remove)
+
+Artifact [plexus-velocity] 有多个版本存在:
+	*1.1.7
+	*1.2
+	*1.1.8
+
+Artifact [plexus] 有多个版本存在:
+	1.0.10 (Remove)
+	1.0.11 (Remove)
+	3.3.1 (Remove)
+	*5.1
+	3.3 (Remove)
+	*5.0
+	3.2 (Remove)
+	2.0.6 (Remove)
+	1.0.9 (Remove)
+	3.0.1 (Remove)
+	2.0.0 (Remove)
+	1.0.8 (Remove)
+	2.0.7 (Remove)
+	1.0.12 (Remove)
+	3.3.2 (Remove)
+	3.1 (Remove)
+	2.0.2 (Remove)
+	2.0.5 (Remove)
+	1.0.4 (Remove)
+	*4.0
+	1.0.5 (Remove)
+	2.0.3 (Remove)
+
+Artifact [plexus-components] 有多个版本存在:
+	1.1.20 (Remove)
+	1.1.18 (Remove)
+	1.1.4 (Remove)
+	1.1.17 (Remove)
+	*1.3.1
+	1.1.19 (Remove)
+	1.1.7 (Remove)
+	1.1.9 (Remove)
+	1.1.15 (Remove)
+	*1.3
+	1.1.12 (Remove)
+	1.2 (Remove)
+	1.1.14 (Remove)
+	1.1.6 (Remove)
+	*4.0
+
+Artifact [plexus-i18n] 有多个版本存在:
+	*1.0-beta-10
+	*1.0-beta-7
+	*1.0-beta-6
+
+Artifact [plexus-interactivity] 有多个版本存在:
+	*1.0-alpha-6
+	*1.0-alpha-5
+
+Artifact [plexus-classworlds] 有多个版本存在:
+	*2.4
+	*2.5.1
+	*1.2-alpha-9
+	1.2-alpha-7 (Remove)
+	1.2-alpha-6 (Remove)
+	1.4 (Remove)
+	2.2.3 (Remove)
+	2.2.2 (Remove)
+	2.5.2 (Remove)
+
+Artifact [plexus-resources] 有多个版本存在:
+	*1.0-alpha-7
+	*1.1.0
+	*1.0.1
+
+Artifact [jackson-core-asl] 有多个版本存在:
+	*1.9.13
+	1.8.3 (Remove)
+	*1.9.2
+	*1.9.11
+	1.8.8 (Remove)
+
+Artifact [jackson-jaxrs] 有多个版本存在:
+	*1.9.13
+	1.8.3 (Remove)
+	*1.9.2
+	*1.8.8
+
+Artifact [jackson-xc] 有多个版本存在:
+	*1.9.13
+	1.8.3 (Remove)
+	*1.9.2
+	*1.8.8
+
+Artifact [jackson-mapper-asl] 有多个版本存在:
+	*1.9.13
+	1.8.3 (Remove)
+	*1.9.2
+	*1.9.11
+	1.8.8 (Remove)
+
+Artifact [jasypt] 有多个版本存在:
+	*1.9.0
+	*1.9.2
+
+Artifact [jdom] 有多个版本存在:
+	*1.1.3
+	*1.1
+
+Artifact [parent] 有多个版本存在:
+	*2.3.2
+	*2.4.5
+	*2.2.0
+
+Artifact [elasticsearch] 有多个版本存在:
+	1.5.2 (Remove)
+	*2.3.2
+	*2.4.5
+	*2.2.0
+
+Artifact [specs] 有多个版本存在:
+	*1.1
+	*1.4
+	*1.2
+
+Artifact [genesis-java5-flava] 有多个版本存在:
+	*2.0
+	*2.1
+
+Artifact [config] 有多个版本存在:
+	*1.1
+	*1.2
+
+Artifact [project-config] 有多个版本存在:
+	*1.1
+	*1.2
+
+Artifact [genesis-default-flava] 有多个版本存在:
+	*2.0
+	*2.1
+	*2.2
+
+Artifact [genesis] 有多个版本存在:
+	1.1 (Remove)
+	*2.0
+	*2.1
+	1.2 (Remove)
+	*2.2
+
+Artifact [activemq-client] 有多个版本存在:
+	*5.15.4
+	*5.15.8
+
+Artifact [activemq-pool] 有多个版本存在:
+	*5.15.4
+	*5.15.8
+
+Artifact [activemq-parent] 有多个版本存在:
+	*5.7.0
+	*5.15.4
+	*5.15.8
+
+Artifact [activemq-jms-pool] 有多个版本存在:
+	*5.15.4
+	*5.15.8
+
+Artifact [ant] 有多个版本存在:
+	*1.9.6
+	*1.9.1
+	1.8.2 (Remove)
+	*1.9.4
+	1.8.1 (Remove)
+
+Artifact [ant-launcher] 有多个版本存在:
+	*1.9.6
+	*1.9.1
+	1.8.2 (Remove)
+	*1.9.4
+
+Artifact [ant-parent] 有多个版本存在:
+	*1.9.6
+	*1.9.1
+	1.8.2 (Remove)
+	*1.9.4
+	1.8.1 (Remove)
+
+Artifact [httpcore] 有多个版本存在:
+	*4.4.5
+	*4.4.4
+	*4.4.11
+	4.3.2 (Remove)
+	4.3 (Remove)
+	4.4.1 (Remove)
+	4.4.6 (Remove)
+	4.4.8 (Remove)
+	4.2-alpha2 (Remove)
+	4.4.9 (Remove)
+	4.4.7 (Remove)
+	4.2.2 (Remove)
+	4.0.1 (Remove)
+	4.1.4 (Remove)
+	4.4.10 (Remove)
+
+Artifact [httpclient] 有多个版本存在:
+	*4.2-alpha1
+	*4.0.2
+	*4.5.8
+	4.5.1 (Remove)
+	4.5.9 (Remove)
+	4.3.5 (Remove)
+	4.5 (Remove)
+	4.4.1 (Remove)
+	4.2.3 (Remove)
+	4.0.1 (Remove)
+	4.1.3 (Remove)
+	4.5.4} (Remove)
+	4.5.2 (Remove)
+	4.5.5 (Remove)
+	4.3.1 (Remove)
+	4.5.4 (Remove)
+	4.5.3 (Remove)
+	4.5.6 (Remove)
+
+Artifact [httpcomponents-core] 有多个版本存在:
+	*4.4.5
+	*4.2.1
+	*4.4.4
+	4.4.11 (Remove)
+	4.3.2 (Remove)
+	4.3 (Remove)
+	4.4.1 (Remove)
+	4.4.6 (Remove)
+	4.4.8 (Remove)
+	4.2-alpha2 (Remove)
+	4.4.9 (Remove)
+	4.4.7 (Remove)
+	4.2.2 (Remove)
+	4.0.1 (Remove)
+	4.1.4 (Remove)
+	4.4.10 (Remove)
+
+Artifact [httpmime] 有多个版本存在:
+	4.5.3 (Remove)
+	*4.5.4
+	*4.5.5
+	4.5.2 (Remove)
+	4.5 (Remove)
+	*4.5.6
+
+Artifact [project] 有多个版本存在:
+	*7
+	*6
+	*8
+	4.1 (Remove)
+	4.0 (Remove)
+	5 (Remove)
+
+Artifact [httpcomponents-parent] 有多个版本存在:
+	*9
+	*11
+	*10
+
+Artifact [fluent-hc] 有多个版本存在:
+	*4.2
+	*4.2-alpha1
+
+Artifact [httpcomponents-client] 有多个版本存在:
+	*4.2-alpha1
+	*4.0.2
+	*4.5.8
+	4.5.1 (Remove)
+	4.5.9 (Remove)
+	4.3.5 (Remove)
+	4.2 (Remove)
+	4.5 (Remove)
+	4.4.1 (Remove)
+	4.2.3 (Remove)
+	4.0.1 (Remove)
+	4.1.3 (Remove)
+	4.5.2 (Remove)
+	4.5.5 (Remove)
+	4.3.1 (Remove)
+	4.5.4 (Remove)
+	4.5.3 (Remove)
+	4.5.6 (Remove)
+
+Artifact [lucene-analyzers-common] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-sandbox] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-solr-grandparent] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.7.2 (Remove)
+	4.10.4 (Remove)
+
+Artifact [lucene-join] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-spatial] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-memory] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-core] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-queryparser] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-grouping] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-misc] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-suggest] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-backward-codecs] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+
+Artifact [lucene-highlighter] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-parent] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-queries] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+	4.10.4 (Remove)
+
+Artifact [lucene-spatial3d] 有多个版本存在:
+	*5.5.4
+	*5.4.1
+	*5.5.0
+
+Artifact [xbean] 有多个版本存在:
+	*3.4
+	*4.4
+	*3.7
+
+Artifact [xbean-reflect] 有多个版本存在:
+	*3.4
+	*3.7
+
+Artifact [tomcat-embed-websocket] 有多个版本存在:
+	8.5.23 (Remove)
+	8.5.15 (Remove)
+	9.0.13 (Remove)
+	9.0.12 (Remove)
+	8.0.36 (Remove)
+	8.0.30 (Remove)
+	8.5.31 (Remove)
+	*9.0.21
+	*9.0.19
+	*9.0.17
+	8.5.27 (Remove)
+	8.5.16 (Remove)
+	8.5.29 (Remove)
+	8.5.11 (Remove)
+	8.5.28 (Remove)
+	7.0.63 (Remove)
+	8.0.33 (Remove)
+	8.5.32 (Remove)
+	8.5.34 (Remove)
+
+Artifact [tomcat-embed-logging-juli] 有多个版本存在:
+	*8.0.36
+	*8.0.30
+	7.0.63 (Remove)
+	7.0.30 (Remove)
+	*8.0.33
+
+Artifact [tomcat-embed-core] 有多个版本存在:
+	8.5.23 (Remove)
+	8.5.15 (Remove)
+	9.0.13 (Remove)
+	9.0.12 (Remove)
+	8.0.36 (Remove)
+	8.0.30 (Remove)
+	8.5.31 (Remove)
+	*9.0.21
+	*9.0.19
+	*9.0.17
+	8.5.27 (Remove)
+	8.5.16 (Remove)
+	8.5.29 (Remove)
+	8.5.11 (Remove)
+	8.5.28 (Remove)
+	7.0.63 (Remove)
+	7.0.30 (Remove)
+	8.0.33 (Remove)
+	8.5.32 (Remove)
+	8.5.34 (Remove)
+
+Artifact [tomcat-embed-el] 有多个版本存在:
+	8.5.23 (Remove)
+	8.5.15 (Remove)
+	9.0.13 (Remove)
+	9.0.12 (Remove)
+	8.0.36 (Remove)
+	8.0.30 (Remove)
+	8.5.31 (Remove)
+	*9.0.21
+	*9.0.19
+	*9.0.17
+	8.5.27 (Remove)
+	8.5.16 (Remove)
+	8.5.29 (Remove)
+	8.5.11 (Remove)
+	8.5.28 (Remove)
+	7.0.63 (Remove)
+	8.0.33 (Remove)
+	8.5.32 (Remove)
+	8.5.34 (Remove)
+
+Artifact [tomcat-annotations-api] 有多个版本存在:
+	8.5.23 (Remove)
+	9.0.13 (Remove)
+	9.0.12 (Remove)
+	8.5.31 (Remove)
+	*9.0.21
+	*9.0.19
+	*9.0.17
+	8.5.27 (Remove)
+	8.5.29 (Remove)
+	8.5.28 (Remove)
+	7.0.30 (Remove)
+	8.5.32 (Remove)
+	8.5.34 (Remove)
+
+Artifact [tomcat-juli] 有多个版本存在:
+	*8.5.23
+	8.5.15 (Remove)
+	8.0.30 (Remove)
+	*8.5.27
+	*8.5.16
+	8.5.11 (Remove)
+	7.0.63 (Remove)
+	7.0.30 (Remove)
+	8.0.33 (Remove)
+
+Artifact [tomcat-jdbc] 有多个版本存在:
+	*8.5.23
+	8.5.15 (Remove)
+	8.0.30 (Remove)
+	*8.5.27
+	*8.5.16
+	8.5.11 (Remove)
+	7.0.63 (Remove)
+	7.0.30 (Remove)
+	8.0.33 (Remove)
+
+Artifact [force-shading] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [flink-connector-kafka-base_2.11] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [flink-connectors] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [flink-optimizer_2.11] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [flink-streaming-java_2.11] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [flink-clients_2.11] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [flink-core] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [flink-metrics] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [flink-metrics-core] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [flink-parent] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [flink-runtime_2.11] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [flink-java] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [flink-annotations] 有多个版本存在:
+	*1.3.2
+	*1.5-SNAPSHOT
+
+Artifact [felix-parent] 有多个版本存在:
+	*2.1
+	*3
+
+Artifact [commons-compress] 有多个版本存在:
+	1.9 (Remove)
+	1.12 (Remove)
+	*1.16.1
+	*1.14
+	1.4.1 (Remove)
+	1.5 (Remove)
+	1.11 (Remove)
+	*1.18
+	1.10 (Remove)
+	1.8.1 (Remove)
+
+Artifact [commons-text] 有多个版本存在:
+	*1.1
+	*1.2
+
+Artifact [commons-lang3] 有多个版本存在:
+	3.4 (Remove)
+	*3.5
+	*3.7
+	3.0 (Remove)
+	3.3.2 (Remove)
+	3.1 (Remove)
+	3.2.1 (Remove)
+	*3.8.1
+
+Artifact [commons-collections4] 有多个版本存在:
+	*4.2
+	*4.3
+	*4.1
+
+Artifact [commons-exec] 有多个版本存在:
+	*1.1
+	*1.3
+
+Artifact [commons-math3] 有多个版本存在:
+	*3.5
+	*3.4.1
+	3.1.1 (Remove)
+	*3.6.1
+
+Artifact [commons-dbcp2] 有多个版本存在:
+	2.0.1 (Remove)
+	*2.1.1
+	*2.5.0
+	*2.2.0
+
+Artifact [commons-math] 有多个版本存在:
+	*2.1
+	*2.2
+
+Artifact [commons-parent] 有多个版本存在:
+	32 (Remove)
+	35 (Remove)
+	34 (Remove)
+	33 (Remove)
+	20 (Remove)
+	18 (Remove)
+	9 (Remove)
+	11 (Remove)
+	7 (Remove)
+	42 (Remove)
+	28 (Remove)
+	17 (Remove)
+	21 (Remove)
+	*43
+	38 (Remove)
+	37 (Remove)
+	39 (Remove)
+	41 (Remove)
+	*48
+	24 (Remove)
+	23 (Remove)
+	3 (Remove)
+	12 (Remove)
+	40 (Remove)
+	*47
+	5 (Remove)
+	14 (Remove)
+	22 (Remove)
+	25 (Remove)
+
+Artifact [commons-email] 有多个版本存在:
+	*1.4
+	*1.5
+
+Artifact [commons-pool2] 有多个版本存在:
+	*2.6.2
+	2.5.0 (Remove)
+	2.4.3 (Remove)
+	*2.6.0
+	2.3 (Remove)
+	*2.6.1
+	2.4.2 (Remove)
+	2.2 (Remove)
+
+Artifact [maven-reporting-impl] 有多个版本存在:
+	*2.1
+	2.0.5 (Remove)
+	*2.3
+	*2.2
+
+Artifact [maven-reporting] 有多个版本存在:
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	*2.2.1
+	*2.0.11
+	*2.2.0
+
+Artifact [maven-reporting-api] 有多个版本存在:
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	*3.0
+	*2.2.1
+	2.0.11 (Remove)
+	*2.2.0
+
+Artifact [maven-reporting-exec] 有多个版本存在:
+	1.1 (Remove)
+	*1.4
+	*1.3
+	*1.2
+
+Artifact [maven-artifact-manager] 有多个版本存在:
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	2.0.7 (Remove)
+	2.0.2 (Remove)
+	2.0.5 (Remove)
+	*2.2.1
+	*2.0.11
+	*2.2.0
+	2.0.10 (Remove)
+	2.0.4 (Remove)
+	2.0.3 (Remove)
+
+Artifact [maven-settings-builder] 有多个版本存在:
+	*3.3.9
+	3.0 (Remove)
+	*3.1.1
+	*3.3.3
+	3.0.5 (Remove)
+	3.0.3 (Remove)
+	3.0.4 (Remove)
+
+Artifact [surefire] 有多个版本存在:
+	*2.21.0
+	2.12.4 (Remove)
+	2.17 (Remove)
+	*2.22.1
+	2.6 (Remove)
+	2.19.1 (Remove)
+	2.18.1 (Remove)
+	2.20.1 (Remove)
+	*2.22.2
+
+Artifact [surefire-providers] 有多个版本存在:
+	*2.21.0
+	2.12.4 (Remove)
+	*2.18.1
+	*2.20.1
+
+Artifact [surefire-logger-api] 有多个版本存在:
+	*2.21.0
+	*2.22.1
+	2.20.1 (Remove)
+	*2.22.2
+
+Artifact [maven-surefire-common] 有多个版本存在:
+	*2.21.0
+	2.12.4 (Remove)
+	2.17 (Remove)
+	*2.22.1
+	2.6 (Remove)
+	2.19.1 (Remove)
+	2.18.1 (Remove)
+	2.20.1 (Remove)
+	*2.22.2
+
+Artifact [surefire-api] 有多个版本存在:
+	*2.21.0
+	2.12.4 (Remove)
+	2.17 (Remove)
+	*2.22.1
+	2.6 (Remove)
+	2.19.1 (Remove)
+	2.18.1 (Remove)
+	2.20.1 (Remove)
+	*2.22.2
+
+Artifact [surefire-booter] 有多个版本存在:
+	*2.21.0
+	2.12.4 (Remove)
+	2.17 (Remove)
+	*2.22.1
+	2.6 (Remove)
+	2.19.1 (Remove)
+	2.18.1 (Remove)
+	2.20.1 (Remove)
+	*2.22.2
+
+Artifact [surefire-junit4] 有多个版本存在:
+	*2.21.0
+	2.12.4 (Remove)
+	*2.18.1
+	*2.20.1
+
+Artifact [maven-compat] 有多个版本存在:
+	*3.0
+	*3.0-alpha-2
+
+Artifact [maven-plugin-testing] 有多个版本存在:
+	*2.1
+	*1.3
+
+Artifact [maven-plugin-testing-harness] 有多个版本存在:
+	*2.1
+	*1.3
+
+Artifact [maven-model-builder] 有多个版本存在:
+	*3.3.9
+	3.0 (Remove)
+	3.1.1 (Remove)
+	*3.3.3
+	*3.2.1
+	3.0.5 (Remove)
+	3.0.3 (Remove)
+	3.0.4 (Remove)
+
+Artifact [archetype-common] 有多个版本存在:
+	*3.0.1
+	*3.1.0
+
+Artifact [archetype-descriptor] 有多个版本存在:
+	*3.0.1
+	*3.1.0
+
+Artifact [archetype-catalog] 有多个版本存在:
+	*3.0.1
+	*3.1.0
+
+Artifact [maven-archetype] 有多个版本存在:
+	*2.4
+	*3.0.1
+	*3.1.0
+	maven-archetype-.pom.lastUpdated (Remove)
+	maven-archetype-.jar.lastUpdated (Remove)
+
+Artifact [archetype-packaging] 有多个版本存在:
+	*3.0.1
+	*3.1.0
+	*2.4
+
+Artifact [archetype-models] 有多个版本存在:
+	*3.0.1
+	*3.1.0
+
+Artifact [maven-builder-support] 有多个版本存在:
+	*3.3.9
+	*3.3.3
+
+Artifact [maven-plugin-parameter-documenter] 有多个版本存在:
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	*2.2.1
+	*2.0.11
+	*2.2.0
+
+Artifact [maven-war-plugin] 有多个版本存在:
+	*3.2.2
+	2.6 (Remove)
+	*3.0.0
+	*3.1.0
+	2.2 (Remove)
+
+Artifact [maven-compiler-plugin] 有多个版本存在:
+	3.3 (Remove)
+	*3.7.0
+	2.3.2 (Remove)
+	3.1 (Remove)
+	3.5.1 (Remove)
+	*3.8.1
+	3.6.0 (Remove)
+	2.0.2 (Remove)
+	*3.8.0
+	2.5 (Remove)
+	3.6.1 (Remove)
+
+Artifact [maven-antrun-plugin] 有多个版本存在:
+	*1.7
+	*1.8
+	*1.3
+
+Artifact [maven-clean-plugin] 有多个版本存在:
+	*3.0.0
+	*3.1.0
+	*2.6.1
+	2.5 (Remove)
+
+Artifact [maven-eclipse-plugin] 有多个版本存在:
+	*2.10
+	*2.9
+	*2.8
+
+Artifact [maven-resources-plugin] 有多个版本存在:
+	*3.0.2
+	*3.1.0
+	*2.6
+	3.0.1 (Remove)
+	2.7 (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+
+Artifact [maven-site-plugin] 有多个版本存在:
+	3.3 (Remove)
+	3.4 (Remove)
+	*3.7.1
+	*3.5.1
+	*3.6
+
+Artifact [maven-release-plugin] 有多个版本存在:
+	*2.5.3
+	*2.3.2
+	*2.5.1
+
+Artifact [maven-surefire-plugin] 有多个版本存在:
+	*2.21.0
+	2.12.4 (Remove)
+	2.17 (Remove)
+	*2.22.1
+	2.6 (Remove)
+	2.19.1 (Remove)
+	2.18.1 (Remove)
+	2.20.1 (Remove)
+	*2.22.2
+
+Artifact [maven-deploy-plugin] 有多个版本存在:
+	*2.7
+	*2.8.2
+	*3.0.0-M1
+	resolver-status.properties (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+
+Artifact [maven-javadoc-plugin] 有多个版本存在:
+	*2.9.1
+	*3.0.1
+
+Artifact [maven-archetype-plugin] 有多个版本存在:
+	*3.0.1
+	*3.1.0
+	*resolver-status.properties
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+
+Artifact [maven-enforcer-plugin] 有多个版本存在:
+	*3.0.0-M1
+	*3.0.0-M2
+	*1.4.1
+
+Artifact [maven-checkstyle-plugin] 有多个版本存在:
+	*2.17
+	*3.0.0
+
+Artifact [maven-shade-plugin] 有多个版本存在:
+	3.0.0 (Remove)
+	2.4.1 (Remove)
+	*3.1.0
+	2.4.3 (Remove)
+	*3.2.1
+	*3.2.0
+	2.2 (Remove)
+
+Artifact [maven-jar-plugin] 有多个版本存在:
+	*3.1.2
+	2.6 (Remove)
+	2.3.2 (Remove)
+	*3.1.1
+	*3.1.0
+	3.0.2 (Remove)
+	2.4 (Remove)
+	2.5 (Remove)
+
+Artifact [maven-failsafe-plugin] 有多个版本存在:
+	*2.21.0
+	*2.22.1
+	*2.18.1
+
+Artifact [maven-dependency-plugin] 有多个版本存在:
+	2.10 (Remove)
+	2.9 (Remove)
+	*3.0.1
+	2.8 (Remove)
+	*3.1.1
+	*3.0.2
+
+Artifact [maven-help-plugin] 有多个版本存在:
+	*2.2
+	*3.1.0
+	*3.1.1
+	resolver-status.properties (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+
+Artifact [maven-plugins] 有多个版本存在:
+	*32
+	*33
+	18 (Remove)
+	27 (Remove)
+	16 (Remove)
+	28 (Remove)
+	17 (Remove)
+	26 (Remove)
+	8 (Remove)
+	21 (Remove)
+	*31
+	30 (Remove)
+	24 (Remove)
+	23 (Remove)
+	12 (Remove)
+	13 (Remove)
+	22 (Remove)
+	25 (Remove)
+
+Artifact [maven-source-plugin] 有多个版本存在:
+	*3.0.1
+	*2.1
+
+Artifact [maven-assembly-plugin] 有多个版本存在:
+	*3.1.1
+	*2.4
+	*3.1.0
+	2.6 (Remove)
+	2.5.5 (Remove)
+	3.0.0 (Remove)
+	2.2-beta-5 (Remove)
+	2.5.4 (Remove)
+
+Artifact [maven-install-plugin] 有多个版本存在:
+	*3.0.0-M1
+	*resolver-status.properties
+	*maven-metadata-central.xml.sha1
+	maven-metadata-central.xml (Remove)
+	2.5.2 (Remove)
+	2.4 (Remove)
+
+Artifact [doxia-sink-api] 有多个版本存在:
+	*1.0-alpha-7
+	*1.0-alpha-9
+	*1.2
+	1.4 (Remove)
+	1.0-alpha-10 (Remove)
+	1.1.2 (Remove)
+	1.8 (Remove)
+	1.1 (Remove)
+	1.6 (Remove)
+	1.7 (Remove)
+	1.0 (Remove)
+
+Artifact [doxia-module-xdoc] 有多个版本存在:
+	1.0 (Remove)
+	*1.7
+	*1.6
+	*1.8
+	1.4 (Remove)
+
+Artifact [doxia-site-renderer] 有多个版本存在:
+	*1.7.1
+	1.0 (Remove)
+	1.6 (Remove)
+	1.1.2 (Remove)
+	1.4 (Remove)
+	1.2 (Remove)
+	*1.7.4
+	*1.8.1
+
+Artifact [doxia-skin-model] 有多个版本存在:
+	*1.7.1
+	*1.7.4
+	*1.8.1
+
+Artifact [doxia] 有多个版本存在:
+	*1.0-alpha-7
+	*1.0-alpha-9
+	*1.2
+	1.3 (Remove)
+	1.4 (Remove)
+	1.0-alpha-10 (Remove)
+	1.1.2 (Remove)
+	1.8 (Remove)
+	1.1 (Remove)
+	1.6 (Remove)
+	1.7 (Remove)
+	1.0 (Remove)
+	1.1.3 (Remove)
+
+Artifact [doxia-sitetools] 有多个版本存在:
+	*1.7.1
+	1.1.3 (Remove)
+	1.0 (Remove)
+	1.6 (Remove)
+	1.1.2 (Remove)
+	1.4 (Remove)
+	1.3 (Remove)
+	1.2 (Remove)
+	*1.7.4
+	*1.8.1
+
+Artifact [doxia-logging-api] 有多个版本存在:
+	1.1.3 (Remove)
+	*1.7
+	*1.6
+	1.1 (Remove)
+	*1.8
+	1.1.2 (Remove)
+	1.4 (Remove)
+	1.3 (Remove)
+	1.2 (Remove)
+
+Artifact [doxia-tools] 有多个版本存在:
+	*3
+	*2
+
+Artifact [doxia-module-xhtml] 有多个版本存在:
+	1.0 (Remove)
+	*1.7
+	*1.6
+	*1.8
+	1.1.2 (Remove)
+	1.4 (Remove)
+	1.2 (Remove)
+
+Artifact [doxia-module-fml] 有多个版本存在:
+	1.0 (Remove)
+	*1.7
+	*1.6
+	*1.8
+	1.1.2 (Remove)
+	1.4 (Remove)
+	1.2 (Remove)
+
+Artifact [doxia-module-markdown] 有多个版本存在:
+	*1.7
+	*1.6
+	*1.8
+	1.4 (Remove)
+
+Artifact [doxia-core] 有多个版本存在:
+	1.0 (Remove)
+	*1.7
+	*1.6
+	*1.8
+	1.1.2 (Remove)
+	1.4 (Remove)
+	1.2 (Remove)
+
+Artifact [doxia-decoration-model] 有多个版本存在:
+	*1.7.1
+	1.1.3 (Remove)
+	1.0 (Remove)
+	1.6 (Remove)
+	1.1.2 (Remove)
+	1.4 (Remove)
+	1.3 (Remove)
+	1.2 (Remove)
+	*1.7.4
+	*1.8.1
+
+Artifact [doxia-modules] 有多个版本存在:
+	1.0 (Remove)
+	*1.7
+	*1.6
+	*1.8
+	1.1.2 (Remove)
+	1.4 (Remove)
+	1.2 (Remove)
+
+Artifact [doxia-module-apt] 有多个版本存在:
+	1.0 (Remove)
+	*1.7
+	*1.6
+	*1.8
+	1.4 (Remove)
+
+Artifact [doxia-integration-tools] 有多个版本存在:
+	*1.7.1
+	1.6 (Remove)
+	1.5 (Remove)
+	*1.7.4
+	*1.8.1
+
+Artifact [maven] 有多个版本存在:
+	*2.0.3
+	*2.0.4
+	*2.0.10
+	2.2.0 (Remove)
+	3.0.4 (Remove)
+	3.0.3 (Remove)
+	2.0.11 (Remove)
+	2.2.1 (Remove)
+	2.0.5 (Remove)
+	2.0.2 (Remove)
+	3.0.5 (Remove)
+	3.2.1 (Remove)
+	3.0-alpha-2 (Remove)
+	3.3.3 (Remove)
+	3.1.1 (Remove)
+	3.0 (Remove)
+	2.0.7 (Remove)
+	2.0.9 (Remove)
+	2.0.8 (Remove)
+	2.0 (Remove)
+	2.0.1 (Remove)
+	2.0.6 (Remove)
+	3.3.9 (Remove)
+
+Artifact [maven-artifact] 有多个版本存在:
+	*3.3.9
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	2.0.7 (Remove)
+	3.0 (Remove)
+	*3.1.1
+	*3.3.3
+	3.0.5 (Remove)
+	2.0.2 (Remove)
+	2.0.5 (Remove)
+	2.2.1 (Remove)
+	2.0.11 (Remove)
+	3.0.3 (Remove)
+	3.0.4 (Remove)
+	2.2.0 (Remove)
+	2.0.10 (Remove)
+	2.0.4 (Remove)
+	2.0.3 (Remove)
+
+Artifact [enforcer-rules] 有多个版本存在:
+	*3.0.0-M1
+	*1.4.1
+
+Artifact [enforcer-api] 有多个版本存在:
+	*3.0.0-M1
+	*1.4.1
+
+Artifact [enforcer] 有多个版本存在:
+	*3.0.0-M1
+	*1.4.1
+	*3.0.0-M2
+
+Artifact [maven-toolchain] 有多个版本存在:
+	*1.0
+	*2.0.9
+	*2.2.1
+
+Artifact [maven-profile] 有多个版本存在:
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	2.0.7 (Remove)
+	2.0.5 (Remove)
+	*2.2.1
+	*2.0.11
+	*2.2.0
+	2.0.10 (Remove)
+	2.0.4 (Remove)
+	2.0.3 (Remove)
+
+Artifact [maven-release] 有多个版本存在:
+	*2.5.3
+	*2.3.2
+	*2.5.1
+
+Artifact [maven-artifact-transfer] 有多个版本存在:
+	*0.9.0
+	*0.9.1
+	*0.10.0
+
+Artifact [maven-shared-io] 有多个版本存在:
+	*1.0
+	*1.1
+	*3.0.0
+
+Artifact [maven-dependency-analyzer] 有多个版本存在:
+	*1.7
+	*1.6
+	1.4 (Remove)
+	1.5 (Remove)
+	*1.10
+
+Artifact [maven-shared-utils] 有多个版本存在:
+	0.3 (Remove)
+	0.4 (Remove)
+	3.0.1 (Remove)
+	3.0.0 (Remove)
+	*3.1.0
+	*3.2.1
+	0.7 (Remove)
+	*3.2.0
+	0.1 (Remove)
+	0.6 (Remove)
+
+Artifact [file-management] 有多个版本存在:
+	*1.1
+	*3.0.0
+	*1.2.1
+
+Artifact [maven-common-artifact-filters] 有多个版本存在:
+	*1.0-alpha-1
+	*1.2
+	*1.3
+	1.4 (Remove)
+	3.0.0 (Remove)
+	3.0.1 (Remove)
+	1.1 (Remove)
+
+Artifact [maven-invoker] 有多个版本存在:
+	*3.0.1
+	2.1 (Remove)
+	2.0.9 (Remove)
+	*2.1.1
+	2.0.11 (Remove)
+	*2.2
+
+Artifact [maven-shared-components] 有多个版本存在:
+	*33
+	20 (Remove)
+	18 (Remove)
+	9 (Remove)
+	11 (Remove)
+	7 (Remove)
+	16 (Remove)
+	6 (Remove)
+	17 (Remove)
+	10 (Remove)
+	19 (Remove)
+	8 (Remove)
+	21 (Remove)
+	*31
+	*30
+	4 (Remove)
+	15 (Remove)
+	3 (Remove)
+	12 (Remove)
+	22 (Remove)
+
+Artifact [maven-dependency-tree] 有多个版本存在:
+	*3.0.1
+	*2.1
+	1.2 (Remove)
+	*2.2
+
+Artifact [maven-filtering] 有多个版本存在:
+	*1.2
+	*3.1.1
+	*1.3
+	1.0-beta-2 (Remove)
+	1.1 (Remove)
+	1.0 (Remove)
+
+Artifact [maven-repository-builder] 有多个版本存在:
+	*1.0-alpha-2
+	*1.0
+
+Artifact [maven-doxia-tools] 有多个版本存在:
+	*1.0.2
+	*1.2.1
+
+Artifact [maven-mapping] 有多个版本存在:
+	*1.0
+	*3.0.0
+
+Artifact [maven-project] 有多个版本存在:
+	*2.0.3
+	*2.0.4
+	*2.0.10
+	2.2.0 (Remove)
+	2.0.11 (Remove)
+	2.2.1 (Remove)
+	2.0.5 (Remove)
+	3.0-alpha-2 (Remove)
+	2.0.7 (Remove)
+	2.0.9 (Remove)
+	2.0.8 (Remove)
+	2.0 (Remove)
+	2.0.6 (Remove)
+
+Artifact [maven-archiver] 有多个版本存在:
+	*3.3.0
+	*3.4.0
+	2.6 (Remove)
+	3.0.0 (Remove)
+	3.1.1 (Remove)
+	2.4 (Remove)
+	*3.2.0
+	2.4.2 (Remove)
+	2.2 (Remove)
+	2.5 (Remove)
+
+Artifact [maven-plugin-registry] 有多个版本存在:
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	2.0.7 (Remove)
+	*2.2.1
+	*2.0.11
+	*2.2.0
+	2.0.10 (Remove)
+
+Artifact [maven-model] 有多个版本存在:
+	*2.0.3
+	*2.0.4
+	*2.0.10
+	2.2.0 (Remove)
+	3.0.4 (Remove)
+	3.0.3 (Remove)
+	2.0.11 (Remove)
+	2.2.1 (Remove)
+	2.0.5 (Remove)
+	3.0.5 (Remove)
+	3.0-alpha-2 (Remove)
+	3.3.3 (Remove)
+	3.1.1 (Remove)
+	3.0 (Remove)
+	2.0.7 (Remove)
+	2.0.9 (Remove)
+	2.0.8 (Remove)
+	2.0 (Remove)
+	2.0.6 (Remove)
+	3.3.9 (Remove)
+
+Artifact [maven-parent] 有多个版本存在:
+	*32
+	*33
+	20 (Remove)
+	27 (Remove)
+	9 (Remove)
+	11 (Remove)
+	7 (Remove)
+	16 (Remove)
+	6 (Remove)
+	10 (Remove)
+	19 (Remove)
+	26 (Remove)
+	8 (Remove)
+	21 (Remove)
+	*31
+	30 (Remove)
+	24 (Remove)
+	23 (Remove)
+	4 (Remove)
+	15 (Remove)
+	12 (Remove)
+	13 (Remove)
+	5 (Remove)
+	22 (Remove)
+	25 (Remove)
+
+Artifact [maven-plugin-api] 有多个版本存在:
+	*3.3.9
+	2.0.6 (Remove)
+	2.0.1 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	2.0.7 (Remove)
+	3.0 (Remove)
+	*3.1.1
+	*3.3.3
+	3.0.5 (Remove)
+	2.2.1 (Remove)
+	2.0.11 (Remove)
+	3.0.3 (Remove)
+	3.0.4 (Remove)
+	2.2.0 (Remove)
+	2.0.4 (Remove)
+	2.0.3 (Remove)
+
+Artifact [maven-plugin-tools-generators] 有多个版本存在:
+	*3.5.2
+	*3.5.1
+
+Artifact [maven-plugin-tools-api] 有多个版本存在:
+	*3.5.2
+	*3.5.1
+	*2.4.3
+
+Artifact [maven-plugin-tools] 有多个版本存在:
+	3.3 (Remove)
+	3.4 (Remove)
+	*3.5.2
+	*3.5
+	3.2 (Remove)
+	3.1 (Remove)
+	*3.5.1
+	2.4.3 (Remove)
+
+Artifact [maven-plugin-annotations] 有多个版本存在:
+	3.3 (Remove)
+	*3.4
+	*3.5.2
+	*3.5
+	3.2 (Remove)
+	3.1 (Remove)
+
+Artifact [maven-plugin-descriptor] 有多个版本存在:
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	*2.2.1
+	*2.0.11
+	*2.2.0
+
+Artifact [maven-core] 有多个版本存在:
+	*3.3.9
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	3.0 (Remove)
+	*3.1.1
+	*3.3.3
+	3.0.5 (Remove)
+	2.2.1 (Remove)
+	2.0.11 (Remove)
+	3.0.3 (Remove)
+	3.0.4 (Remove)
+	2.2.0 (Remove)
+
+Artifact [maven-scm] 有多个版本存在:
+	*1.8
+	*1.9.2
+
+Artifact [maven-scm-api] 有多个版本存在:
+	*1.8
+	*1.9.2
+
+Artifact [maven-monitor] 有多个版本存在:
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	*2.2.1
+	*2.0.11
+	*2.2.0
+
+Artifact [maven-aether-provider] 有多个版本存在:
+	*3.3.9
+	3.0 (Remove)
+	3.1.1 (Remove)
+	*3.3.3
+	*3.2.1
+	3.0.5 (Remove)
+	3.0.3 (Remove)
+	3.0.4 (Remove)
+
+Artifact [wagon-provider-api] 有多个版本存在:
+	*2.5
+	*1.0-beta-6
+	*1.0-alpha-6
+	2.8 (Remove)
+	2.1 (Remove)
+	1.0-beta-4 (Remove)
+	2.10 (Remove)
+	1.0 (Remove)
+
+Artifact [wagon-providers] 有多个版本存在:
+	*2.8
+	*2.5
+
+Artifact [wagon] 有多个版本存在:
+	*2.5
+	*1.0-beta-6
+	*1.0-alpha-6
+	2.8 (Remove)
+	2.1 (Remove)
+	1.0-beta-4 (Remove)
+	2.10 (Remove)
+	1.0 (Remove)
+
+Artifact [maven-repository-metadata] 有多个版本存在:
+	*3.3.9
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	2.0.7 (Remove)
+	3.0 (Remove)
+	3.1.1 (Remove)
+	*3.3.3
+	*3.2.1
+	3.0.5 (Remove)
+	2.0.2 (Remove)
+	2.0.5 (Remove)
+	2.2.1 (Remove)
+	2.0.11 (Remove)
+	3.0.3 (Remove)
+	3.0.4 (Remove)
+	2.2.0 (Remove)
+	2.0.10 (Remove)
+	2.0.4 (Remove)
+	2.0.3 (Remove)
+
+Artifact [maven-settings] 有多个版本存在:
+	*3.3.9
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	2.0.7 (Remove)
+	3.0 (Remove)
+	*3.1.1
+	*3.3.3
+	3.0.5 (Remove)
+	2.0.5 (Remove)
+	2.2.1 (Remove)
+	2.0.11 (Remove)
+	3.0.3 (Remove)
+	3.0.4 (Remove)
+	2.2.0 (Remove)
+	2.0.10 (Remove)
+	2.0.4 (Remove)
+	2.0.3 (Remove)
+
+Artifact [maven-error-diagnostics] 有多个版本存在:
+	2.0.6 (Remove)
+	2.0 (Remove)
+	2.0.8 (Remove)
+	2.0.9 (Remove)
+	*2.2.1
+	*2.0.11
+	*2.2.0
+
+Artifact [xmlbeans] 有多个版本存在:
+	2.3.0 (Remove)
+	*3.0.1
+	*3.1.0
+	*3.0.2
+	2.6.0 (Remove)
+
+Artifact [curator-client] 有多个版本存在:
+	*2.10.0
+	*2.7.1
+	2.4.0 (Remove)
+	2.5.0 (Remove)
+	*2.6.0
+
+Artifact [curator-framework] 有多个版本存在:
+	*2.10.0
+	*2.7.1
+	2.4.0 (Remove)
+	2.5.0 (Remove)
+	*2.6.0
+
+Artifact [apache-curator] 有多个版本存在:
+	*2.10.0
+	*2.7.1
+	2.4.0 (Remove)
+	*2.12.0
+	2.5.0 (Remove)
+	2.6.0 (Remove)
+
+Artifact [curator-recipes] 有多个版本存在:
+	*2.10.0
+	*2.7.1
+	2.4.0 (Remove)
+	*2.6.0
+
+Artifact [htrace] 有多个版本存在:
+	*3.2.0-incubating
+	*4.0.1-incubating
+
+Artifact [velocity] 有多个版本存在:
+	*1.7
+	*1.6.2
+	*1.5
+
+Artifact [zookeeper] 有多个版本存在:
+	*3.4.5
+	*3.4.5-cdh5.9.0
+	*3.4.10
+	3.4.6 (Remove)
+	3.4.5-cdh5.5.1 (Remove)
+	3.3.1 (Remove)
+	3.3.3 (Remove)
+
+Artifact [poi] 有多个版本存在:
+	*3.15-beta1
+	*3.15
+	*3.12
+	4.0.0 (Remove)
+	4.0.1 (Remove)
+	3.10-beta2 (Remove)
+	3.11 (Remove)
+	3.17 (Remove)
+	3.10-FINAL (Remove)
+	4.1.0 (Remove)
+
+Artifact [poi-ooxml-schemas] 有多个版本存在:
+	*3.15-beta1
+	*3.15
+	*3.12
+	4.0.0 (Remove)
+	4.0.1 (Remove)
+	3.11 (Remove)
+	3.17 (Remove)
+	3.10-FINAL (Remove)
+	4.1.0 (Remove)
+
+Artifact [poi-ooxml] 有多个版本存在:
+	*3.15-beta1
+	*4.1.0
+	*3.15
+	3.12 (Remove)
+	4.0.0 (Remove)
+	4.0.1 (Remove)
+	3.11 (Remove)
+	3.17 (Remove)
+	3.10-FINAL (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+	maven-metadata-local-nexus.xml.sha1 (Remove)
+	maven-metadata-local-nexus.xml (Remove)
+
+Artifact [johnzon-maven-plugin] 有多个版本存在:
+	*1.1.11
+	*1.1.10
+
+Artifact [johnzon] 有多个版本存在:
+	*1.1.11
+	*1.1.10
+	*0.9.5
+
+Artifact [avro-toplevel] 有多个版本存在:
+	*1.7.6-cdh5.5.1
+	*1.7.4
+	*1.7.5
+	1.7.6-cdh5.9.0 (Remove)
+	1.7.7 (Remove)
+	1.8.2 (Remove)
+
+Artifact [avro-parent] 有多个版本存在:
+	*1.7.6-cdh5.5.1
+	*1.7.4
+	*1.7.5
+	1.7.6-cdh5.9.0 (Remove)
+	1.7.7 (Remove)
+	1.8.2 (Remove)
+
+Artifact [avro] 有多个版本存在:
+	*1.7.6-cdh5.5.1
+	*1.7.4
+	*1.7.5
+	1.7.6-cdh5.9.0 (Remove)
+	1.7.7 (Remove)
+	1.8.2 (Remove)
+
+Artifact [kafka-clients] 有多个版本存在:
+	0.8.2.2 (Remove)
+	*0.9.0.1
+	*0.10.2.1
+	*0.8.2.1
+
+Artifact [kafka_2.11] 有多个版本存在:
+	*0.8.2.2
+	*kafka_2.11-.jar.lastUpdated
+	*kafka_2.11-.pom.lastUpdated
+
+Artifact [hadoop-yarn] 有多个版本存在:
+	*2.2.0
+	*2.6.0
+	*2.6.0-cdh5.5.1
+	2.6.0-cdh5.9.0 (Remove)
+
+Artifact [hadoop-project] 有多个版本存在:
+	*2.2.0
+	*2.6.0
+	*2.6.0-cdh5.5.1
+	2.6.0-cdh5.9.0 (Remove)
+	2.3.0 (Remove)
+
+Artifact [hadoop-aws] 有多个版本存在:
+	*2.6.0-cdh5.9.0
+	*2.6.0-cdh5.5.1
+
+Artifact [hadoop-auth] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+	2.3.0 (Remove)
+
+Artifact [hadoop-mapreduce-client-common] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+
+Artifact [hadoop-project-dist] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+	2.3.0 (Remove)
+
+Artifact [hadoop-yarn-api] 有多个版本存在:
+	*2.2.0
+	*2.6.0
+	*2.6.0-cdh5.5.1
+	2.6.0-cdh5.9.0 (Remove)
+
+Artifact [hadoop-yarn-server] 有多个版本存在:
+	*2.2.0
+	*2.6.0
+	*2.6.0-cdh5.5.1
+	2.6.0-cdh5.9.0 (Remove)
+
+Artifact [hadoop-mapreduce-client-core] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+
+Artifact [hadoop-mapreduce-client-app] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+
+Artifact [hadoop-mapreduce-client] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+
+Artifact [hadoop-annotations] 有多个版本存在:
+	*2.2.0
+	*2.6.0
+	*2.6.0-cdh5.5.1
+	2.6.0-cdh5.9.0 (Remove)
+	2.3.0 (Remove)
+
+Artifact [hadoop-client] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+
+Artifact [hadoop-yarn-server-common] 有多个版本存在:
+	*2.2.0
+	*2.6.0
+	*2.6.0-cdh5.5.1
+	2.6.0-cdh5.9.0 (Remove)
+
+Artifact [hadoop-mapreduce-client-shuffle] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+
+Artifact [hadoop-yarn-common] 有多个版本存在:
+	*2.2.0
+	*2.6.0
+	*2.6.0-cdh5.5.1
+	2.6.0-cdh5.9.0 (Remove)
+
+Artifact [hadoop-main] 有多个版本存在:
+	*2.2.0
+	*2.6.0
+	*2.6.0-cdh5.5.1
+	2.6.0-cdh5.9.0 (Remove)
+	2.3.0 (Remove)
+
+Artifact [hadoop-common] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+	2.3.0 (Remove)
+
+Artifact [hadoop-yarn-server-nodemanager] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+
+Artifact [hadoop-hdfs] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+
+Artifact [hadoop-yarn-client] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+
+Artifact [hadoop-mapreduce-client-jobclient] 有多个版本存在:
+	*2.2.0
+	*2.6.0-cdh5.5.1
+	*2.6.0-cdh5.9.0
+
+Artifact [log4j-api] 有多个版本存在:
+	*2.10.0
+	2.7 (Remove)
+	2.6.2 (Remove)
+	*2.11.2
+	*2.11.1
+
+Artifact [log4j-to-slf4j] 有多个版本存在:
+	*2.10.0
+	*2.11.2
+	*2.11.1
+
+Artifact [log4j-core] 有多个版本存在:
+	*2.10.0
+	*2.7
+	*2.6.2
+
+Artifact [log4j-slf4j-impl] 有多个版本存在:
+	*2.10.0
+	*2.7
+	*2.6.2
+
+Artifact [log4j-bom] 有多个版本存在:
+	*2.10.0
+	2.8.2 (Remove)
+	2.7 (Remove)
+	*2.11.2
+	*2.11.1
+
+Artifact [log4j] 有多个版本存在:
+	*2.10.0
+	2.7 (Remove)
+	2.6.2 (Remove)
+	*2.11.2
+	*2.11.1
+
+Artifact [apache] 有多个版本存在:
+	*20
+	18 (Remove)
+	9 (Remove)
+	11 (Remove)
+	7 (Remove)
+	16 (Remove)
+	6 (Remove)
+	17 (Remove)
+	1 (Remove)
+	10 (Remove)
+	*19
+	8 (Remove)
+	*21
+	4 (Remove)
+	15 (Remove)
+	3 (Remove)
+	12 (Remove)
+	2 (Remove)
+	13 (Remove)
+	5 (Remove)
+	14 (Remove)
+
+Artifact [spark-parent_2.10] 有多个版本存在:
+	*1.6.2
+	*1.6.1
+
+Artifact [spark-unsafe_2.10] 有多个版本存在:
+	*1.6.2
+	*1.6.1
+
+Artifact [spark-core_2.10] 有多个版本存在:
+	*1.6.2
+	*1.6.1
+
+Artifact [spark-network-shuffle_2.10] 有多个版本存在:
+	*1.6.2
+	*1.6.1
+
+Artifact [spark-launcher_2.10] 有多个版本存在:
+	*1.6.2
+	*1.6.1
+
+Artifact [shiro-root] 有多个版本存在:
+	*1.2.4
+	*1.4.0
+	*1.2.1
+
+Artifact [shiro-core] 有多个版本存在:
+	*1.2.4
+	*1.4.0
+	*1.2.1
+
+Artifact [quartz-parent] 有多个版本存在:
+	*2.3.0
+	*2.2.3
+	*2.2.1
+	2.2.0 (Remove)
+
+Artifact [quartz] 有多个版本存在:
+	*2.3.0
+	*2.2.3
+	*2.2.1
+	2.2.0 (Remove)
+
+Artifact [xz] 有多个版本存在:
+	1.0 (Remove)
+	*1.6
+	*1.8
+	1.2 (Remove)
+	*1.5
+
+Artifact [logback-classic] 有多个版本存在:
+	1.1.3 (Remove)
+	*1.1.11
+	1.1.2 (Remove)
+	*1.2.3
+	1.1.7 (Remove)
+	*1.2.1
+
+Artifact [logback-access] 有多个版本存在:
+	*1.2.3
+	*1.1.7
+
+Artifact [logback-core] 有多个版本存在:
+	1.1.3 (Remove)
+	*1.1.11
+	1.1.2 (Remove)
+	*1.2.3
+	1.1.7 (Remove)
+	*1.2.1
+
+Artifact [logback-parent] 有多个版本存在:
+	1.1.3 (Remove)
+	*1.1.11
+	1.1.2 (Remove)
+	*1.2.3
+	1.1.7 (Remove)
+	*1.2.1
+
+Artifact [opencensus-api] 有多个版本存在:
+	0.11.0 (Remove)
+	*0.15.0
+	*0.17.0
+	*0.12.3
+
+Artifact [opencensus-contrib-grpc-metrics] 有多个版本存在:
+	*0.11.0
+	*0.17.0
+	*0.12.3
+
+Artifact [opencensus-contrib-grpc-util] 有多个版本存在:
+	*0.15.0
+	*0.17.0
+
+Artifact [reactor-bom] 有多个版本存在:
+	*Californium-SR3
+	*Californium-SR2
+	*Bismuth-SR12
+	Bismuth-SR8 (Remove)
+	Bismuth-SR6 (Remove)
+	Bismuth-SR7 (Remove)
+	Bismuth-SR9 (Remove)
+	Bismuth-M3 (Remove)
+	Californium-SR6 (Remove)
+	Californium-SR8 (Remove)
+	Bismuth-SR11 (Remove)
+	Bismuth-SR10 (Remove)
+	Dysprosium-BUILD-SNAPSHOT (Remove)
+	Californium-SR9 (Remove)
+
+Artifact [reactor-netty] 有多个版本存在:
+	*0.7.8.RELEASE
+	0.7.0.M1 (Remove)
+	*0.7.7.RELEASE
+	*0.7.6.RELEASE
+	0.7.5.RELEASE (Remove)
+
+Artifact [reactor-test] 有多个版本存在:
+	3.1.0.M3 (Remove)
+	*3.1.8.RELEASE
+	3.1.5.RELEASE (Remove)
+	*3.1.7.RELEASE
+	*3.1.6.RELEASE
+
+Artifact [reactor-core] 有多个版本存在:
+	3.1.10.RELEASE (Remove)
+	3.1.0.M3 (Remove)
+	3.1.8.RELEASE (Remove)
+	2.0.8.RELEASE (Remove)
+	*3.2.8.RELEASE
+	3.1.5.RELEASE (Remove)
+	3.1.7.RELEASE (Remove)
+	*3.2.3.RELEASE
+	3.1.6.RELEASE (Remove)
+	*3.2.10.RELEASE
+
+Artifact [lettuce-core] 有多个版本存在:
+	5.0.3.RELEASE (Remove)
+	5.0.2.RELEASE (Remove)
+	*5.1.3.RELEASE
+	5.0.4.RELEASE (Remove)
+	*5.1.7.RELEASE
+	*5.1.6.RELEASE
+	5.0.5.RELEASE (Remove)
+
+Artifact [swagger-project] 有多个版本存在:
+	1.5.10 (Remove)
+	*1.5.21
+	*1.5.19
+	1.5.3 (Remove)
+	*1.5.20
+	1.5.14 (Remove)
+	1.5.13 (Remove)
+	1.5.6 (Remove)
+	1.5.9 (Remove)
+
+Artifact [swagger-models] 有多个版本存在:
+	1.5.10 (Remove)
+	1.5.3 (Remove)
+	*1.5.20
+	*1.5.14
+	*1.5.13
+	1.5.6 (Remove)
+	1.5.9 (Remove)
+
+Artifact [swagger-annotations] 有多个版本存在:
+	1.5.10 (Remove)
+	*1.5.21
+	*1.5.19
+	1.5.3 (Remove)
+	*1.5.20
+	1.5.14 (Remove)
+	1.5.13 (Remove)
+	1.5.6 (Remove)
+	1.5.9 (Remove)
+
+Artifact [grpc-protobuf] 有多个版本存在:
+	*1.16.1
+	*1.17.1
+	*1.10.1
+
+Artifact [grpc-auth] 有多个版本存在:
+	*1.16.1
+	*1.17.1
+
+Artifact [grpc-context] 有多个版本存在:
+	*1.16.1
+	1.12.0 (Remove)
+	*1.17.1
+	1.10.1 (Remove)
+	*1.14.0
+
+Artifact [grpc-core] 有多个版本存在:
+	*1.14.0
+	*1.10.1
+	*1.17.1
+	1.12.0 (Remove)
+	1.16.1 (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-Sonatype Snapshots Repository.xml.sha1 (Remove)
+	maven-metadata-Sonatype Snapshots Repository.xml (Remove)
+	maven-metadata-local-nexus.xml.sha1 (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-local-nexus.xml (Remove)
+	maven-metadata-central.xml (Remove)
+
+Artifact [grpc-protobuf-lite] 有多个版本存在:
+	*1.16.1
+	*1.17.1
+	*1.10.1
+
+Artifact [grpc-stub] 有多个版本存在:
+	*1.16.1
+	*1.17.1
+	*1.10.1
+
+Artifact [grpc-netty-shaded] 有多个版本存在:
+	*1.17.1
+	*1.16.1
+	*resolver-status.properties
+	maven-metadata-local-nexus.xml.sha1 (Remove)
+	maven-metadata-local-nexus.xml (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+
+Artifact [micrometer-core] 有多个版本存在:
+	*1.1.4
+	*1.0.7
+	1.0.6 (Remove)
+	1.0.1 (Remove)
+	*1.1.1
+	1.0.4 (Remove)
+	1.0.3 (Remove)
+	1.0.5 (Remove)
+
+Artifact [jjwt] 有多个版本存在:
+	*unknown
+	*0.7.0
+	*0.9.0
+	0.9.1 (Remove)
+
+Artifact [netty-codec-http] 有多个版本存在:
+	*4.1.29.Final
+	*4.1.30.Final
+	*4.1.32.Final
+	4.1.16.Final (Remove)
+	4.1.13.Final (Remove)
+	4.1.22.Final (Remove)
+	4.1.24.Final (Remove)
+	4.1.5.Final (Remove)
+	4.1.23.Final (Remove)
+	4.0.27.Final (Remove)
+	4.0.0.CR1 (Remove)
+	4.1.25.Final (Remove)
+
+Artifact [netty-handler] 有多个版本存在:
+	4.1.29.Final (Remove)
+	4.1.30.Final (Remove)
+	*4.1.32.Final
+	4.1.16.Final (Remove)
+	*4.1.36.Final
+	*4.1.34.Final
+	4.1.31.Final (Remove)
+	4.1.13.Final (Remove)
+	4.1.22.Final (Remove)
+	4.1.24.Final (Remove)
+	4.1.5.Final (Remove)
+	4.1.23.Final (Remove)
+	4.0.27.Final (Remove)
+	4.1.27.Final (Remove)
+	4.0.0.CR1 (Remove)
+	4.1.25.Final (Remove)
+
+Artifact [netty-codec] 有多个版本存在:
+	4.1.29.Final (Remove)
+	4.1.30.Final (Remove)
+	*4.1.32.Final
+	4.1.16.Final (Remove)
+	*4.1.36.Final
+	*4.1.34.Final
+	4.1.31.Final (Remove)
+	4.1.13.Final (Remove)
+	4.1.22.Final (Remove)
+	4.1.24.Final (Remove)
+	4.1.5.Final (Remove)
+	4.1.23.Final (Remove)
+	4.0.27.Final (Remove)
+	4.1.27.Final (Remove)
+	4.0.0.CR1 (Remove)
+	4.1.25.Final (Remove)
+
+Artifact [netty-common] 有多个版本存在:
+	4.1.29.Final (Remove)
+	4.1.30.Final (Remove)
+	*4.1.32.Final
+	4.1.16.Final (Remove)
+	*4.1.36.Final
+	*4.1.34.Final
+	4.1.31.Final (Remove)
+	4.1.13.Final (Remove)
+	4.1.22.Final (Remove)
+	4.1.24.Final (Remove)
+	4.1.5.Final (Remove)
+	4.1.23.Final (Remove)
+	4.0.27.Final (Remove)
+	4.1.27.Final (Remove)
+	4.0.0.CR1 (Remove)
+	4.1.25.Final (Remove)
+
+Artifact [netty-transport-native-epoll] 有多个版本存在:
+	*4.1.29.Final
+	4.1.16.Final (Remove)
+	4.1.13.Final (Remove)
+	4.1.22.Final (Remove)
+	*4.1.24.Final
+	4.1.5.Final (Remove)
+	4.1.23.Final (Remove)
+	4.0.27.Final (Remove)
+	*4.1.25.Final
+
+Artifact [netty-resolver] 有多个版本存在:
+	4.1.29.Final (Remove)
+	4.1.30.Final (Remove)
+	*4.1.32.Final
+	4.1.16.Final (Remove)
+	*4.1.36.Final
+	*4.1.34.Final
+	4.1.31.Final (Remove)
+	4.1.13.Final (Remove)
+	4.1.22.Final (Remove)
+	4.1.24.Final (Remove)
+	4.1.5.Final (Remove)
+	4.1.23.Final (Remove)
+	4.1.27.Final (Remove)
+	4.1.25.Final (Remove)
+
+Artifact [netty-parent] 有多个版本存在:
+	4.1.29.Final (Remove)
+	4.0.29.Final (Remove)
+	4.1.30.Final (Remove)
+	4.1.32.Final (Remove)
+	4.1.16.Final (Remove)
+	4.1.12.Final (Remove)
+	*4.1.36.Final
+	4.0.36.Final (Remove)
+	*4.1.34.Final
+	*4.1.33.Final
+	4.1.31.Final (Remove)
+	4.1.13.Final (Remove)
+	4.1.4.Final (Remove)
+	4.1.22.Final (Remove)
+	4.1.6.Final (Remove)
+	4.1.24.Final (Remove)
+	4.1.5.Final (Remove)
+	4.0.23.Final (Remove)
+	4.1.23.Final (Remove)
+	4.0.27.Final (Remove)
+	4.1.27.Final (Remove)
+	4.0.0.CR1 (Remove)
+	4.1.25.Final (Remove)
+	4.0.18.Final (Remove)
+
+Artifact [netty-tcnative-parent] 有多个版本存在:
+	*2.0.20.Final
+	*2.0.17.Final
+
+Artifact [netty-codec-http2] 有多个版本存在:
+	*4.1.32.Final
+	*4.1.30.Final
+	*resolver-status.properties
+	maven-metadata-local-nexus.xml.sha1 (Remove)
+	maven-metadata-local-nexus.xml (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+
+Artifact [netty-transport] 有多个版本存在:
+	4.1.29.Final (Remove)
+	4.1.30.Final (Remove)
+	*4.1.32.Final
+	4.1.16.Final (Remove)
+	*4.1.36.Final
+	*4.1.34.Final
+	4.1.31.Final (Remove)
+	4.1.13.Final (Remove)
+	4.1.22.Final (Remove)
+	4.1.24.Final (Remove)
+	4.1.5.Final (Remove)
+	4.1.23.Final (Remove)
+	4.0.27.Final (Remove)
+	4.1.27.Final (Remove)
+	4.0.0.CR1 (Remove)
+	4.1.25.Final (Remove)
+
+Artifact [netty-transport-native-unix-common] 有多个版本存在:
+	*4.1.29.Final
+	4.1.16.Final (Remove)
+	4.1.13.Final (Remove)
+	4.1.22.Final (Remove)
+	*4.1.24.Final
+	4.1.23.Final (Remove)
+	*4.1.25.Final
+
+Artifact [netty-buffer] 有多个版本存在:
+	4.1.29.Final (Remove)
+	4.1.30.Final (Remove)
+	*4.1.32.Final
+	4.1.16.Final (Remove)
+	*4.1.36.Final
+	*4.1.34.Final
+	4.1.31.Final (Remove)
+	4.1.13.Final (Remove)
+	4.1.22.Final (Remove)
+	4.1.24.Final (Remove)
+	4.1.5.Final (Remove)
+	4.1.23.Final (Remove)
+	4.0.27.Final (Remove)
+	4.1.27.Final (Remove)
+	4.0.0.CR1 (Remove)
+	4.1.25.Final (Remove)
+
+Artifact [netty-codec-socks] 有多个版本存在:
+	*4.1.30.Final
+	*4.1.32.Final
+	4.1.13.Final (Remove)
+	4.1.22.Final (Remove)
+	4.1.24.Final (Remove)
+	4.1.23.Final (Remove)
+	*4.1.25.Final
+
+Artifact [netty] 有多个版本存在:
+	3.6.2.Final (Remove)
+	3.6.6.Final (Remove)
+	3.7.0.Final (Remove)
+	*3.10.5.Final
+	*3.8.0.Final
+	*3.10.6.Final
+
+Artifact [netty-all] 有多个版本存在:
+	4.0.29.Final (Remove)
+	*4.1.32.Final
+	*4.1.12.Final
+	4.0.36.Final (Remove)
+	*4.1.33.Final
+	4.1.4.Final (Remove)
+	4.1.6.Final (Remove)
+	4.1.5.Final (Remove)
+	4.0.23.Final (Remove)
+	4.0.27.Final (Remove)
+
+Artifact [netty-handler-proxy] 有多个版本存在:
+	*4.1.30.Final
+	*4.1.32.Final
+	4.1.13.Final (Remove)
+	4.1.22.Final (Remove)
+	4.1.24.Final (Remove)
+	4.1.23.Final (Remove)
+	*4.1.25.Final
+
+Artifact [netty-bom] 有多个版本存在:
+	4.1.29.Final (Remove)
+	*4.1.36.Final
+	*4.1.34.Final
+	*4.1.33.Final
+	4.1.31.Final (Remove)
+	4.1.13.Final (Remove)
+	4.1.22.Final (Remove)
+	4.1.24.Final (Remove)
+	4.1.21.Final (Remove)
+	4.1.23.Final (Remove)
+	4.1.27.Final (Remove)
+	4.1.25.Final (Remove)
+
+Artifact [feign-slf4j] 有多个版本存在:
+	*9.5.1
+	*9.5.0
+	*9.7.0
+
+Artifact [feign-java8] 有多个版本存在:
+	*9.5.1
+	*9.7.0
+
+Artifact [parent] 有多个版本存在:
+	*9.5.1
+	*9.5.0
+	*9.7.0
+
+Artifact [feign-hystrix] 有多个版本存在:
+	*9.5.1
+	*9.5.0
+	*9.7.0
+
+Artifact [feign-core] 有多个版本存在:
+	*9.5.1
+	*9.5.0
+	*9.7.0
+
+Artifact [zipkin] 有多个版本存在:
+	*2.8.4
+	*2.9.3
+	*2.11.7
+	2.6.1 (Remove)
+
+Artifact [zipkin-sender-kafka11] 有多个版本存在:
+	*2.7.3
+	*2.5.0
+	*2.6.1
+
+Artifact [zipkin-reporter] 有多个版本存在:
+	*2.7.10
+	*2.7.3
+	2.5.0 (Remove)
+	*2.6.1
+
+Artifact [zipkin-reporter-bom] 有多个版本存在:
+	*2.7.10
+	*2.7.7
+	*2.7.3
+	2.6.1 (Remove)
+
+Artifact [zipkin-sender-amqp-client] 有多个版本存在:
+	*2.7.3
+	*2.5.0
+	*2.6.1
+
+Artifact [zipkin-reporter-parent] 有多个版本存在:
+	*2.7.10
+	*2.7.3
+	2.5.0 (Remove)
+	*2.6.1
+
+Artifact [zipkin-autoconfigure] 有多个版本存在:
+	*2.3.1
+	*2.6.1
+
+Artifact [parent] 有多个版本存在:
+	2.3.1 (Remove)
+	*2.8.4
+	*2.9.3
+	2.6.0 (Remove)
+	*2.6.1
+
+Artifact [zipkin-storage] 有多个版本存在:
+	*2.3.1
+	*2.6.1
+
+Artifact [brave-context-parent] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [brave-instrumentation-spring-web] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [brave-instrumentation-spring-webmvc] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [brave-instrumentation-parent] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [brave-parent] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [brave-instrumentation-http] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [brave-bom] 有多个版本存在:
+	5.0.0 (Remove)
+	*5.1.0
+	*5.4.3
+	*5.2.0
+
+Artifact [brave] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [brave-instrumentation-spring-rabbit] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [brave-instrumentation-servlet] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [brave-instrumentation-httpclient] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [brave-instrumentation-kafka-clients] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [brave-context-log4j2] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [brave-instrumentation-httpasyncclient] 有多个版本存在:
+	*5.0.0
+	*5.1.0
+	*5.4.3
+
+Artifact [rxjava] 有多个版本存在:
+	*1.3.8
+	*1.1.5
+	*1.2.0
+
+Artifact [rxnetty] 有多个版本存在:
+	*0.4.20
+	*0.4.9
+
+Artifact [springfox-spi] 有多个版本存在:
+	*2.7.0
+	2.2.2 (Remove)
+	2.4.0 (Remove)
+	*2.9.2
+	2.6.1 (Remove)
+	*2.8.0
+
+Artifact [springfox-spring-web] 有多个版本存在:
+	*2.7.0
+	2.2.2 (Remove)
+	2.4.0 (Remove)
+	*2.9.2
+	2.6.1 (Remove)
+	*2.8.0
+
+Artifact [springfox-swagger2] 有多个版本存在:
+	*2.7.0
+	2.2.2 (Remove)
+	2.4.0 (Remove)
+	*2.9.2
+	2.6.1 (Remove)
+	1.3.11 (Remove)
+	*2.8.0
+
+Artifact [springfox-schema] 有多个版本存在:
+	*2.7.0
+	2.2.2 (Remove)
+	2.4.0 (Remove)
+	*2.9.2
+	2.6.1 (Remove)
+	*2.8.0
+
+Artifact [springfox-core] 有多个版本存在:
+	*2.7.0
+	2.2.2 (Remove)
+	2.4.0 (Remove)
+	*2.9.2
+	2.6.1 (Remove)
+	*2.8.0
+
+Artifact [springfox-swagger-common] 有多个版本存在:
+	*2.7.0
+	2.2.2 (Remove)
+	2.4.0 (Remove)
+	*2.9.2
+	2.6.1 (Remove)
+	*2.8.0
+
+Artifact [springfox-swagger-ui] 有多个版本存在:
+	*2.7.0
+	2.2.2 (Remove)
+	2.4.0 (Remove)
+	*2.9.2
+	2.6.1 (Remove)
+	1.3.11 (Remove)
+	*2.8.0
+
+Artifact [platform-bom] 有多个版本存在:
+	*2.0.8.RELEASE
+	*Brussels-SR6
+	*Brussels-SR12
+	Cairo-SR4 (Remove)
+
+Artifact [ognl] 有多个版本存在:
+	*3.1.12
+	*3.0.8
+
+Artifact [commons-lang] 有多个版本存在:
+	*2.5
+	*2.3
+	*2.4
+	unknown (Remove)
+	2.1 (Remove)
+	2.6 (Remove)
+
+Artifact [xercesImpl] 有多个版本存在:
+	*2.9.1
+	*2.11.0
+	*2.8.1
+
+Artifact [jaxen] 有多个版本存在:
+	*1.1-beta-8
+	*1.1
+	*1.1.6
+
+Artifact [serializer] 有多个版本存在:
+	*2.7.1
+	*2.7.2
+
+Artifact [xalan] 有多个版本存在:
+	*2.7.1
+	*2.7.2
+	*2.6.0
+
+Artifact [javax.transaction-api] 有多个版本存在:
+	*1.3
+	*1.2
+
+Artifact [servlet-api] 有多个版本存在:
+	*2.4
+	*2.3
+	*2.5
+
+Artifact [javax.servlet-api] 有多个版本存在:
+	*3.1-b02
+	*3.1.0
+	*3.0.1
+	4.0.1 (Remove)
+
+Artifact [mail] 有多个版本存在:
+	*1.4
+	*1.4.7
+	*1.5.0-b01
+
+Artifact [activation] 有多个版本存在:
+	*1.1
+	*1.1.1
+
+Artifact [javax.annotation-api] 有多个版本存在:
+	*1.3.2
+	*1.2
+
+Artifact [jaxb-api-parent] 有多个版本存在:
+	*2.3.1
+	*2.3.0
+
+Artifact [jaxb-api] 有多个版本存在:
+	*2.3.1
+	*2.3.0
+	2.0 (Remove)
+	*2.2.2
+	2.1 (Remove)
+
+Artifact [validation-api] 有多个版本存在:
+	*1.1.0.Final
+	*2.0.1.Final
+
+Artifact [javax.ws.rs-api] 有多个版本存在:
+	*2.0.1
+	*2.0
+	*2.1
+
+Artifact [clj-time] 有多个版本存在:
+	*0.3.7
+	*0.4.1
+
+Artifact [commons-io] 有多个版本存在:
+	1.1 (Remove)
+	*2.6
+	2.1 (Remove)
+	1.4 (Remove)
+	1.3.2 (Remove)
+	*2.4
+	2.2 (Remove)
+	*2.5
+
+Artifact [xml-apis] 有多个版本存在:
+	*1.4.01
+	*2.0.2
+	*1.3.04
+	1.0.b2 (Remove)
+	1.3.03 (Remove)
+
+Artifact [commons-digester] 有多个版本存在:
+	1.6 (Remove)
+	*1.8
+	*2.1
+	*1.8.1
+
+Artifact [spring-boot-with-kotlin-multi-module-archetype] 有多个版本存在:
+	*0.0.1-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [news-service] 有多个版本存在:
+	*maven-metadata-local.xml
+	*0.0.1-SNAPSHOT
+
+Artifact [wxrong-service] 有多个版本存在:
+	*0.0.1-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [hello-spring-boot-starter] 有多个版本存在:
+	*unknown
+	*0.0.1-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [spring-boot-with-kotlin-single-module-archetype] 有多个版本存在:
+	*maven-metadata-local.xml
+	*0.0.1-SNAPSHOT
+
+Artifact [mysql-connector-java] 有多个版本存在:
+	*6.0.5
+	*unknown
+	*5.1.42
+	5.1.45 (Remove)
+	8.0.11 (Remove)
+	5.1.43 (Remove)
+	5.1.21 (Remove)
+	5.1.38 (Remove)
+	5.1.36 (Remove)
+	5.1.39 (Remove)
+	5.1.46 (Remove)
+	5.1.41 (Remove)
+	8.0.13 (Remove)
+	8.0.15 (Remove)
+	5.1.47 (Remove)
+	${}} (Remove)
+	8.0.16 (Remove)
+
+Artifact [joda-time] 有多个版本存在:
+	*2.10.1
+	2.9.7 (Remove)
+	*2.9.9
+	2.8.2 (Remove)
+	2.0 (Remove)
+	2.7 (Remove)
+	2.9.2 (Remove)
+	*2.10.2
+	2.2 (Remove)
+
+Artifact [commons-cli] 有多个版本存在:
+	1.0 (Remove)
+	*1.3.1
+	*1.4
+	*1.2
+
+Artifact [spring-boot-admin-server] 有多个版本存在:
+	*2.0.0
+	*1.5.6
+
+Artifact [spring-boot-admin-server-ui] 有多个版本存在:
+	*2.0.0
+	*1.5.6
+
+Artifact [classworlds] 有多个版本存在:
+	*1.1
+	*1.1-alpha-2
+
+Artifact [cglib-nodep] 有多个版本存在:
+	*2.1_3
+	*2.2
+
+Artifact [cglib] 有多个版本存在:
+	*2.2.2
+	*3.2.5
+
+Artifact [jline] 有多个版本存在:
+	*2.11
+	1.0 (Remove)
+	0.9.1 (Remove)
+	*2.14.5
+	*2.12.1
+	0.9.94 (Remove)
+
+Artifact [buildplan-maven-plugin] 有多个版本存在:
+	*1.3
+	*resolver-status.properties
+	*maven-metadata-central.xml.sha1
+	maven-metadata-central.xml (Remove)
+
+Artifact [ring-core] 有多个版本存在:
+	*1.1.5
+	*0.3.11
+
+Artifact [log4j] 有多个版本存在:
+	*1.2.15
+	1.2.12 (Remove)
+	1.2.13 (Remove)
+	*1.2.14
+	0 (Remove)
+	*1.2.17
+
+Artifact [commons-beanutils-core] 有多个版本存在:
+	*1.8.3
+	*1.8.0
+
+Artifact [commons-beanutils] 有多个版本存在:
+	1.7.0 (Remove)
+	1.6 (Remove)
+	*1.8.3
+	*1.9.3
+	*1.9.2
+	1.8.0 (Remove)
+
+Artifact [commons-net] 有多个版本存在:
+	*3.0.1
+	1.4.1 (Remove)
+	*3.1
+	*3.6
+	2.2 (Remove)
+
+Artifact [commons-configuration] 有多个版本存在:
+	*1.6
+	*1.8
+
+Artifact [storm-mongo] 有多个版本存在:
+	*0.1
+	*maven-metadata-local.xml
+
+Artifact [storm-kafka] 有多个版本存在:
+	*maven-metadata-local.xml
+	*0.9.0-wip3
+
+Artifact [zookeeper-root] 有多个版本存在:
+	*3.4.5-cdh5.5.1
+	*3.4.5-cdh5.9.0
+
+Artifact [cdh-root] 有多个版本存在:
+	*5.9.0
+	*5.5.1
+
+Artifact [okio] 有多个版本存在:
+	*1.15.0
+	1.11.0 (Remove)
+	1.9.0 (Remove)
+	1.3.0 (Remove)
+	1.12.0 (Remove)
+	*1.13.0
+	*1.14.0
+	1.6.0 (Remove)
+
+Artifact [okio-parent] 有多个版本存在:
+	*1.15.0
+	1.11.0 (Remove)
+	1.9.0 (Remove)
+	1.3.0 (Remove)
+	1.12.0 (Remove)
+	*1.13.0
+	*1.14.0
+	1.6.0 (Remove)
+
+Artifact [parent] 有多个版本存在:
+	3.10.0 (Remove)
+	3.9.1 (Remove)
+	3.7.0 (Remove)
+	3.4.1 (Remove)
+	*3.12.1
+	*3.12.0
+	3.5.0 (Remove)
+	*3.11.0
+	3.8.1 (Remove)
+	3.6.0 (Remove)
+
+Artifact [okhttp] 有多个版本存在:
+	3.10.0 (Remove)
+	3.9.1 (Remove)
+	3.7.0 (Remove)
+	3.4.1 (Remove)
+	*3.12.1
+	*3.12.0
+	3.5.0 (Remove)
+	*3.11.0
+	3.6.0 (Remove)
+
+Artifact [parent] 有多个版本存在:
+	*2.7.1
+	*2.3.0
+	*2.5.0
+
+Artifact [okhttp] 有多个版本存在:
+	*2.7.1
+	*2.3.0
+	*2.5.0
+
+Artifact [apollo] 有多个版本存在:
+	*1.3.0
+	*1.0.0
+	*1.1.0
+	0.10.0 (Remove)
+
+Artifact [apollo-core] 有多个版本存在:
+	*1.3.0
+	*1.0.0
+	*1.1.0
+	0.10.0 (Remove)
+
+Artifact [apollo-client] 有多个版本存在:
+	*1.3.0
+	*1.0.0
+	*1.1.0
+	0.10.0 (Remove)
+
+Artifact [mybatis-plus-support] 有多个版本存在:
+	*2.1.9
+	*2.3
+
+Artifact [mybatis-plus-core] 有多个版本存在:
+	*2.1.9
+	*2.3
+
+Artifact [mybatis-plus-generate] 有多个版本存在:
+	*2.1.9
+	*2.3
+
+Artifact [mybatisplus-spring-boot-starter] 有多个版本存在:
+	*1.0.4
+	*1.0.5
+
+Artifact [mybatis-plus] 有多个版本存在:
+	*2.1.0
+	*2.1.9
+	*2.3
+
+Artifact [json-path] 有多个版本存在:
+	*2.4.0
+	*2.2.0
+
+Artifact [chill-java] 有多个版本存在:
+	*0.5.0
+	*0.7.4
+	*0.3.5
+
+Artifact [jersey-client] 有多个版本存在:
+	1.9 (Remove)
+	*1.19.1
+	*1.17.1
+	*1.18
+
+Artifact [jersey-test-framework] 有多个版本存在:
+	*jersey-test-framework-grizzly2
+	*1.9
+	*jersey-test-framework-core
+
+Artifact [jersey-core] 有多个版本存在:
+	1.9 (Remove)
+	*1.19.1
+	*1.17.1
+	*1.18
+
+Artifact [jersey-contribs] 有多个版本存在:
+	1.9 (Remove)
+	*1.19.1
+	*1.17.1
+	*1.18
+
+Artifact [jersey-apache-client4] 有多个版本存在:
+	*1.19.1
+	*1.17.1
+
+Artifact [jersey-server] 有多个版本存在:
+	*1.9
+	*1.19.1
+
+Artifact [jersey-project] 有多个版本存在:
+	1.9 (Remove)
+	*1.19.1
+	1.17.1 (Remove)
+	*1.18
+	*1.19
+
+Artifact [jersey-json] 有多个版本存在:
+	*1.9
+	*1.17.1
+
+Artifact [all] 有多个版本存在:
+	*1.6.1
+	*1.5.6
+	*1.4.7
+	1.5.5 (Remove)
+	1.5.0-b01 (Remove)
+
+Artifact [javax.mail] 有多个版本存在:
+	*1.5.5
+	1.4.7 (Remove)
+	*1.5.6
+	*1.6.1
+
+Artifact [jaxb-impl] 有多个版本存在:
+	*2.2.10-b140310.1920
+	*2.2.3-1
+	*2.0.1
+	2.1.13 (Remove)
+	2.2.11 (Remove)
+	2.3.0 (Remove)
+
+Artifact [jaxb-bom-ext] 有多个版本存在:
+	*2.2.10-b140310.1920
+	*2.2.11
+	*2.3.0
+
+Artifact [jaxb-core] 有多个版本存在:
+	*2.2.11
+	*2.2.10-b140310.1920
+
+Artifact [jaxb-bundles] 有多个版本存在:
+	*2.2.10-b140310.1920
+	*2.2.11
+	*2.3.0
+
+Artifact [jaxb-parent] 有多个版本存在:
+	*2.2.10-b140310.1920
+	*2.2.11
+	*2.3.0
+
+Artifact [disruptor] 有多个版本存在:
+	*3.3.6
+	*3.3.0
+	*3.3.4
+
+Artifact [common-exception] 有多个版本存在:
+	*0.0.3
+	*1.0.6.RELEASE
+
+Artifact [order-sdk] 有多个版本存在:
+	*2.7.0-SNAPSHOT
+	*2.7.0
+	*2.7.9
+
+Artifact [foundation-data-model] 有多个版本存在:
+	*1.0.5
+	*1.1.8
+	*0.0.2-SNAPSHOT
+	1.1.16 (Remove)
+
+Artifact [order-model] 有多个版本存在:
+	*2.7.0-SNAPSHOT
+	*2.7.0
+	*2.7.9
+
+Artifact [restful.service.client] 有多个版本存在:
+	*1.0
+	*2.0.0
+	*1.1.1
+
+Artifact [component-service] 有多个版本存在:
+	*0.0.3-SNAPSHOT
+	*1.0.0-SNAPSHOT
+	*0.0.1-SNAPSHOT
+	0.0.2-SNAPSHOT (Remove)
+	maven-metadata-nexus-snapshots.xml (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-nexus-snapshots.xml.sha1 (Remove)
+	maven-metadata-local.xml (Remove)
+
+Artifact [model-payment] 有多个版本存在:
+	*0.0.2-SNAPSHOT
+	*0.0.3-SNAPSHOT
+	*1.0.0-SNAPSHOT
+	0.0.1-SNAPSHOT (Remove)
+	maven-metadata-nexus-snapshots.xml (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-nexus-snapshots.xml.sha1 (Remove)
+	maven-metadata-local.xml (Remove)
+
+Artifact [model-service] 有多个版本存在:
+	*1.3.6-beta2
+	*1.3.3.beta7
+	*1.3.6-beta5
+	1.4.3 (Remove)
+	1.4.4 (Remove)
+	1.3.3.beta8 (Remove)
+	1.2.9 (Remove)
+	1.3.3.beta6 (Remove)
+	1.3.6-beta4 (Remove)
+	1.3.6-beta3 (Remove)
+	1.4.2 (Remove)
+	1.4.2-beta8 (Remove)
+	1.4.2-beta1 (Remove)
+	1.3.9-beta1 (Remove)
+	1.3.7-beta4 (Remove)
+	1.3.7-beta10 (Remove)
+	1.3. (Remove)
+	1.3.3 (Remove)
+	1.3.4 (Remove)
+	1.3.4.beta1 (Remove)
+	1.3.9-beta10 (Remove)
+	1.4.8-beta3 (Remove)
+	1.3.3-beta5 (Remove)
+	1.3.3-beta4 (Remove)
+	1.3.6-beta1 (Remove)
+	1.0.1 (Remove)
+	1.3.61.3.6-beta1 (Remove)
+	1.3.9-beta3 (Remove)
+	1.3.9-beta4 (Remove)
+	1.4.2-beta5 (Remove)
+	1.3.3-beta12 (Remove)
+	1.4.2-beta2 (Remove)
+	1.4.2-beta3 (Remove)
+	1.4.2-beta4 (Remove)
+	1.3.9-beta2 (Remove)
+	1.3.6 (Remove)
+	1.3.7-beta9 (Remove)
+	1.3.7 (Remove)
+	1.3.9 (Remove)
+	0.0.1-SNAPSHOT (Remove)
+	1.4.13 (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-nexus-releases.xml.sha1 (Remove)
+	maven-metadata-nexus-releases.xml (Remove)
+	maven-metadata-local.xml (Remove)
+
+Artifact [foundation-data-parent] 有多个版本存在:
+	*2.3.7
+	*2.0.6
+	*2.1.1
+
+Artifact [foundation-data-model] 有多个版本存在:
+	*2.1.1
+	*2.0.6
+	*foundation-data-model-.jar.lastUpdated
+	foundation-data-model-.pom.lastUpdated (Remove)
+
+Artifact [helper.distributelock] 有多个版本存在:
+	*2.0.1
+	*1.1.0
+
+Artifact [jdpay] 有多个版本存在:
+	*1.1.3
+	*1.1.2
+
+Artifact [alipay] 有多个版本存在:
+	*1.1.8
+	*1.1.1
+
+Artifact [opt-foundation] 有多个版本存在:
+	*0.0.7
+	*0.0.6
+	*0.2.1
+
+Artifact [opt-foundation-model] 有多个版本存在:
+	*0.0.7
+	*0.0.6
+	*0.2.1
+
+Artifact [foundation-component] 有多个版本存在:
+	*maven-metadata-local.xml
+	*1.0.0
+
+Artifact [foundation-model] 有多个版本存在:
+	*maven-metadata-local.xml
+	*1.0.0
+
+Artifact [creative-model] 有多个版本存在:
+	*1.0.0
+	*maven-metadata-local.xml
+
+Artifact [mta-user] 有多个版本存在:
+	*maven-metadata-local.xml
+	*1.0.0
+
+Artifact [creative-sdk] 有多个版本存在:
+	*1.0.1
+	*1.0.0-SNAPSHOT
+	*1.0.1-SNAPSHOT
+	1.0.0 (Remove)
+	maven-metadata-local.xml (Remove)
+	maven-metadata-nexus-snapshots.xml (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-nexus-snapshots.xml.sha1 (Remove)
+
+Artifact [promotion-model] 有多个版本存在:
+	*maven-metadata-local.xml
+	*1.0.0
+
+Artifact [foundation-business] 有多个版本存在:
+	*1.0.0
+	*1.0.0-SNAPSHOT
+	*maven-metadata-local.xml
+
+Artifact [mta-user-package] 有多个版本存在:
+	*maven-metadata-local.xml
+	*1.0.0
+
+Artifact [order-sdk] 有多个版本存在:
+	*3.1.9-SNAPSHOT
+	*3.0.6
+	*3.1.2
+	3.2.0 (Remove)
+
+Artifact [order-aggregator] 有多个版本存在:
+	*3.1.9-SNAPSHOT
+	*3.0.6
+	*3.1.2
+	3.2.0 (Remove)
+
+Artifact [order-model] 有多个版本存在:
+	*3.1.9-SNAPSHOT
+	*3.0.6
+	*3.1.2
+	3.2.0 (Remove)
+
+Artifact [service.pattern] 有多个版本存在:
+	*1.0.0
+	*0.0.2-SNAPSHOT
+
+Artifact [user] 有多个版本存在:
+	*2.0.1
+	*2.0.3
+
+Artifact [user-model] 有多个版本存在:
+	*2.0.1
+	*2.0.3
+
+Artifact [foundation-data-sdk] 有多个版本存在:
+	*1.0.7
+	*1.0.41
+
+Artifact [storage-parent] 有多个版本存在:
+	*1.0.7
+	*1.0.3
+
+Artifact [storage-model] 有多个版本存在:
+	*1.0.7
+	*1.0.3
+
+Artifact [service-common] 有多个版本存在:
+	2.0.2 (Remove)
+	*2.0.5
+	*2.0.4
+	*2.0.3
+
+Artifact [common-model] 有多个版本存在:
+	*1.0.5
+	*1.0.2
+	*1.0.3
+	1.0.4 (Remove)
+	1.0.1 (Remove)
+	1.0 (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-aihuishou-nexus.xml.sha1 (Remove)
+	maven-metadata-aihuishou-nexus.xml (Remove)
+	maven-metadata-local-nexus.xml.sha1 (Remove)
+	maven-metadata-local-nexus.xml (Remove)
+
+Artifact [service-extension] 有多个版本存在:
+	*2.2.0
+	*2.1.9
+	*2.1.8
+	2.2.1-throw-ex (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-aihuishou-nexus.xml.sha1 (Remove)
+	maven-metadata-aihuishou-nexus.xml (Remove)
+	maven-metadata-local-nexus.xml.sha1 (Remove)
+	maven-metadata-local-nexus.xml (Remove)
+
+Artifact [cms-sdk] 有多个版本存在:
+	*1.
+	*1.0.1
+	*2.0.1
+	2.0.2 (Remove)
+
+Artifact [cms] 有多个版本存在:
+	*2.0.1
+	*2.0.2
+
+Artifact [cms-model] 有多个版本存在:
+	*2.0.1
+	*2.0.2
+
+Artifact [logistics-sdk] 有多个版本存在:
+	*1.0.96-SNAPSHOT
+	*1.0.26
+	*1.0.95
+
+Artifact [wallet-sdk] 有多个版本存在:
+	*1.1.0
+	*1.0.5
+
+Artifact [bi-sdk] 有多个版本存在:
+	*1.3.8
+	*1.2.11
+	*1.0.3
+
+Artifact [wallet-model] 有多个版本存在:
+	*1.1.0
+	*1.0.4
+
+Artifact [bi-model] 有多个版本存在:
+	*1.3.8
+	*1.0.1
+	*1.2.11
+
+Artifact [user-model] 有多个版本存在:
+	*1.0.2
+	*1.0.14-SNAPSHOT
+
+Artifact [logistics-model] 有多个版本存在:
+	*1.0.98
+	*1.0.96-SNAPSHOT
+	*1.0.92
+	1.2.4 (Remove)
+	1.0.26 (Remove)
+	1.0.94 (Remove)
+
+Artifact [promotion-model] 有多个版本存在:
+	*1.1.3
+	*2.2.3
+	*2.2.7
+
+Artifact [inquiry-model] 有多个版本存在:
+	*0.0.4
+	*2.0.2
+
+Artifact [common-framework] 有多个版本存在:
+	*0.0.3
+	*1.0.6.RELEASE
+
+Artifact [weixinpay] 有多个版本存在:
+	*1.1.9
+	*1.2.6
+
+Artifact [service-starter] 有多个版本存在:
+	*0.0.3
+	*0.0.2-SNAPSHOT
+	*0.0.24
+	1.0.6.RELEASE (Remove)
+	0.0.4-SNAPSHOT (Remove)
+
+Artifact [common-util] 有多个版本存在:
+	*0.0.3
+	*1.0.6.RELEASE
+
+Artifact [ons-client] 有多个版本存在:
+	*1.7.1.Final
+	*1.7.7.Final
+	*1.2.5
+	1.7.9.Final (Remove)
+	1.7.8.Final (Remove)
+	1.8.0.Final (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+	maven-metadata-aihuishou-nexus.xml.sha1 (Remove)
+	maven-metadata-aihuishou-nexus.xml (Remove)
+	maven-metadata-local-nexus.xml.sha1 (Remove)
+	maven-metadata-local-nexus.xml (Remove)
+
+Artifact [ons-parent] 有多个版本存在:
+	*1.7.8.Final
+	*1.8.0.Final
+	*1.7.9.Final
+	1.7.7.Final (Remove)
+	1.7.1.Final (Remove)
+
+Artifact [ons-all] 有多个版本存在:
+	*1.7.1.Final
+	*1.7.7.Final
+	*1.2.5
+	1.7.9.Final (Remove)
+	1.7.8.Final (Remove)
+	1.8.0.Final (Remove)
+
+Artifact [aliyun-java-sdk-dysmsapi] 有多个版本存在:
+	*unknown
+	*1.0.0
+	*1.1.0
+	maven-metadata-local.xml (Remove)
+
+Artifact [aliyun-java-sdk-core] 有多个版本存在:
+	*3.2.8
+	*unknown
+	*3.2.3
+	1.0.0 (Remove)
+	3.5.0 (Remove)
+	maven-metadata-local.xml (Remove)
+
+Artifact [aliyun-sdk-oss] 有多个版本存在:
+	*2.7.0
+	2.0.6 (Remove)
+	*2.8.2
+	*2.6.0
+
+Artifact [google-api-services-storage] 有多个版本存在:
+	*v1-rev20181109-1.27.0
+	*v1-rev20181013-1.27.0
+
+Artifact [guava-parent] 有多个版本存在:
+	*10.0.1
+	*23.2-jre
+	*15.0
+	12.0.1 (Remove)
+	16.0.1 (Remove)
+	20.0 (Remove)
+	23.6-jre (Remove)
+	14.0.1 (Remove)
+	18.0 (Remove)
+	16.0 (Remove)
+	23.0 (Remove)
+	24.1-jre (Remove)
+	24.0-jre (Remove)
+	19.0 (Remove)
+	11.0.2 (Remove)
+	27.0.1-jre (Remove)
+	21.0 (Remove)
+	26.0-android (Remove)
+
+Artifact [guava] 有多个版本存在:
+	*10.0.1
+	*23.2-jre
+	*15.0
+	12.0.1 (Remove)
+	16.0.1 (Remove)
+	20.0 (Remove)
+	23.6-jre (Remove)
+	14.0.1 (Remove)
+	18.0 (Remove)
+	16.0 (Remove)
+	23.0 (Remove)
+	24.1-jre (Remove)
+	24.0-jre (Remove)
+	19.0 (Remove)
+	11.0.2 (Remove)
+	27.0.1-jre (Remove)
+	21.0 (Remove)
+	26.0-android (Remove)
+
+Artifact [guice] 有多个版本存在:
+	*4.1.0
+	*3.0
+	*4.0
+
+Artifact [guice-parent] 有多个版本存在:
+	*4.1.0
+	*3.0
+	*4.0
+
+Artifact [google-auth-library-parent] 有多个版本存在:
+	*0.9.0
+	*0.11.0
+	*0.12.0
+	0.6.0 (Remove)
+
+Artifact [google-auth-library-credentials] 有多个版本存在:
+	*0.9.0
+	*0.11.0
+	*0.12.0
+	0.6.0 (Remove)
+
+Artifact [google-auth-library-oauth2-http] 有多个版本存在:
+	*0.9.0
+	*0.11.0
+	*0.12.0
+	0.6.0 (Remove)
+
+Artifact [google] 有多个版本存在:
+	*1
+	*5
+
+Artifact [gson] 有多个版本存在:
+	2.3.1 (Remove)
+	*2.8.5
+	*2.8.2
+	2.7 (Remove)
+	2.2.4 (Remove)
+	*2.8.4
+	2.8.1 (Remove)
+	2.8.0 (Remove)
+
+Artifact [gson-parent] 有多个版本存在:
+	*2.8.5
+	*2.8.2
+	2.7 (Remove)
+	*2.8.4
+	2.8.1 (Remove)
+	2.8.0 (Remove)
+
+Artifact [annotations] 有多个版本存在:
+	*2.0.1
+	*3.0.1
+	*2.0.0
+
+Artifact [jsr305] 有多个版本存在:
+	1.3.9 (Remove)
+	2.0.1 (Remove)
+	*3.0.1
+	*3.0.0
+	*3.0.2
+
+Artifact [google-oauth-client-parent] 有多个版本存在:
+	*1.20.0
+	*1.27.0
+
+Artifact [google-oauth-client] 有多个版本存在:
+	*1.20.0
+	*1.27.0
+
+Artifact [error_prone_parent] 有多个版本存在:
+	*2.1.2
+	*2.1.3
+	2.0.18 (Remove)
+	*2.2.0
+
+Artifact [error_prone_annotations] 有多个版本存在:
+	*2.1.2
+	*2.1.3
+	2.0.18 (Remove)
+	*2.2.0
+
+Artifact [google-api-client] 有多个版本存在:
+	*1.20.0
+	*1.27.0
+
+Artifact [google-api-client-parent] 有多个版本存在:
+	*1.20.0
+	*1.27.0
+
+Artifact [google-http-client-jackson2] 有多个版本存在:
+	*1.20.0
+	*1.24.1
+	*1.27.0
+	1.19.0 (Remove)
+
+Artifact [google-http-client] 有多个版本存在:
+	1.20.0 (Remove)
+	*1.24.1
+	*1.27.0
+	*1.23.0
+	1.19.0 (Remove)
+
+Artifact [google-http-client-parent] 有多个版本存在:
+	1.20.0 (Remove)
+	*1.24.1
+	*1.27.0
+	*1.23.0
+	1.19.0 (Remove)
+
+Artifact [google-cloud-core] 有多个版本存在:
+	*1.55.0
+	*1.61.0
+
+Artifact [google-cloud-clients] 有多个版本存在:
+	*0.79.0-alpha
+	*0.73.0-alpha
+
+Artifact [google-cloud-core-grpc] 有多个版本存在:
+	*1.55.0
+	*1.61.0
+
+Artifact [google-cloud-bom] 有多个版本存在:
+	*0.79.0-alpha
+	*0.73.0-alpha
+
+Artifact [google-api-grpc] 有多个版本存在:
+	*0.38.0
+	*0.44.0
+
+Artifact [grpc-google-cloud-bigtable-v2] 有多个版本存在:
+	*0.38.0
+	*0.44.0
+
+Artifact [proto-google-cloud-datastore-v1] 有多个版本存在:
+	*0.1.27
+	*0.44.0
+
+Artifact [proto-google-common-protos] 有多个版本存在:
+	*1.11.0
+	*1.12.0
+	1.0.0 (Remove)
+	*1.0.3
+
+Artifact [proto-google-cloud-bigtable-v2] 有多个版本存在:
+	*0.38.0
+	*0.44.0
+
+Artifact [gax-grpc] 有多个版本存在:
+	*1.37.0
+	*1.38.0
+	*1.35.0
+
+Artifact [gax] 有多个版本存在:
+	*1.37.0
+	*1.38.0
+	*1.35.0
+
+Artifact [gax-bom] 有多个版本存在:
+	*1.37.0
+	*1.35.0
+
+Artifact [api-common] 有多个版本存在:
+	*1.7.0
+	*1.5.0
+	*1.2.0
+
+Artifact [protobuf-java-util] 有多个版本存在:
+	*3.5.1
+	*3.6.1
+
+Artifact [protobuf-java] 有多个版本存在:
+	3.4.0 (Remove)
+	2.4.1 (Remove)
+	2.5.0 (Remove)
+	*3.5.1
+	2.6.0 (Remove)
+	*3.6.0
+	2.6.1 (Remove)
+	*3.6.1
+
+Artifact [protobuf-parent] 有多个版本存在:
+	3.4.0 (Remove)
+	*3.5.1
+	*3.6.0
+	*3.6.1
+
+Artifact [core] 有多个版本存在:
+	*3.3.1
+	*3.3.0
+	3.0.0 (Remove)
+	*3.3.3
+	3.1.0 (Remove)
+	3.2.1 (Remove)
+
+Artifact [javase] 有多个版本存在:
+	*3.3.0
+	*3.0.0
+	*3.1.0
+
+Artifact [zxing-parent] 有多个版本存在:
+	*3.3.1
+	*3.3.0
+	3.0.0 (Remove)
+	*3.3.3
+	3.1.0 (Remove)
+	3.2.1 (Remove)
+
+Artifact [docker-client] 有多个版本存在:
+	*5.0.1
+	*8.11.1
+	*8.7.1
+
+Artifact [docker-maven-plugin] 有多个版本存在:
+	*1.0.0
+	*0.4.13
+
+Artifact [foss-root] 有多个版本存在:
+	*6
+	*5
+
+Artifact [aws-java-sdk-sts] 有多个版本存在:
+	*1.11.18
+	*1.10.6
+
+Artifact [aws-java-sdk-core] 有多个版本存在:
+	*1.11.18
+	*1.10.6
+
+Artifact [aws-java-sdk-bom] 有多个版本存在:
+	1.11.125 (Remove)
+	*1.11.251
+	1.11.18 (Remove)
+	*1.11.336
+	*1.11.415
+
+Artifact [aws-java-sdk-pom] 有多个版本存在:
+	1.11.125 (Remove)
+	*1.11.251
+	1.11.18 (Remove)
+	1.10.6 (Remove)
+	*1.11.336
+	*1.11.415
+
+Artifact [http-client] 有多个版本存在:
+	*1.1.1.RELEASE
+	*1.0.0.RELEASE
+
+Artifact [amqp-client] 有多个版本存在:
+	*5.1.2
+	3.5.7 (Remove)
+	*4.0.2
+	*4.0.3
+
+Artifact [spatial4j] 有多个版本存在:
+	*0.4.1
+	*0.5
+
+Artifact [config] 有多个版本存在:
+	*1.3.0
+	*1.2.0
+	*1.2.1
+
+Artifact [fastjson] 有多个版本存在:
+	*1.2.6
+	*1.2.8
+	*1.2.7
+	1.2.21 (Remove)
+	1.2.44 (Remove)
+	1.2.11 (Remove)
+	1.2.20 (Remove)
+	1.2.51 (Remove)
+	1.2.56 (Remove)
+	1.2.57 (Remove)
+	1.2.3 (Remove)
+	1.2.47 (Remove)
+	1.2.49 (Remove)
+	1.2.41 (Remove)
+	1.2.46 (Remove)
+	1.2.37 (Remove)
+	1.2.55 (Remove)
+	1.2.31 (Remove)
+	1.2.36 (Remove)
+	1.2.53 (Remove)
+	1.2.54 (Remove)
+	1.2.58 (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+	maven-metadata-aihuishou-nexus.xml.sha1 (Remove)
+	maven-metadata-aihuishou-nexus.xml (Remove)
+	maven-metadata-local-nexus.xml.sha1 (Remove)
+	maven-metadata-local-nexus.xml (Remove)
+
+Artifact [druid] 有多个版本存在:
+	1.0.27 (Remove)
+	*1.1.10
+	*1.1.12
+	*1.1.1
+
+Artifact [icu4j] 有多个版本存在:
+	*56.1
+	*58.1
+
+Artifact [eureka-client] 有多个版本存在:
+	1.4.10 (Remove)
+	*1.9.0
+	*1.9.3
+	1.7.2 (Remove)
+	*1.9.2
+	1.8.7 (Remove)
+
+Artifact [eureka-core] 有多个版本存在:
+	1.4.10 (Remove)
+	*1.9.0
+	*1.9.3
+	1.7.2 (Remove)
+	*1.9.2
+	1.8.7 (Remove)
+
+Artifact [archaius-core] 有多个版本存在:
+	*0.7.6
+	0.4.1 (Remove)
+	*0.7.5
+	*0.7.4
+	0.6.6 (Remove)
+	0.6.0 (Remove)
+
+Artifact [servo-core] 有多个版本存在:
+	*0.12.21
+	*0.7.2
+	*0.10.1
+
+Artifact [ribbon-core] 有多个版本存在:
+	*2.2.5
+	*2.2.4
+	*2.2.0
+
+Artifact [ribbon-loadbalancer] 有多个版本存在:
+	*2.2.5
+	*2.2.4
+	*2.2.0
+
+Artifact [ribbon-transport] 有多个版本存在:
+	*2.2.5
+	*2.2.4
+	*2.2.0
+
+Artifact [ribbon-eureka] 有多个版本存在:
+	*2.2.5
+	*2.2.0
+
+Artifact [ribbon] 有多个版本存在:
+	*2.2.5
+	*2.2.4
+	*2.2.0
+
+Artifact [ribbon-httpclient] 有多个版本存在:
+	*2.2.5
+	*2.2.4
+	*2.2.0
+
+Artifact [hystrix-core] 有多个版本存在:
+	*1.4.26
+	*1.5.3
+	*1.5.12
+
+Artifact [zuul-core] 有多个版本存在:
+	*1.3.0
+	*1.3.1
+
+Artifact [turbine-core] 有多个版本存在:
+	*1.0.0
+	*2.0.0-DP.2
+
+Artifact [netflix-commons-util] 有多个版本存在:
+	*0.3.0
+	*0.1.1
+
+Artifact [weixin-java-common] 有多个版本存在:
+	*2.6.0
+	*3.2.5.B
+
+Artifact [weixin-java-parent] 有多个版本存在:
+	*2.6.0
+	*3.2.5.B
+
+Artifact [jnr-posix] 有多个版本存在:
+	*3.0.12
+	*3.0.35
+
+Artifact [jnr-enxio] 有多个版本存在:
+	*0.9
+	*0.16
+
+Artifact [jnr-unixsocket] 有多个版本存在:
+	*0.8
+	*0.18
+
+Artifact [jnr-constants] 有多个版本存在:
+	*0.9.8
+	*0.8.7
+
+Artifact [jffi] 有多个版本存在:
+	*1.2.15
+	*1.2.9
+
+Artifact [jnr-ffi] 有多个版本存在:
+	*2.1.4
+	*2.0.3
+
+Artifact [curvesapi] 有多个版本存在:
+	*1.06
+	*1.04
+	1.03 (Remove)
+	*1.05
+
+Artifact [h2] 有多个版本存在:
+	*1.4.194
+	*1.4.193
+	1.1.1 (Remove)
+	*1.4.196
+	1.4.191 (Remove)
+
+Artifact [signature] 有多个版本存在:
+	*1.0.
+	*1.0.0
+	*maven-metadata-local.xml
+
+Artifact [signature-sdk] 有多个版本存在:
+	*1.0.0
+	*maven-metadata-local.xml
+
+Artifact [checkstyle] 有多个版本存在:
+	*6.18
+	*6.11.2
+	*8.4
+
+Artifact [jcommander] 有多个版本存在:
+	*1.48
+	*1.35
+	*1.72
+
+Artifact [jsch] 有多个版本存在:
+	0.1.42 (Remove)
+	*0.1.51
+	0.1.50 (Remove)
+	0.1.46 (Remove)
+	*0.1.53
+	*0.1.54
+
+Artifact [jzlib] 有多个版本存在:
+	*1.1.3
+	*1.1.1
+
+Artifact [qdox] 有多个版本存在:
+	*2.0-M9
+	*2.0-M7
+	*2.0-M8
+	2.0-M5 (Remove)
+	1.12.1 (Remove)
+	2.0-M2 (Remove)
+
+Artifact [paranamer] 有多个版本存在:
+	*2.7
+	*2.6
+	*2.3
+
+Artifact [paranamer-parent] 有多个版本存在:
+	*2.7
+	*2.6
+	*2.3
+
+Artifact [xstream-parent] 有多个版本存在:
+	*1.4.3
+	*1.4.4
+	*1.4.5
+	1.4.2 (Remove)
+	1.4.9 (Remove)
+	1.4.7 (Remove)
+	1.3.1 (Remove)
+	1.4.10 (Remove)
+	1.4.11.1 (Remove)
+
+Artifact [xstream] 有多个版本存在:
+	*1.4.3
+	*1.4.4
+	*1.4.5
+	1.4.2 (Remove)
+	1.4.9 (Remove)
+	1.4.7 (Remove)
+	1.3.1 (Remove)
+	1.4.10 (Remove)
+	1.4.11.1 (Remove)
+
+Artifact [querydsl-core] 有多个版本存在:
+	*4.1.4
+	*4.1.1
+	*4.2.1
+
+Artifact [querydsl-apt] 有多个版本存在:
+	*4.1.4
+	*4.1.1
+	*4.2.1
+
+Artifact [querydsl-codegen] 有多个版本存在:
+	*4.1.4
+	*4.1.1
+	*4.2.1
+
+Artifact [querydsl-root] 有多个版本存在:
+	*4.1.4
+	*4.1.1
+	*4.2.1
+
+Artifact [qiniu-java-sdk] 有多个版本存在:
+	*7.2.6
+	*7.2.1
+	*7.2.8
+	7.0.5 (Remove)
+	7.0.2 (Remove)
+	7.0.3 (Remove)
+	7.2.9 (Remove)
+	7.0.4 (Remove)
+	7.2.0 (Remove)
+	7.2.7 (Remove)
+	7.2.11 (Remove)
+	7.2.10 (Remove)
+	7.0.4.1 (Remove)
+	7.0.10 (Remove)
+	7.2.2 (Remove)
+	7.0.8 (Remove)
+	7.2.5 (Remove)
+	7.0.1 (Remove)
+	7.0.6 (Remove)
+	7.0.11 (Remove)
+	7.0.7 (Remove)
+	7.0.0 (Remove)
+	7.0.9 (Remove)
+	7.2.4 (Remove)
+	7.2.3 (Remove)
+	7.2.12 (Remove)
+	7.0.4.2 (Remove)
+	7.2.14 (Remove)
+	7.2.13 (Remove)
+	resolver-status.properties (Remove)
+	maven-metadata-aliyun.xml.sha1 (Remove)
+	maven-metadata-aliyun.xml (Remove)
+	maven-metadata-local-nexus.xml.sha1 (Remove)
+	maven-metadata-local-nexus.xml (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+
+Artifact [sdk] 有多个版本存在:
+	*6.1.7
+	*6.1.9
+	*resolver-status.properties
+	maven-metadata-local-nexus.xml.sha1 (Remove)
+	maven-metadata-local-nexus.xml (Remove)
+	maven-metadata-central.xml.sha1 (Remove)
+	maven-metadata-central.xml (Remove)
+	maven-metadata-aliMaven.xml (Remove)
+	maven-metadata-aliMaven.xml.sha1 (Remove)
+
+Artifact [happy-dns-java] 有多个版本存在:
+	*0.1.4
+	*0.1.6
+
+Artifact [HikariCP] 有多个版本存在:
+	*2.7.9
+	*2.7.8
+	2.5.1 (Remove)
+	*3.2.0
+
+Artifact [compress-lzf] 有多个版本存在:
+	*1.0.3
+	*1.0.2
+
+Artifact [annotations] 有多个版本存在:
+	*9.0.4
+	*12.0
+
+Artifact [kryo] 有多个版本存在:
+	*2.21
+	*2.24.0
+
+Artifact [kryo] 有多个版本存在:
+	*4.0.1
+	*kryo
+
+Artifact [minlog] 有多个版本存在:
+	*minlog
+	*1.3.0
+
+Artifact [kryo-parent] 有多个版本存在:
+	*4.0.1
+	*3.0.3
+
+Artifact [reflectasm] 有多个版本存在:
+	*reflectasm
+	*1.11.3
+
+Artifact [json-simple] 有多个版本存在:
+	*1.1
+	*1.1.1
+
+Artifact [JavaEWAH] 有多个版本存在:
+	*0.7.9
+	*0.5.6
+	*1.1.6
+
+Artifact [sdk] 有多个版本存在:
+	*2.0.2
+	*maven-metadata-local.xml
+
+Artifact [mysema-source] 有多个版本存在:
+	*0.3.0
+	*0.3.1
+
+Artifact [oss-parent] 有多个版本存在:
+	*34
+	*33
+	18 (Remove)
+	27 (Remove)
+	11 (Remove)
+	16 (Remove)
+	28 (Remove)
+	10 (Remove)
+	19 (Remove)
+	*30
+	24 (Remove)
+	23 (Remove)
+	4 (Remove)
+
+Artifact [classmate] 有多个版本存在:
+	1.3.0 (Remove)
+	1.3.1 (Remove)
+	1.0.0 (Remove)
+	*1.4.0
+	1.1.0 (Remove)
+	*1.3.4
+	*1.3.3
+	0.8.0 (Remove)
+
+Artifact [jackson-databind] 有多个版本存在:
+	*2.8.7
+	*2.8.9
+	*2.4.5
+	2.6.6 (Remove)
+	2.8.8 (Remove)
+	2.6.0 (Remove)
+	2.6.7 (Remove)
+	2.5.1 (Remove)
+	2.9.3 (Remove)
+	2.9.4 (Remove)
+	2.9.0.pr4 (Remove)
+	2.9.5 (Remove)
+	2.9.2 (Remove)
+	2.6.5 (Remove)
+	2.8.4 (Remove)
+	2.8.3 (Remove)
+	2.2.3 (Remove)
+	2.8.10 (Remove)
+	2.9. (Remove)
+	2.9.7 (Remove)
+	2.1.5 (Remove)
+	2.9.6 (Remove)
+	2.9.8 (Remove)
+	2.5.4 (Remove)
+	2.9.9 (Remove)
+
+Artifact [jackson-core] 有多个版本存在:
+	*2.8.7
+	*2.8.9
+	*2.4.5
+	2.6.6 (Remove)
+	2.8.8 (Remove)
+	2.6.0 (Remove)
+	2.6.7 (Remove)
+	2.5.1 (Remove)
+	2.9.3 (Remove)
+	2.9.4 (Remove)
+	2.9.0.pr4 (Remove)
+	2.9.5 (Remove)
+	2.9.2 (Remove)
+	2.6.5 (Remove)
+	2.8.4 (Remove)
+	2.8.3 (Remove)
+	2.2.3 (Remove)
+	2.8.10 (Remove)
+	2.9.7 (Remove)
+	2.1.3 (Remove)
+	2.1.5 (Remove)
+	2.9.6 (Remove)
+	2.9.8 (Remove)
+	2.5.4 (Remove)
+	2.9.9 (Remove)
+
+Artifact [jackson-annotations] 有多个版本存在:
+	*2.8.0
+	*2.4.5
+	*2.6.6
+	2.6.0 (Remove)
+	2.6.7 (Remove)
+	2.5.1 (Remove)
+	2.5.0 (Remove)
+	2.9.0.pr4 (Remove)
+	2.9.2 (Remove)
+	2.3.2 (Remove)
+	2.6.5 (Remove)
+	2.2.3 (Remove)
+	2.4.0 (Remove)
+	2.9.0 (Remove)
+	2.1.5 (Remove)
+	2.9.8 (Remove)
+	2.5.4 (Remove)
+	2.9.5 (Remove)
+
+Artifact [jackson-module-afterburner] 有多个版本存在:
+	*2.9.6
+	*2.8.10
+	*2.9.3
+
+Artifact [jackson-module-jaxb-annotations] 有多个版本存在:
+	2.5.4 (Remove)
+	*2.9.8
+	2.9.6 (Remove)
+	*2.9.7
+	*2.9.9
+	2.8.10 (Remove)
+	2.9.4 (Remove)
+	2.9.3 (Remove)
+	2.5.1 (Remove)
+	2.6.0 (Remove)
+	2.8.8 (Remove)
+	2.4.5 (Remove)
+	2.8.9 (Remove)
+
+Artifact [jackson-modules-java8] 有多个版本存在:
+	*2.9.3
+	*2.9.4
+	*2.9.0.pr4
+	2.9.5 (Remove)
+	2.9.7 (Remove)
+	2.9.6 (Remove)
+	2.9.8 (Remove)
+	2.9.9 (Remove)
+
+Artifact [jackson-module-kotlin] 有多个版本存在:
+	*unknown
+	*2.9.4
+	*2.9.0.pr4
+	2.9.5 (Remove)
+	2.9.2 (Remove)
+	2.9.7 (Remove)
+	2.9.6 (Remove)
+	2.9.8 (Remove)
+	2.9.9 (Remove)
+	jackson-module-kotlin-.pom.lastUpdated (Remove)
+	jackson-module-kotlin-.jar.lastUpdated (Remove)
+
+Artifact [jackson-module-parameter-names] 有多个版本存在:
+	*2.9.3
+	*2.9.4
+	*2.9.0.pr4
+	2.9.5 (Remove)
+	2.9.7 (Remove)
+	2.9.6 (Remove)
+	2.9.8 (Remove)
+	2.9.9 (Remove)
+
+Artifact [jackson-modules-base] 有多个版本存在:
+	*2.9.8
+	2.9.6 (Remove)
+	*2.9.7
+	*2.9.9
+	2.8.10 (Remove)
+	2.9.4 (Remove)
+	2.9.3 (Remove)
+
+Artifact [jackson-parent] 有多个版本存在:
+	*2.5
+	*2.9.1.1
+	*2.6.1
+	2.4 (Remove)
+	2.5.1 (Remove)
+	2.6.2 (Remove)
+	2.8 (Remove)
+	2.9 (Remove)
+	2.9.0 (Remove)
+	2.9.1 (Remove)
+	2.9.1.2 (Remove)
+
+Artifact [jackson-datatype-joda] 有多个版本存在:
+	*2.9.8
+	2.9.6 (Remove)
+	*2.9.7
+	*2.9.9
+	2.9.4 (Remove)
+	2.4.5 (Remove)
+
+Artifact [jackson-datatype-hibernate5] 有多个版本存在:
+	*2.9.6
+	*2.9.4
+
+Artifact [jackson-datatype-jdk8] 有多个版本存在:
+	*2.9.3
+	*2.9.4
+	*2.9.0.pr4
+	2.9.5 (Remove)
+	2.9.7 (Remove)
+	2.9.6 (Remove)
+	2.9.8 (Remove)
+	2.9.9 (Remove)
+
+Artifact [jackson-datatypes-collections] 有多个版本存在:
+	*2.9.4
+	*2.8.8
+
+Artifact [jackson-datatype-hibernate-parent] 有多个版本存在:
+	*2.9.6
+	*2.9.4
+
+Artifact [jackson-datatype-jsr310] 有多个版本存在:
+	*2.9.3
+	*2.9.4
+	*2.9.0.pr4
+	2.9.5 (Remove)
+	2.9.7 (Remove)
+	2.9.6 (Remove)
+	2.9.8 (Remove)
+	2.9.9 (Remove)
+
+Artifact [jackson-datatype-guava] 有多个版本存在:
+	*2.9.4
+	*2.6.0
+	*2.8.8
+
+Artifact [jackson-base] 有多个版本存在:
+	*2.9.8
+	2.9.6 (Remove)
+	*2.9.7
+	*2.9.9
+	2.9.2 (Remove)
+	2.9.5 (Remove)
+	2.9.4 (Remove)
+	2.9.3 (Remove)
+
+Artifact [jackson-bom] 有多个版本存在:
+	*2.8.7
+	*2.8.9
+	*2.8.8
+	2.8.11.20180217 (Remove)
+	2.9.3 (Remove)
+	2.9.4 (Remove)
+	2.9.0.pr4 (Remove)
+	2.9.5 (Remove)
+	2.9.2 (Remove)
+	2.8.10 (Remove)
+	2.9.7 (Remove)
+	2.8.11.20180608 (Remove)
+	2.9.6 (Remove)
+	2.9.8 (Remove)
+	2.9.9 (Remove)
+
+Artifact [jackson-jaxrs-json-provider] 有多个版本存在:
+	2.5.4 (Remove)
+	*2.9.8
+	2.9.6 (Remove)
+	*2.9.7
+	*2.9.9
+	2.9.4 (Remove)
+	2.5.1 (Remove)
+	2.6.0 (Remove)
+	2.8.8 (Remove)
+	2.4.5 (Remove)
+
+Artifact [jackson-jaxrs-providers] 有多个版本存在:
+	2.5.4 (Remove)
+	*2.9.8
+	2.9.6 (Remove)
+	*2.9.7
+	*2.9.9
+	2.9.4 (Remove)
+	2.5.1 (Remove)
+	2.6.0 (Remove)
+	2.8.8 (Remove)
+	2.4.5 (Remove)
+
+Artifact [jackson-jaxrs-base] 有多个版本存在:
+	2.5.4 (Remove)
+	*2.9.8
+	2.9.6 (Remove)
+	*2.9.7
+	*2.9.9
+	2.9.4 (Remove)
+	2.5.1 (Remove)
+	2.6.0 (Remove)
+	2.8.8 (Remove)
+	2.4.5 (Remove)
+
+Artifact [jackson-dataformat-smile] 有多个版本存在:
+	*2.6.2
+	*2.8.9
+
+Artifact [jackson-dataformat-yaml] 有多个版本存在:
+	*2.9.8
+	2.9.6 (Remove)
+	*2.9.7
+	*2.9.9
+	2.9.4 (Remove)
+	2.6.7 (Remove)
+	2.6.6 (Remove)
+	2.4.5 (Remove)
+	2.8.9 (Remove)
+
+Artifact [jackson-dataformat-cbor] 有多个版本存在:
+	*2.6.2
+	*2.6.6
+	*2.8.9
+
+Artifact [jackson-dataformat-xml] 有多个版本存在:
+	*2.9.8
+	2.9.6 (Remove)
+	*2.9.7
+	*2.9.9
+	2.8.10 (Remove)
+	2.9.4 (Remove)
+	2.9.3 (Remove)
+	2.4.5 (Remove)
+	2.8.9 (Remove)
+
+Artifact [jackson-dataformats-text] 有多个版本存在:
+	*2.9.8
+	2.9.6 (Remove)
+	*2.9.7
+	*2.9.9
+	2.9.4 (Remove)
+
+Artifact总计: 2336
+清理前磁盘占用: 4035 MB
+清理后磁盘占用: 2468 MB
+Disconnected from the target VM, address: '127.0.0.1:61633', transport: 'socket'
+
+Process finished with exit code 0
