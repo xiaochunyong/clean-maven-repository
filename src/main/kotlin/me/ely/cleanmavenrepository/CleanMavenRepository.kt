@@ -103,12 +103,9 @@ object CleanMavenRepository {
 
     @JvmStatic
     fun main(args: Array<String>) {
-
-        listOf("").sortedBy {  }
-        arrayOf("").sortBy {  }
         val input = Scanner(System.`in`)
-        val dir = File("${System.getProperty("user.home")}/.m2")
-        println("M2目录为: ${dir.absolutePath}")
+        val dir = File("${System.getProperty("user.home")}/.m2/repository")
+        println("Maven Local Repository目录为: ${dir.absolutePath}")
         println("保留几个版本:")
         val num = input.nextInt()
         println("要执行清理操作吗? Y/N ")
